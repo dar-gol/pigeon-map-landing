@@ -1,0 +1,5 @@
+# Ignore release archives
+releases/*.zip
+
+# Keep the folder structure
+!releases/.gitkeep

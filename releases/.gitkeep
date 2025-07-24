@@ -1,0 +1,29 @@
+# 📦 Releases - Archiwa do wdrożenia
+
+Ten folder zawiera archiwa ZIP gotowe do wdrożenia na Plesk.
+
+## 📁 Struktura
+- `pigeon-map-landing-YYYYMMDD-HHMMSS.zip` - archiwa aplikacji z timestamp
+
+## 🚀 Użycie
+```bash
+# Pobierz najnowsze archiwum
+./manage-releases.sh latest
+
+# Zobacz wszystkie archiwa  
+./manage-releases.sh list
+
+# Wyczyść stare archiwa
+./manage-releases.sh clean
+```
+
+## 📋 Wdrożenie na Plesk
+1. Pobierz najnowsze archiwum ZIP
+2. Wgraj do panelu Plesk → File Manager → httpdocs/
+3. Rozpakuj archiwum
+4. Skonfiguruj Node.js (patrz dokumentacja)
+
+## 🧹 Zarządzanie
+- Stare archiwa można bezpiecznie usunąć, aby zaoszczędzić miejsce
+- Skrypt `manage-releases.sh` automatycznie zarządza archiwami
+- Zalecane: pozostaw maksymalnie 3 najnowsze wersje

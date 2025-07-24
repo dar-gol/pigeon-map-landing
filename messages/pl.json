@@ -1,0 +1,271 @@
+{
+  "meta": {
+    "title": "Pigeon Map - Mapa Gołębi",
+    "description": "Pigeon Map - Nowoczesna platforma dla hodowców gołębi. Śledź, zarządzaj i udostępniaj loty oraz rodowody online.",
+    "keywords": "gołębie, mapa, rodowody, loty gołębi, hodowla gołębi, pigeon, pigeon map, wyścigi gołębi, ptaki"
+  },
+  "Login": {
+    "title": "Logowanie",
+    "email": "Email",
+    "password": "Hasło",
+    "loginButton": "Zaloguj się",
+    "submitSuccess": "Formularz został pomyślnie wysłany!",
+    "register": "Rejestracja",
+    "forgotPassword": "Zapomniałeś hasła",
+    "plannerAcceptedInfo": "Lotowy został pomyślnie zaakceptowany. Użytkownik ma teraz uprawnienia lotowego.",
+    "missingToken": "Brak tokena. Spróbuj ponownie lub skontaktuj się z administratorem.",
+    "registeredInfo": "Rejestracja zakończona sukcesem. Sprawdź swój email, aby potwierdzić rejestrację.",
+    "emailConfirmationInfo": "Twój email został potwierdzony. Możesz się teraz zalogować.",
+    "notConfirmedInfo": "Pamiętaj, że nie możesz się zalogować bez potwierdzenia adresu email. Jeśli nie widzisz maila potwierdzającego, sprawdź folder spam lub skontaktuj się z pomocą techniczną. Możesz ponownie wysłać potwierdzenie na",
+    "notConfirmedInfoSecond": "klikając poniższy link.",
+    "resendConfirmation": "Wyślij ponownie email potwierdzający",
+    "typeEmailAbove": "wpisz email powyżej",
+    "TypeEmailInEmailInput": "Wpisz email w polu email",
+    "ResendSuccessfully": "Email potwierdzający został wysłany. Sprawdź swoją skrzynkę odbiorczą.",
+    "howToLoginRegister": "Nie wiesz jak się zarejestrować lub zalogować?",
+    "appNews": "Zobacz newsy ze świata Pigeon Map!"
+  },
+  "Landing": {
+    "nav": {
+      "login": "Logowanie",
+      "news": "Aktualności",
+      "shop": "Sklep",
+      "contact": "Kontakt",
+      "about": "O nas",
+      "toggleMenu": "Przełącz menu"
+    },
+    "hero": {
+      "title": "Loty pod kontrolą z Pigeon Map",
+      "subtitle": "Dodawaj stanowiska startowe, monitoruj warunki pogodowe i generuj raporty z lotów.",
+      "cta": "Otwórz aplikację"
+    },
+    "features": {
+      "1": {
+        "title": "Ewidencja gołębi",
+        "desc": "Twórz i zarządzaj kompletną ewidencją swoich gołębi z rodowodami i danymi hodowlanymi."
+      },
+      "2": {
+        "title": "Współpraca w czasie rzeczywistym",
+        "desc": "Zapraszaj innych do wspólnego zarządzania i tworzenia map."
+      },
+      "3": {
+        "title": "Przyjazny dla urządzeń mobilnych",
+        "desc": "Korzystaj z Pigeon Map na dowolnym urządzeniu, gdziekolwiek jesteś."
+      }
+    },
+    "cta": {
+      "title": "Gotowy, by zacząć mapować?",
+      "subtitle": "Zaloguj się lub stwórz swoją pierwszą mapę w kilka sekund.",
+      "button": "Przejdź do panelu"
+    },
+    "register": {
+      "title": "Dołącz do społeczności hodowców gołębi",
+      "subtitle": "Zacznij korzystać z Pigeon Map już dziś i odkryj wszystkie możliwości",
+      "benefits": [
+        "100% darmowe - wszystkie funkcje bez opłat",
+        "Śledzenie lotów i wyników w czasie rzeczywistym",
+        "Zarządzanie rodowodami i hodowlą online",
+        "Współpraca z innymi hodowcami",
+        "Dostęp z dowolnego urządzenia"
+      ],
+      "button": "Zarejestruj się za darmo"
+    }
+  },
+  "Footer": {
+    "description": "Nowoczesna platforma dla hodowców gołębi. Śledź, zarządzaj i udostępniaj loty oraz rodowody swoich gołębi online - całkowicie za darmo.",
+    "rights": "Wszelkie prawa zastrzeżone.",
+    "quickLinks": "Szybkie linki",
+    "login": "Logowanie",
+    "register": "Rejestracja",
+    "blog": "Blog",
+    "contact": "Kontakt",
+    "legal": "Informacje prawne",
+    "privacyPolicy": "Polityka prywatności",
+    "news": "Aktualności",
+    "support": "Wsparcie",
+    "madeWith": "Stworzone z",
+    "forPigeonCommunity": "dla społeczności hodowców gołębi"
+  },
+  "FAQ": {
+    "title": "Najczęściej zadawane pytania",
+    "subtitle": "Znajdź odpowiedzi na najpopularniejsze pytania dotyczące Pigeon Map",
+    "items": {
+      "1": {
+        "question": "Czym jest Pigeon Map?",
+        "answer": "Pigeon Map to nowoczesna platforma stworzona dla hodowców gołębi do śledzenia, zarządzania i udostępniania lotów oraz rodowodów online. Oferuje kompleksowe narzędzia do zarządzania hodowlą i śledzenia lotów."
+      },
+      "2": {
+        "question": "Jak się zarejestrować w Pigeon Map?",
+        "answer": "Możesz się zarejestrować klikając przycisk 'Rejestracja' i wypełniając formularz rejestracyjny. Po rejestracji otrzymasz email potwierdzający, który musisz zweryfikować przed rozpoczęciem korzystania z platformy."
+      },
+      "3": {
+        "question": "Czy Pigeon Map jest darmowy?",
+        "answer": "Tak! Pigeon Map jest w 100% darmowy. Wszystkie funkcje są dostępne bez żadnych opłat subskrypcyjnych czy ukrytych kosztów. Wierzymy w wspieranie społeczności hodowców gołębi poprzez darmowy dostęp do wszystkich naszych narzędzi i usług."
+      },
+      "4": {
+        "question": "Czy jest aplikacja na telefony?",
+        "answer": "Tak! Aplikacja Pigeon Map jest również dostępna w formie aplikacji mobilnej na telefony. Niestety na ten moment istnieje aplikacja tylko na telefony z systemem Android. Możesz pobrać ją z Google Play Store. W przyszłości planujemy również wersję na iOS."
+      },
+      "5": {
+        "question": "Czy mogę używać Pigeon Map na telefonie?",
+        "answer": "Tak! Pigeon Map jest w pełni responsywny i działa płynnie na smartfonach, tabletach i komputerach stacjonarnych. Możesz uzyskać dostęp do wszystkich funkcji z dowolnego urządzenia z połączeniem internetowym."
+      },
+      "6": {
+        "question": "Jak śledzić loty moich gołębi?",
+        "answer": "Po zalogowaniu możesz dodawać loty przez panel kontrolny. Wprowadź szczegóły lotu, wgraj dane GPS jeśli są dostępne, i śledź wydajność swoich gołębi w czasie dzięki szczegółowym analizom i mapom."
+      }
+    }
+  },
+  "Register": {
+    "title": "Rejestracja",
+    "username": "Nazwa użytkownika",
+    "email": "Email",
+    "password": "Hasło",
+    "passwordRepeat": "Powtórz hasło",
+    "firstName": "Imię (opcjonalny)",
+    "lastName": "Nazwisko (opcjonalny)",
+    "phoneNumber": "Numer telefonu (opcjonalny)",
+    "country": "Kraj",
+    "countrySelectPlaceholder": "Wybierz swój kraj",
+    "acceptPrivacyPolicy": "Akceptuję",
+    "privacyPolicyLink": "politykę prywatności",
+    "registerButton": "Zarejestruj się",
+    "submitting": "Rejestruję...",
+    "login": "Wróć do logowania",
+    "forgotPassword": "Zapomniałeś hasła",
+    "usernameMin": "Nazwa użytkownika musi mieć co najmniej 3 znaki",
+    "emailInvalid": "Niepoprawny adres email",
+    "passwordMin": "Hasło musi mieć co najmniej 6 znaków",
+    "firstNameRequired": "Podaj imię",
+    "lastNameRequired": "Podaj nazwisko",
+    "phoneInvalid": "Niepoprawny numer telefonu",
+    "countryRequired": "Wybierz swój kraj",
+    "passwordsMustMatch": "Hasła muszą być takie same",
+    "errorAcceptPrivacyPolicy": "Musisz zaakceptować politykę prywatności, aby się zarejestrować",
+    "Albania": "Shqipëri",
+    "Austria": "Österreich",
+    "Bosnia and Herzegovina": "Bosna i Hercegovina",
+    "Belgium": "België",
+    "Bulgaria": "България",
+    "Belarus": "Беларусь",
+    "Czech Republic": "Česká republika",
+    "Germany": "Deutschland",
+    "Denmark": "Danmark",
+    "Estonia": "Eesti",
+    "Spain": "España",
+    "Finland": "Suomi",
+    "France": "France",
+    "United Kingdom": "United Kingdom",
+    "Greece": "Ελλάδα",
+    "Croatia": "Hrvatska",
+    "Hungary": "Magyarország",
+    "Ireland": "Éire",
+    "Italy": "Italia",
+    "Lithuania": "Lietuva",
+    "Latvia": "Latvija",
+    "Moldova": "Moldova",
+    "Montenegro": "Crna Gora",
+    "North Macedonia": "Северна Македонија",
+    "Netherlands": "Nederland",
+    "Norway": "Norge",
+    "Poland": "Polska",
+    "Portugal": "Portugal",
+    "Romania": "România",
+    "Serbia": "Srbija",
+    "Russia": "Россия",
+    "Sweden": "Sverige",
+    "Switzerland": "Schweiz",
+    "Slovenia": "Slovenija",
+    "Slovakia": "Slovensko",
+    "Turkey": "Türkiye",
+    "Ukraine": "Україна",
+    "United States": "United States",
+    "Other": "Inny"
+  },
+  "policyPrivacy": {
+    "Title": "Polityka prywatności",
+    "Administration": "Administratorem danych osobowych w ogólnodostępnym Rozporządzeniu (UE) Parlamentu Europejskiego i Rady z dnia 27 kwietnia 2016 r. w sprawie ochrony osób fizycznych w związku z dostępem do danych osobowych oraz w sprawie swobodnego dostępu do takich danych i wykonywania uchylenia 95/46/WE (dalej: rozporządzenie) jest firma DIGGING Barbara Skrzypnik, NIP 8791530559, Sikorowo 32, 88-100 Inowrocław.",
+    "CollectedDataTitle": "Zbierane dane osobowe",
+    "CollectedDataDescription": "Aplikacja PIGEON MAP zbiera od użytkowników następujące dane osobowe: email, nazwa użytkownika, imię i nazwisko, numer telefonu, wszystkie dane są pobierane w celu poprawy usług i celów marketingowych. Okręg, oddział, sekcje (dotyczy udziału w lotach gołębi) w celu realizacji usług aplikacji. Błędy, dane lotów (nazwa lotu, data lotu, data zakończenia lotu, miejsce wypuszczenia gołębi, nazwa gołębnika, współrzędne gołębnika, uczestniczący użytkownicy, zarządzanie lotem) są pobierane w celu realizacji usługi, poprawy świadczenia usługi.",
+    "DataShareTitle": "Przetwarzanie danych osobowych",
+    "DataShareDescription": "Użytkownicy mają możliwość udostępniania informacji o swoich lotach innym użytkownikom. Udostępnione dane obejmują: nazwę lotu, datę lotu, datę zakończenia lotu, miejsce wypuszczenia gołębi, nazwę gołębnika, współrzędne gołębnika, uczestniczących użytkowników, zarządzanie lotem. Udostępnione loty można przeglądać na mapie w aplikacji.",
+    "ConsentToSharingDataTitle": "Zgoda na udostępnianie danych",
+    "ConsentToSharingDataDescription": "W przypadku udziału w lotach gołębi (loty konkursowe), jak również lotach prywatnych, użytkownik musi wyrazić zgodę na udostępnienie danych związanych z tymi wydarzeniami. Bez zgody użytkownika dane lotów nie będą udostępniane innym uczestnikom wydarzenia.",
+    "DataRemovalTitle": "Usuwanie danych",
+    "DataRemovalDescription": "Użytkownicy mają możliwość usunięcia niektórych danych związanych z gołębiami, miejscami wypuszczenia i lotami. Warto zaznaczyć, że usunięcie danych obejmuje informacje związane z samymi gołębnikami, miejscami wypuszczenia i lotami, a nie dane osobowe takie jak email, numer telefonu, imię czy nazwisko. Dane osobowe są przechowywane zgodnie z obowiązującymi przepisami prawa oraz polityką prywatności.",
+    "PurposeOfDataCollectionTitle": "Cel zbierania danych",
+    "PurposeOfDataCollectionDescription": "Dane osobowe są zbierane w celu umożliwienia korzystania z funkcji aplikacji Pigeon Map, w tym udziału w lotach gołębi, przeglądania lotów na mapie oraz poprawy błędów w usługach i do celów marketingowych.",
+    "DataSafetyTitle": "Bezpieczeństwo danych",
+    "DataSafetyDescription": "Zespół Pigeon Map dokłada wszelkich starań, aby zapewnić bezpieczeństwo zbieranych danych. Wdrażane są odpowiednie środki bezpieczeństwa chroniące dane przed nieautoryzowanym dostępem, utratą, uszkodzeniem lub nieuprawnionym ujawnieniem.",
+    "RightToAccessCorrectAndDeleteDataTitle": "Prawo dostępu, poprawiania i usuwania danych",
+    "RightToAccessCorrectAndDeleteDataDescription": "Użytkownicy mają prawo dostępu do swoich danych osobowych, ich poprawiania i usuwania. W celu realizacji tych praw prosimy o kontakt. Email: kontakt@digging.pl",
+    "LegalBasisTitle": "Podstawa prawna",
+    "LegalBasisDescription": "Polityka prywatności aplikacji Pigeon MAP opiera się na zasadach ogólnego rozporządzenia o ochronie danych osobowych (RODO) oraz innych obowiązujących przepisach dotyczących ochrony prywatności. Przetwarzanie danych osobowych użytkowników opiera się na jednej z następujących podstaw prawnych: zgoda użytkownika, realizacja umowy oraz obowiązek prawny.",
+    "TargetDescription": "Polityka prywatności ma na celu zapewnienie pełnej ochrony prywatności użytkowników Pigeon MAP, zgodnie z obowiązującymi przepisami prawa dotyczącymi ochrony danych osobowych."
+  },
+  "ForgotPassword": {
+    "title": "Zapomniałeś hasła?",
+    "email": "Email",
+    "emailRequired": "Email jest wymagany.",
+    "submitButton": "Wyślij link do resetowania",
+    "successMessage": "Jeśli konto z tym adresem email istnieje, link do resetowania hasła został wysłany."
+  },
+  "Error": {
+    "WRONG_PASSWORD_OR_USERNAME": "Niepoprawna nazwa użytkownika lub hasło. Spróbuj ponownie, lub jeśli nie masz konta, kliknij przycisk rejestracji.",
+    "USERNAME_REQUIRED": "Podaj nazwę użytkownika",
+    "PASSWORD_REQUIRED": "Podaj hasło",
+    "USERNAME_ALREADY_EXISTS": "Taka nazwa użytkownika już istnieje. Wybierz inną.",
+    "EMAIL_REQUIRED": "Podaj adres email",
+    "EMAIL_INVALID": "Podaj poprawny adres email. Przykład: map.pigeon@email.com",
+    "EMAIL_ALREADY_EXISTS": "Ten adres email jest już używany. Wybierz inny.",
+    "PHONE_NUMBER_INVALID": "Podaj poprawny numer telefonu z numerem kierunkowym. Pamiętaj, że numer telefonu jest opcjonalny. Przykład: +48123456789",
+    "PHONE_NUMBER_ALREADY_EXISTS": "Ten numer telefonu jest już używany. Wybierz inny.",
+    "USERNAME_TOO_SHORT": "Podaj nazwę użytkownika o długości co najmniej 4 znaków.",
+    "PASSWORD_TOO_SHORT": "Podaj hasło o długości co najmniej 6 znaków.",
+    "DIFFERENT_PASSWORDS": "Podaj dwa razy takie samo hasło.",
+    "EMAIL_NOT_VERIFIED": "Twój adres email nie został zweryfikowany. Aby kontynuować, sprawdź email i zweryfikuj konto.",
+    "PRIVATE_TAG": "Błąd prywatnego tagu",
+    "WRONG_TAG_TYPE": "Błąd typu tagu",
+    "TAG_NOT_FOUND": "Błąd, nie znaleziono tagu",
+    "PREDEFINED_TAG_DELETE": "Błąd usuwania predefiniowanego tagu",
+    "PREDEFINED_TAG_UPDATE": "Błąd aktualizacji predefiniowanego tagu",
+    "WRONG_TYPE_OF_OVERLAY_URL_TYPE": "Błąd typu OverlayUrl",
+    "END_TAG_REQUIRED": "Błąd, wymagany tag końcowy",
+    "OPEN_FLIGHT_REFER": "Błąd, referencja do otwartego lotu",
+    "OPEN_FLIGHT_REFER_TYPE": "Błąd, typ referencji do otwartego lotu",
+    "END_TAG_NOT_POSSIBLE": "Błąd, tag końcowy niemożliwy",
+    "OPEN_FLIGHT_CREATE_ONLY_PLANNER": "Błąd, utworzenie otwartego lotu tylko dla planisty",
+    "DEFAULT_TAG_IS_NOT_COTE": "Błąd, domyślny tag nie jest gołębnikiem",
+    "USER_NOT_FOUND": "Błąd, nie znaleziono użytkownika",
+    "USER_IS_NOT_REGULAR": "Błąd, użytkownik nie jest zwykły",
+    "REQUEST_IS_PROCESSED": "Błąd, żądanie jest przetwarzane",
+    "OPEN_FLIGHT_REFER_OWNER": "Błąd, referencja do właściciela otwartego lotu",
+    "OPEN_FLIGHT_UPDATE_NOT_ALLOWED": "Błąd, edycja otwartego lotu niedozwolona",
+    "DISTRICT_REQUIRED": "Błąd, wymagany okręg",
+    "BRANCH_REQUIRED": "Błąd, wymagany oddział",
+    "SECTION_REQUIRED": "Błąd, wymagana sekcja",
+    "DISTRICT_BRANCH_SECTION_NOT_MATCH": "Błąd, okręg, oddział i sekcja nie pasują",
+    "DISTRICT_ALREADY_FILLED": "Błąd, okręg już wypełniony",
+    "PIGEONMAP_TYPE_USER": "Podana nazwa użytkownika/email jest zarejestrowana, ale aby się zalogować, wpisz email (nazwę użytkownika) i hasło, a następnie naciśnij przycisk logowania.",
+    "OUTSIDE_TYPE_USER": "Podana nazwa użytkownika/email jest zarejestrowana, ale musisz użyć innej autoryzacji. Spróbuj uwierzytelnić się za pomocą przycisków po prawej stronie przycisku 'Zaloguj się'",
+    "CANNOT_UPDATE_FLIGHT": "Sprawdź, czy masz wszystkie wymagane dane, tj. nazwę lotu, miejsce wypuszczenia, gołębnik i datę rozpoczęcia.",
+    "FINISH_FLIGHT_UPDATE_NOT_ALLOWED": "Nie możesz edytować lotu, ponieważ został już zakończony.",
+    "FLIGHT_UPDATE_NOT_ALLOWED": "Nie możesz edytować lotu. Sprawdź, czy jesteś właścicielem i czy lot został już zakończony.",
+    "ALREADY_JOINED_FLIGHT": "Już dołączyłeś do tego lotu",
+    "FLIGHT_DELETE_NOT_ALLOWED": "Usunięcie lotu jest niemożliwe, sprawdź czy lot należy do Ciebie",
+    "JOIN__NOT_ALLOWED_ANOTHER_DISTRICT": "Nie możesz dołączyć do tego konkursu, ponieważ użytkownik, który utworzył lot, jest w innym oddziale.",
+    "NOTFOUND": "Nie znaleziono obiektu o podanym identyfikatorze",
+    "FORBIDDEN": "Brak dostępu do zasobu",
+    "ALREADY_EXISTS": "Obiekt o podanym identyfikatorze już istnieje",
+    "BUYER_NAME_IS_REQUIRED": "Imię kupującego jest wymagane",
+    "SEASON_IS_REQUIRED": "Sezon jest wymagany",
+    "BROOD_IS_INVALID": "Lęg jest niepoprawny",
+    "DEFINED_SEX_IS_CHANGED": "Nie można zmienić zdefiniowanej płci (można zmienić tylko raz)",
+    "NOT_FERTILE_EGG": "Nie można wykluć jajka, które nie jest zapłodnione",
+    "PIGEON_NOT_ACTIVE": "Nie można wykonać akcji na nieaktywnym gołębiu",
+    "INVALID_MOVE": "Nie można zmienić kolejności gołębia na liście. Sprawdź, czy grupa i sezon są poprawne.",
+    "EGG_IS_BORN": "Jeśli gołąb został wykluty w systemie Pigeon Map, nie można zmienić rodzica",
+    "DATE_OF_LAYING_EMPTY": "Uzupełnij datę zniesienia",
+    "MAP_FLIGHT_ERROR": "Błąd lotu na mapie"
+  }
+}

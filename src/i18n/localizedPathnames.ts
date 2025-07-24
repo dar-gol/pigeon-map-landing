@@ -1,0 +1,58 @@
+export const localizedPathnames = {
+  "/login": {
+    en: "/login",
+    pl: "/logowanie",
+    de: "/anmelden",
+    cs: "/prihlaseni",
+    nl: "/inloggen",
+  },
+  "/register": {
+    en: "/register",
+    pl: "/rejestracja",
+    de: "/registrieren",
+    cs: "/registrace",
+    nl: "/registreren",
+  },
+  "/about": {
+    en: "/about",
+    pl: "/o-nas",
+    de: "/uber-uns",
+    cs: "/o-nas",
+    nl: "/over-ons",
+  },
+  "/contact": {
+    en: "/contact",
+    pl: "/kontakt",
+    de: "/kontakt",
+    cs: "/kontakt",
+    nl: "/contact",
+  },
+  "/": {
+    en: "/",
+    pl: "/",
+    de: "/",
+    cs: "/",
+    nl: "/",
+  },
+  "/news": {
+    en: "/news",
+    pl: "/aktualnosci",
+    de: "/nachrichten",
+    cs: "/novinky",
+    nl: "/nieuws",
+  },
+  "/privacy-policy": {
+    en: "/privacy-policy",
+    pl: "/polityka-prywatnosci",
+    de: "/datenschutz",
+    cs: "/zpracovani-osobnich-udaju",
+    nl: "/privacybeleid",
+  },
+  "/forgot-password": {
+    en: "/forgot-password",
+    pl: "/zapomniane-haslo",
+    de: "/passwort-vergessen",
+    cs: "/zapomenute-heslo",
+    nl: "/wachtwoord-vergeten",
+  },
+};
