@@ -35,9 +35,8 @@
 
 ---
 
-**🌍 Demo:** [https://your-domain.com](https://your-domain.com)  
 **📚 Dokumentacja:** [docs/](./docs/)  
-**🐛 Issues:** [GitHub Issues](https://github.com/YOUR_USERNAME/pigeon-map-landing/issues)
+**🐛 Issues:** [GitHub Issues](https://github.com/dar-gol/pigeon-map-landing/issues)
 
 ## 🌟 Funkcje
 
@@ -54,7 +53,7 @@
 
 ```bash
 # Klonuj repozytorium
-git clone https://github.com/YOUR_USERNAME/pigeon-map-landing.git
+git clone https://github.com/dar-gol/pigeon-map-landing.git
 cd pigeon-map-landing
 
 # Instaluj zależności
@@ -197,11 +196,11 @@ npm run deploy:static
 
 Po wdrożeniu aplikacja będzie dostępna pod adresami:
 
-- **Strona główna:** `https://your-domain.com`
-- **Wersja polska:** `https://your-domain.com/pl`
-- **Wersja angielska:** `https://your-domain.com/en`
-- **Blog:** `https://your-domain.com/pl/blog`
-- **Kontakt:** `https://your-domain.com/pl/contact`
+- **Strona główna:** `https://pigeon-map.digging.pl`
+- **Wersja polska:** `https://pigeon-map.digging.pl/pl`
+- **Wersja angielska:** `https://pigeon-map.digging.pl/en`
+- **Blog:** `https://pigeon-map.digging.pl/pl/blog`
+- **Kontakt:** `https://pigeon-map.digging.pl/pl/contact`
 
 ## ⚙️ Konfiguracja produkcyjna
 
@@ -230,9 +229,9 @@ W panelu Plesk dostępne są:
 Zapraszamy do współpracy! Zobacz [CONTRIBUTING.md](./CONTRIBUTING.md) dla szczegółów.
 
 ### Jak pomóc:
-- 🐛 **Zgłoś błąd** - [Utwórz Issue](https://github.com/YOUR_USERNAME/pigeon-map-landing/issues)
-- 💡 **Zaproponuj funkcję** - [Discussions](https://github.com/YOUR_USERNAME/pigeon-map-landing/discussions)
-- 🔧 **Napisz kod** - [Pull Request](https://github.com/YOUR_USERNAME/pigeon-map-landing/pulls)
+- 🐛 **Zgłoś błąd** - [Utwórz Issue](https://github.com/dar-gol/pigeon-map-landing/issues)
+- 💡 **Zaproponuj funkcję** - [Discussions](https://github.com/dar-gol/pigeon-map-landing/discussions)
+- 🔧 **Napisz kod** - [Pull Request](https://github.com/dar-gol/pigeon-map-landing/pulls)
 - 📝 **Popraw dokumentację** - Edytuj pliki w `docs/`
 
 ## 📄 Licencja
