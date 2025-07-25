@@ -44,6 +44,10 @@ next-env.d.ts
 dist/
 releases/*.zip
 
+# logs
+logs/
+*.log
+
 # IDE files
 .vscode/
 .idea/

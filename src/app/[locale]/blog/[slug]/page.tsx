@@ -7,32 +7,69 @@ import rehypeRaw from "rehype-raw";
 import rehypeStringify from "rehype-stringify";
 import Navbar from "@/components/Navbar";
 import Link from "next/link";
+import { logger } from "@/services/LoggingService";
 
 type Props = {
   params: Promise<{ slug: string; locale: string }>;
 };
 
 export async function generateStaticParams() {
-  const posts = getAllPosts();
-  return posts.map((post) => post && { slug: post.slug });
+  logger.blogInfo('Generating static params for blog posts');
+  
+  try {
+    const locales = ["en", "pl", "de", "cs", "nl"];
+    const allParams = [];
+    
+    for (const locale of locales) {
+      logger.blogDebug('Processing locale for static params', { locale });
+      const posts = getAllPosts(locale);
+      logger.blogDebug('Posts found for locale', { locale, count: posts.length });
+      
+      for (const post of posts) {
+        if (post) {
+          allParams.push({ slug: post.slug, locale });
+          logger.blogDebug('Added param', { slug: post.slug, locale });
+        }
+      }
+    }
+    
+    logger.blogInfo('Generated static params completed', { totalParams: allParams.length, params: allParams });
+    return allParams;
+  } catch (error) {
+    const errorMessage = error instanceof Error ? error.message : String(error);
+    logger.blogError('Error generating static params', { error: errorMessage });
+    return [];
+  }
 }
 
 export default async function PostPage({ params }: Props) {
-  const { slug, locale } = await params;
-  const actualLocale = locale || "en";
-  const post = getPostBySlug(slug, actualLocale);
-  console.log("Post data:", post);
-  if (!post) return notFound();
+  try {
+    const { slug, locale } = await params;
+    const actualLocale = locale || "en";
+    
+    logger.blogInfo('Loading blog post page', { slug, locale, actualLocale });
+    
+    const post = getPostBySlug(slug, actualLocale);
+    logger.blogDebug('Post loading result', { slug, actualLocale, found: !!post });
+    
+    if (!post) {
+      logger.blogWarn('Post not found, returning 404', { slug, actualLocale });
+      return notFound();
+    }
 
-  const processedContent = await remark()
-    .use(remarkGfm)
-    .use(remarkRehype, { allowDangerousHtml: true })
-    .use(rehypeRaw) // This allows raw HTML in markdown
-    .use(rehypeStringify)
-    .process(post.content);
-  const contentHtml = processedContent.toString();
-
-  return (
+    logger.blogDebug('Processing markdown content', { slug, contentLength: post.content.length });
+    
+    const processedContent = await remark()
+      .use(remarkGfm)
+      .use(remarkRehype, { allowDangerousHtml: true })
+      .use(rehypeRaw) // This allows raw HTML in markdown
+      .use(rehypeStringify)
+      .process(post.content);
+    const contentHtml = processedContent.toString();
+    
+    logger.blogInfo('Successfully loaded and processed blog post', { slug, actualLocale });
+    
+    return (
     <main className="min-h-screen bg-white">
       <Navbar />
       <div className="max-w-3xl mx-auto py-10 px-4">
@@ -57,4 +94,34 @@ export default async function PostPage({ params }: Props) {
       </div>
     </main>
   );
+  } catch (error) {
+    const errorMessage = error instanceof Error ? error.message : String(error);
+    logger.blogError('Critical error in PostPage component', { 
+      slug: 'unknown', 
+      locale: 'unknown', 
+      error: errorMessage,
+      stack: error instanceof Error ? error.stack : undefined
+    });
+    
+    // Return a basic error page instead of crashing
+    return (
+      <main className="min-h-screen bg-white">
+        <Navbar />
+        <div className="max-w-3xl mx-auto py-10 px-4">
+          <h1 className="text-4xl font-extrabold mb-4 text-red-600">
+            Error Loading Post
+          </h1>
+          <p className="text-lg text-gray-600 mb-6">
+            There was an error loading this blog post. Please try again later.
+          </p>
+          <Link
+            href="/blog"
+            className="inline-block text-primary-80 hover:underline hover:text-primary-100 font-medium transition"
+          >
+            ← Back to all blog posts
+          </Link>
+        </div>
+      </main>
+    );
+  }
 }

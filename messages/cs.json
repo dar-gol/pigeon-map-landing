@@ -1,0 +1,166 @@
+{
+  "meta": {
+    "title": "Pigeon Map - Mapa holubů",
+    "description": "Pigeon Map - Moderní platforma pro chovatele holubů. Sledujte, spravujte a sdílejte lety holubů a rodokmeny online.",
+    "keywords": "holubi, mapa, rodokmen, závody holubů, chov holubů, pigeon map, chovatelství, ptáci"
+  },
+  "Login": {
+    "title": "Přihlášení",
+    "email": "E-mail",
+    "password": "Heslo",
+    "loginButton": "Přihlásit se",
+    "submitSuccess": "Formulář úspěšně odeslán!",
+    "register": "Registrace",
+    "forgotPassword": "Zapomenuté heslo",
+    "plannerAcceptedInfo": "Plánovač byl úspěšně přijat. Uživatel má nyní oprávnění plánovače.",
+    "missingToken": "Chybějící token. Zkuste to znovu nebo kontaktujte podporu.",
+    "registeredInfo": "Úspěšně jste se zaregistrovali. Zkontrolujte svůj e-mail pro potvrzení registrace.",
+    "emailConfirmationInfo": "Váš e-mail byl potvrzen. Nyní se můžete přihlásit.",
+    "notConfirmedInfo": "Pamatujte, že přihlášení bez potvrzení e-mailu není možné. Pokud nevidíte potvrzovací e-mail, zkontrolujte složku spam nebo kontaktujte podporu. Můžete znovu odeslat",
+    "notConfirmedInfoSecond": "potvrzovací e-mail kliknutím na odkaz níže.",
+    "resendConfirmation": "Znovu odeslat potvrzovací e-mail",
+    "typeEmailAbove": "prosím zadejte e-mail výše",
+    "TypeEmailInEmailInput": "Zadejte e-mail do pole e-mail",
+    "ResendSuccessfully": "Potvrzovací e-mail byl odeslán. Zkontrolujte svou doručenou poštu.",
+    "howToLoginRegister": "Nevíte, jak se zaregistrovat nebo přihlásit?",
+    "appNews": "Podívejte se na novinky ze světa Pigeon Map!"
+  },
+  "Landing": {
+    "nav": {
+      "login": "Přihlášení",
+      "news": "Novinky",
+      "shop": "Obchod",
+      "contact": "Kontakt",
+      "about": "O nás",
+      "toggleMenu": "Přepnout menu"
+    },
+    "hero": {
+      "title": "Prozkoumejte svět s Pigeon Map",
+      "subtitle": "Najděte, sdílejte a spravujte lokace jako nikdy předtím.",
+      "cta": "Otevřít aplikaci"
+    },
+    "features": {
+      "1": {
+        "title": "Evidence holubů",
+        "desc": "Vytvářejte a spravujte kompletní záznamy svých holubů s rodokmeny a chovnými daty."
+      },
+      "2": {
+        "title": "Spolupráce v reálném čase",
+        "desc": "Pozvěte ostatní k spolupráci na správě map."
+      },
+      "3": {
+        "title": "Pokročilé analýzy",
+        "desc": "Využijte výkonné analytické nástroje k pochopení vzorců a trendů."
+      }
+    },
+    "pricing": {
+      "title": "Jednoduché ceny",
+      "subtitle": "Vyberte si plán, který vám nejlépe vyhovuje.",
+      "free": {
+        "title": "Zdarma",
+        "price": "0 Kč",
+        "period": "/měsíc",
+        "features": [
+          "Až 10 map",
+          "Základní funkce",
+          "Komunitní podpora"
+        ],
+        "cta": "Začít nyní"
+      },
+      "pro": {
+        "title": "Pro",
+        "price": "220 Kč",
+        "period": "/měsíc",
+        "features": [
+          "Neomezené mapy",
+          "Pokročilé funkce",
+          "Prioritní podpora",
+          "Analýzy"
+        ],
+        "cta": "Přejít na Pro"
+      }
+    },
+    "footer": {
+      "description": "Nejlepší platforma pro sdílení a správu lokací.",
+      "links": {
+        "product": "Produkt",
+        "features": "Funkce",
+        "pricing": "Ceny",
+        "changelog": "Seznam změn",
+        "company": "Společnost",
+        "about": "O nás",
+        "contact": "Kontakt",
+        "blog": "Blog",
+        "resources": "Zdroje",
+        "documentation": "Dokumentace",
+        "help": "Nápověda",
+        "support": "Podpora"
+      },
+      "legal": {
+        "privacy": "Ochrana soukromí",
+        "terms": "Podmínky použití"
+      },
+      "copyright": "© 2024 Pigeon Map. Všechna práva vyhrazena."
+    }
+  },
+  "Contact": {
+    "title": "Kontaktujte nás",
+    "subtitle": "Rádi pomůžeme s jakýmikoli dotazy.",
+    "form": {
+      "name": "Jméno",
+      "email": "E-mail",
+      "message": "Zpráva",
+      "submit": "Odeslat zprávu"
+    }
+  },
+  "Register": {
+    "title": "Registrace",
+    "name": "Jméno",
+    "email": "E-mail",
+    "password": "Heslo",
+    "confirmPassword": "Potvrdit heslo",
+    "registerButton": "Registrovat se",
+    "login": "Přihlášení",
+    "alreadyHaveAccount": "Již máte účet?",
+    "submitSuccess": "Registrace úspěšná! Zkontrolujte svůj e-mail.",
+    "howToLoginRegister": "Nevíte, jak se zaregistrovat nebo přihlásit?"
+  },
+  "ForgotPassword": {
+    "title": "Zapomenuté heslo",
+    "subtitle": "Zadejte svou e-mailovou adresu a pošleme vám odkaz pro resetování hesla.",
+    "email": "E-mail",
+    "submit": "Odeslat odkaz",
+    "backToLogin": "Zpět na přihlášení",
+    "submitSuccess": "Odkaz pro resetování hesla byl odeslán!"
+  },
+  "Privacy": {
+    "title": "Zásady ochrany soukromí",
+    "lastUpdated": "Naposledy aktualizováno",
+    "sections": {
+      "introduction": {
+        "title": "Úvod",
+        "content": "Tyto zásady ochrany soukromí popisují, jak Pigeon Map shromažďuje, používá a chrání vaše osobní údaje."
+      },
+      "dataCollection": {
+        "title": "Shromažďování údajů",
+        "content": "Shromažďujeme informace, které nám přímo poskytujete, například při vytváření účtu nebo kontaktování nás."
+      },
+      "dataUsage": {
+        "title": "Použití údajů",
+        "content": "Vaše údaje používáme k poskytování, zlepšování našich služeb a komunikaci s vámi."
+      },
+      "dataSharing": {
+        "title": "Sdílení údajů",
+        "content": "Neprodáváme, neobchodujeme ani nepřenášíme vaše osobní údaje třetím stranám, kromě případů popsaných v těchto zásadách."
+      },
+      "security": {
+        "title": "Bezpečnost",
+        "content": "Implementujeme vhodná bezpečnostní opatření k ochraně vašich osobních údajů."
+      },
+      "contact": {
+        "title": "Kontakt",
+        "content": "Pokud máte otázky k těmto zásadám ochrany soukromí, kontaktujte nás prosím."
+      }
+    }
+  }
+}

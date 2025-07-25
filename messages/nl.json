@@ -1,0 +1,166 @@
+{
+  "meta": {
+    "title": "Pigeon Map - Duivenkaart",
+    "description": "Pigeon Map - Modern platform voor duivenliefhebbers. Volg, beheer en deel duivenvluchten en stambomen online.",
+    "keywords": "duiven, kaart, stamboom, duivenraces, duivensport, pigeon map, fokkerij, vogels"
+  },
+  "Login": {
+    "title": "Inloggen",
+    "email": "E-mail",
+    "password": "Wachtwoord",
+    "loginButton": "Inloggen",
+    "submitSuccess": "Formulier succesvol verzonden!",
+    "register": "Registreren",
+    "forgotPassword": "Wachtwoord vergeten",
+    "plannerAcceptedInfo": "Planner is succesvol geaccepteerd. De gebruiker heeft nu planner-rechten.",
+    "missingToken": "Token ontbreekt. Probeer opnieuw of neem contact op met ondersteuning.",
+    "registeredInfo": "U bent succesvol geregistreerd. Controleer uw e-mail om uw registratie te bevestigen.",
+    "emailConfirmationInfo": "Uw e-mail is bevestigd. U kunt nu inloggen.",
+    "notConfirmedInfo": "Onthoud dat inloggen zonder e-mailbevestiging niet mogelijk is. Als u de bevestigingsmail niet ziet, controleer dan uw spam-map of neem contact op met ondersteuning. U kunt opnieuw verzenden",
+    "notConfirmedInfoSecond": "de bevestigingsmail door op de onderstaande link te klikken.",
+    "resendConfirmation": "Bevestigingsmail opnieuw verzenden",
+    "typeEmailAbove": "voer hierboven e-mail in",
+    "TypeEmailInEmailInput": "Voer e-mail in het e-mailveld in",
+    "ResendSuccessfully": "Bevestigingsmail is verzonden. Controleer uw inbox.",
+    "howToLoginRegister": "Weet u niet hoe u zich moet registreren of inloggen?",
+    "appNews": "Bekijk nieuws uit de wereld van Pigeon Map!"
+  },
+  "Landing": {
+    "nav": {
+      "login": "Inloggen",
+      "news": "Nieuws",
+      "shop": "Winkel",
+      "contact": "Contact",
+      "about": "Over ons",
+      "toggleMenu": "Menu omschakelen"
+    },
+    "hero": {
+      "title": "Ontdek de wereld met Pigeon Map",
+      "subtitle": "Vind, deel en beheer locaties zoals nooit tevoren.",
+      "cta": "App openen"
+    },
+    "features": {
+      "1": {
+        "title": "Duivenregister",
+        "desc": "Creëer en beheer complete records van uw duiven met stambomen en fokgegevens."
+      },
+      "2": {
+        "title": "Real-time samenwerking",
+        "desc": "Nodig anderen uit om samen kaarten te beheren."
+      },
+      "3": {
+        "title": "Geavanceerde analyses",
+        "desc": "Gebruik krachtige analysetools om patronen en trends te begrijpen."
+      }
+    },
+    "pricing": {
+      "title": "Eenvoudige prijzen",
+      "subtitle": "Kies het plan dat het beste bij u past.",
+      "free": {
+        "title": "Gratis",
+        "price": "€0",
+        "period": "/maand",
+        "features": [
+          "Tot 10 kaarten",
+          "Basisfuncties",
+          "Gemeenschapsondersteuning"
+        ],
+        "cta": "Nu beginnen"
+      },
+      "pro": {
+        "title": "Pro",
+        "price": "€9",
+        "period": "/maand",
+        "features": [
+          "Onbeperkte kaarten",
+          "Geavanceerde functies",
+          "Prioriteitsondersteuning",
+          "Analyses"
+        ],
+        "cta": "Ga Pro"
+      }
+    },
+    "footer": {
+      "description": "Het beste platform voor het delen en beheren van locaties.",
+      "links": {
+        "product": "Product",
+        "features": "Functies",
+        "pricing": "Prijzen",
+        "changelog": "Wijzigingslog",
+        "company": "Bedrijf",
+        "about": "Over ons",
+        "contact": "Contact",
+        "blog": "Blog",
+        "resources": "Bronnen",
+        "documentation": "Documentatie",
+        "help": "Hulp",
+        "support": "Ondersteuning"
+      },
+      "legal": {
+        "privacy": "Privacy",
+        "terms": "Voorwaarden"
+      },
+      "copyright": "© 2024 Pigeon Map. Alle rechten voorbehouden."
+    }
+  },
+  "Contact": {
+    "title": "Neem contact met ons op",
+    "subtitle": "We helpen graag met al uw vragen.",
+    "form": {
+      "name": "Naam",
+      "email": "E-mail",
+      "message": "Bericht",
+      "submit": "Bericht verzenden"
+    }
+  },
+  "Register": {
+    "title": "Registreren",
+    "name": "Naam",
+    "email": "E-mail",
+    "password": "Wachtwoord",
+    "confirmPassword": "Wachtwoord bevestigen",
+    "registerButton": "Registreren",
+    "login": "Inloggen",
+    "alreadyHaveAccount": "Heeft u al een account?",
+    "submitSuccess": "Registratie succesvol! Controleer uw e-mail.",
+    "howToLoginRegister": "Weet u niet hoe u zich moet registreren of inloggen?"
+  },
+  "ForgotPassword": {
+    "title": "Wachtwoord vergeten",
+    "subtitle": "Voer uw e-mailadres in en we sturen u een link om uw wachtwoord opnieuw in te stellen.",
+    "email": "E-mail",
+    "submit": "Link verzenden",
+    "backToLogin": "Terug naar inloggen",
+    "submitSuccess": "Link voor wachtwoordreset is verzonden!"
+  },
+  "Privacy": {
+    "title": "Privacybeleid",
+    "lastUpdated": "Laatst bijgewerkt",
+    "sections": {
+      "introduction": {
+        "title": "Inleiding",
+        "content": "Dit privacybeleid beschrijft hoe Pigeon Map uw persoonlijke gegevens verzamelt, gebruikt en beschermt."
+      },
+      "dataCollection": {
+        "title": "Gegevensverzameling",
+        "content": "We verzamelen informatie die u ons direct verstrekt, zoals bij het maken van een account of contact met ons opnemen."
+      },
+      "dataUsage": {
+        "title": "Gegevensgebruik",
+        "content": "We gebruiken uw gegevens om onze diensten te leveren, te verbeteren en met u te communiceren."
+      },
+      "dataSharing": {
+        "title": "Gegevensdeling",
+        "content": "We verkopen, verhandelen of dragen uw persoonlijke gegevens niet over aan derden, behalve zoals beschreven in dit beleid."
+      },
+      "security": {
+        "title": "Beveiliging",
+        "content": "We implementeren passende beveiligingsmaatregelen om uw persoonlijke gegevens te beschermen."
+      },
+      "contact": {
+        "title": "Contact",
+        "content": "Als u vragen heeft over dit privacybeleid, neem dan contact met ons op."
+      }
+    }
+  }
+}

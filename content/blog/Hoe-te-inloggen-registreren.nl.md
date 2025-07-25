@@ -8,12 +8,11 @@ description: "Hoe in te loggen/registreren in het Pigeon Map systeem?"
 
 Op ons YouTube kanaal staat een video die stap voor stap laat zien hoe je inlogt en registreert bij Pigeon Map
 
-<div align="center">
+<div class="video-container">
   <iframe
-        width="560" height="315"
         src="https://www.youtube.com/embed/HEJqSvcv0fU?si=jG75KXH8J0EsA_9x"
-        title="Tutorial Pigeon Map"
+        title="Tutorial Pigeon Map - Inlog- en Registratie-instructies"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-        allowFullScreen
-      ></iframe>
+        allowfullscreen>
+  </iframe>
 </div>

@@ -8,12 +8,11 @@ description: "How to login/register to the Pigeon Map system?"
 
 On our YouTube channel there is a video that presents step by step how to login and register to Pigeon Map
 
-<div align="center">
+<div class="video-container">
   <iframe
-        width="560" height="315"
         src="https://www.youtube.com/embed/HEJqSvcv0fU?si=jG75KXH8J0EsA_9x"
-        title="Tutorial Pigeon Map"
+        title="Tutorial Pigeon Map - Login and Registration Instructions"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-        allowFullScreen
-      ></iframe>
+        allowfullscreen>
+  </iframe>
 </div>

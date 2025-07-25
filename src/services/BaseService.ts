@@ -18,7 +18,7 @@ const getAPIUrl = () => {
 };
 
 const getDashboardUrl = () => {
-  if (isProduction()) return "https://pigeon-map.digging.pl/";
+  if (isProduction()) return "/dashboard/map";
   return "http://localhost:3001/";
 };
 

@@ -8,12 +8,11 @@ description: "W jaki sposób zalogować/zarejestrować się do systemu Pigeon Ma
 
 Na naszym kanale YouTube istnieje film który prezentuje krok po kroku w jaki sposób zalogować się oraz zarejestrować do Pigeon Map
 
-<div align="center">
+<div class="video-container">
   <iframe
-        width="560" height="315"
         src="https://www.youtube.com/embed/HEJqSvcv0fU?si=jG75KXH8J0EsA_9x"
-        title="Tutorial Pigeon Map"
+        title="Tutorial Pigeon Map - Instrukcja logowania i rejestracji"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-        allowFullScreen
-      ></iframe>
+        allowfullscreen>
+  </iframe>
 </div>
