@@ -4,6 +4,11 @@
     "description": "Pigeon Map - Moderne Plattform für Taubenzüchter. Verfolgen, verwalten und teilen Sie Taubenflüge und Stammbäume online.",
     "keywords": "tauben, karte, stammbaum, taubenrennen, taubenzucht, pigeon map, züchtung, vögel"
   },
+  "Contact": {
+    "title": "Kontakt",
+    "description": "Kontaktieren Sie das Pigeon Map Team. E-Mail: kontakt@digging.pl. Technische Unterstützung, Fragen und Vorschläge für die Taubenzucht-Plattform.",
+    "keywords": "kontakt, pigeon map, hilfe, unterstützung, taubenzüchter, DIGGING Barbara Skrzypnik"
+  },
   "Login": {
     "title": "Anmelden",
     "email": "E-Mail",
@@ -101,16 +106,6 @@
         "terms": "Nutzungsbedingungen"
       },
       "copyright": "© 2024 Pigeon Map. Alle Rechte vorbehalten."
-    }
-  },
-  "Contact": {
-    "title": "Kontaktieren Sie uns",
-    "subtitle": "Wir helfen gerne bei allen Fragen.",
-    "form": {
-      "name": "Name",
-      "email": "E-Mail",
-      "message": "Nachricht",
-      "submit": "Nachricht senden"
     }
   },
   "Register": {

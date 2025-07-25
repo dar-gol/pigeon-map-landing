@@ -4,6 +4,11 @@
     "description": "Pigeon Map - Modern platform voor duivenliefhebbers. Volg, beheer en deel duivenvluchten en stambomen online.",
     "keywords": "duiven, kaart, stamboom, duivenraces, duivensport, pigeon map, fokkerij, vogels"
   },
+  "Contact": {
+    "title": "Contact",
+    "description": "Neem contact op met het Pigeon Map team. E-mail: kontakt@digging.pl. Technische ondersteuning, vragen en suggesties voor het duivenfokplatform.",
+    "keywords": "contact, pigeon map, hulp, ondersteuning, duivenliefhebbers, DIGGING Barbara Skrzypnik"
+  },
   "Login": {
     "title": "Inloggen",
     "email": "E-mail",
@@ -101,16 +106,6 @@
         "terms": "Voorwaarden"
       },
       "copyright": "© 2024 Pigeon Map. Alle rechten voorbehouden."
-    }
-  },
-  "Contact": {
-    "title": "Neem contact met ons op",
-    "subtitle": "We helpen graag met al uw vragen.",
-    "form": {
-      "name": "Naam",
-      "email": "E-mail",
-      "message": "Bericht",
-      "submit": "Bericht verzenden"
     }
   },
   "Register": {

@@ -1,0 +1,31 @@
+/* TEAM */
+Developer: Dariusz Golomski
+Contact: kontakt@digging.pl
+LinkedIn: https://pl.linkedin.com/in/dariusz-golomski-462544226
+Website: https://digging.pl/o-nas/
+From: Poland
+
+/* Project Owner */
+Owner & SEO Consultant: Barbara Skrzypnik
+Contact: kontakt@digging.pl
+From: Poland
+
+/* Design */
+UI/UX Designer: Maksymilian Skrzypnik
+From: Poland
+
+/* SITE */
+Last update: 2025/07/25
+Language: Polish / English / German / Dutch / Czech
+Doctype: HTML5
+IDE: Visual Studio Code
+Standards: HTML5, CSS3, JavaScript ES6+, TypeScript, WCAG 2.1
+Components: Next.js, React, Tailwind CSS, next-intl
+Software: Node.js, Next.js
+Analytics: Google Analytics
+Repository: https://github.com/dar-gol/pigeon-map-landing
+
+/* THANKS */
+Open Source Community
+Next.js Team
+Tailwind CSS Team

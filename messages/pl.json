@@ -4,6 +4,11 @@
     "description": "Pigeon Map - Nowoczesna platforma dla hodowców gołębi. Śledź, zarządzaj i udostępniaj loty oraz rodowody online.",
     "keywords": "gołębie, mapa, rodowody, loty gołębi, hodowla gołębi, pigeon, pigeon map, wyścigi gołębi, ptaki"
   },
+  "Contact": {
+    "title": "Kontakt",
+    "description": "Skontaktuj się z zespołem Pigeon Map. Email: kontakt@digging.pl. Pomoc techniczna, pytania i sugestie dotyczące platformy dla hodowców gołębi.",
+    "keywords": "kontakt, pigeon map, pomoc, wsparcie, hodowcy gołębi, DIGGING Barbara Skrzypnik"
+  },
   "Login": {
     "title": "Logowanie",
     "email": "Email",

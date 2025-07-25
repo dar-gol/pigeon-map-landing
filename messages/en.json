@@ -4,6 +4,11 @@
     "description": "Pigeon Map - Modern platform for pigeon fanciers. Track, manage, and share your pigeon flights and pedigrees online.",
     "keywords": "pigeon, map, pedigree, racing pigeons, pigeon racing, pigeon map, breeding, birds"
   },
+  "Contact": {
+    "title": "Contact",
+    "description": "Contact the Pigeon Map team. Email: kontakt@digging.pl. Technical support, questions and suggestions for the pigeon breeding platform.",
+    "keywords": "contact, pigeon map, help, support, pigeon fanciers, DIGGING Barbara Skrzypnik"
+  },
   "Login": {
     "title": "Login",
     "email": "Email",

@@ -4,6 +4,11 @@
     "description": "Pigeon Map - Moderní platforma pro chovatele holubů. Sledujte, spravujte a sdílejte lety holubů a rodokmeny online.",
     "keywords": "holubi, mapa, rodokmen, závody holubů, chov holubů, pigeon map, chovatelství, ptáci"
   },
+  "Contact": {
+    "title": "Kontakt",
+    "description": "Kontaktujte tým Pigeon Map. E-mail: kontakt@digging.pl. Technická podpora, dotazy a návrhy pro platformu chovu holubů.",
+    "keywords": "kontakt, pigeon map, pomoc, podpora, chovatelé holubů, DIGGING Barbara Skrzypnik"
+  },
   "Login": {
     "title": "Přihlášení",
     "email": "E-mail",
@@ -101,16 +106,6 @@
         "terms": "Podmínky použití"
       },
       "copyright": "© 2024 Pigeon Map. Všechna práva vyhrazena."
-    }
-  },
-  "Contact": {
-    "title": "Kontaktujte nás",
-    "subtitle": "Rádi pomůžeme s jakýmikoli dotazy.",
-    "form": {
-      "name": "Jméno",
-      "email": "E-mail",
-      "message": "Zpráva",
-      "submit": "Odeslat zprávu"
     }
   },
   "Register": {
