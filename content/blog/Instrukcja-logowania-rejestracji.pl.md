@@ -2,6 +2,7 @@
 title: "Instrukcja logowania/rejestracji"
 date: "2025-07-16"
 description: "W jaki sposób zalogować/zarejestrować się do systemu Pigeon Map?"
+category: "Poradnik"
 ---
 
 ## Wideo instrukcja

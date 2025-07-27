@@ -2,6 +2,7 @@
 title: "Instrukce pro přihlášení/registraci"
 date: "2025-07-16"
 description: "Jak se přihlásit/zaregistrovat do systému Pigeon Map?"
+category: "Návod"
 ---
 
 ## Video návod

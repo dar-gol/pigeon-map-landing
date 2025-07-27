@@ -71,7 +71,7 @@
   },
     "nav": {
       "login": "Logowanie",
-      "news": "Aktualności",
+      "news": "Blog",
       "shop": "Sklep",
       "contact": "Kontakt",
       "about": "O nas",
@@ -124,7 +124,7 @@
     "contact": "Kontakt",
     "legal": "Informacje prawne",
     "privacyPolicy": "Polityka prywatności",
-    "news": "Aktualności",
+    "news": "Blog",
     "support": "Wsparcie",
     "madeWith": "Stworzone z",
     "forPigeonCommunity": "dla społeczności hodowców gołębi"

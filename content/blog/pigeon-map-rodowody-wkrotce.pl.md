@@ -2,6 +2,7 @@
 title: "Rodowody już wkrótce"
 date: "2024-05-01"
 description: "Zdjęcia i osiągnięcia dodane do gołebia!"
+category: "Nowości"
 ---
 
 ## Rodowody w Pigeon Map już wkrótce

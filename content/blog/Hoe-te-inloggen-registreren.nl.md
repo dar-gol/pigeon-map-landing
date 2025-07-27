@@ -2,6 +2,7 @@
 title: "Inlog/Registratie Instructies"
 date: "2025-07-16"
 description: "Hoe in te loggen/registreren in het Pigeon Map systeem?"
+category: "Handleiding"
 ---
 
 ## Video Tutorial

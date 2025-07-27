@@ -2,6 +2,7 @@
 title: "Login/Registration Instructions"
 date: "2025-07-16"
 description: "How to login/register to the Pigeon Map system?"
+category: "Tutorial"
 ---
 
 ## Video Tutorial

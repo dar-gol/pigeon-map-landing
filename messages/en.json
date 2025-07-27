@@ -71,7 +71,7 @@
   },
     "nav": {
     "login": "Login",
-    "news": "News",
+    "news": "Blog",
     "shop": "Shop",
     "contact": "Contact",
     "about": "About",
@@ -124,7 +124,7 @@
     "contact": "Contact",
     "legal": "Legal",
     "privacyPolicy": "Privacy Policy",
-    "news": "News",
+    "news": "Blog",
     "support": "Support",
     "madeWith": "Made with",
     "forPigeonCommunity": "for the pigeon community"

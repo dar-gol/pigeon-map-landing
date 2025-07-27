@@ -2,6 +2,7 @@
 title: "Anmelde-/Registrierungsanleitung"
 date: "2025-07-16"
 description: "Wie melde ich mich an/registriere mich im Pigeon Map System?"
+category: "Tutorial"
 ---
 
 ## Video-Anleitung

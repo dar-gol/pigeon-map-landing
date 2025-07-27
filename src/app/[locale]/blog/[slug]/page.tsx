@@ -102,9 +102,16 @@ export default async function PostPage({ params }: Props) {
             <h1 className="text-4xl font-extrabold mb-4 text-primary-100 leading-tight drop-shadow-sm">
               {post.metadata.title}
             </h1>
-            <p className="text-sm text-primary-60 mb-8 italic border-l-4 border-primary-30 pl-4 bg-primary-10/20 inline-block">
-              {post.metadata.date}
-            </p>
+            <div className="flex items-center gap-4 mb-8">
+              <p className="text-sm text-primary-60 italic border-l-4 border-primary-30 pl-4 bg-primary-10/20 inline-block">
+                {post.metadata.date}
+              </p>
+              {post.metadata.category && (
+                <span className="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-primary-80 text-white border border-primary-30">
+                  {post.metadata.category}
+                </span>
+              )}
+            </div>
             <article
               className="prose prose-lg max-w-none bg-white rounded-xl shadow-lg p-8 border border-primary-20 transition-shadow duration-200 hover:shadow-2xl text-grey-80"
               dangerouslySetInnerHTML={{ __html: contentHtml }}
