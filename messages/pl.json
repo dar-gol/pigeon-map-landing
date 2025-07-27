@@ -31,6 +31,44 @@
     "appNews": "Zobacz newsy ze świata Pigeon Map!"
   },
   "Landing": {
+    "aboutApp": {
+    "title": "O Aplikacji Pigeon Map",
+    "description": "Pigeon Map to nowoczesna aplikacja PWA (Progressive Web App) przeznaczona dla hodowców gołębi pocztowych do zarządzania lotami i monitorowania swoich stad.",
+    "tracking": {
+      "title": "Mapowanie i Śledzenie",
+      "realTime": "Interaktywna mapa z śledzeniem lotów w czasie rzeczywistym",
+      "flightDetails": "Szczegółowa analiza konkretnych lotów",
+      "flightHistory": "Historia wszystkich lotów i wyników"
+    },
+    "pigeons": {
+      "title": "Zarządzanie Gołębiami",
+      "catalog": "Katalog hodowanych gołębi z pełnymi danymi",
+      "profiles": "Szczegółowe profile każdego gołębia",
+      "seasonal": "Selekcje sezonowe gołębi na zawody"
+    },
+    "community": {
+      "title": "Społeczność Hodowców",
+      "breeders": "Przeglądanie profili innych hodowców",
+      "profiles": "Zarządzanie własnym profilem hodowcy",
+      "sharing": "Udostępnianie danych i doświadczeń"
+    },
+    "analytics": {
+      "title": "Analizy i Raporty",
+      "performance": "Analiza wydajności gołębi",
+      "weather": "Monitoring warunków pogodowych",
+      "reports": "Szczegółowe raporty z lotów"
+    },
+    "competitions": {
+      "title": "Zarządzanie Zawodami",
+      "events": "Organizacja wydarzeń sportowych",
+      "results": "Automatyczne obliczanie wyników",
+      "rankings": "Rankingi i klasyfikacje"
+    },
+    "privacy": {
+      "description": "Twoje dane są bezpieczne. Sprawdź naszą politykę prywatności.",
+      "link": "Polityka prywatności →"
+    }
+  },
     "nav": {
       "login": "Logowanie",
       "news": "Aktualności",
@@ -272,5 +310,36 @@
     "EGG_IS_BORN": "Jeśli gołąb został wykluty w systemie Pigeon Map, nie można zmienić rodzica",
     "DATE_OF_LAYING_EMPTY": "Uzupełnij datę zniesienia",
     "MAP_FLIGHT_ERROR": "Błąd lotu na mapie"
+  },
+  "features": {
+    "1": {
+      "title": "Ewidencja gołębi",
+      "desc": "Twórz i zarządzaj kompletną ewidencją swoich gołębi z rodowodami i danymi hodowlanymi."
+    },
+    "2": {
+      "title": "Współpraca w czasie rzeczywistym",
+      "desc": "Zapraszaj innych do wspólnego zarządzania i tworzenia map."
+    },
+    "3": {
+      "title": "Przyjazny dla urządzeń mobilnych",
+      "desc": "Korzystaj z Pigeon Map na dowolnym urządzeniu, gdziekolwiek jesteś."
+    }
+  },
+  "cta": {
+    "title": "Gotowy, by zacząć mapować?",
+    "subtitle": "Zaloguj się lub stwórz swoją pierwszą mapę w kilka sekund.",
+    "button": "Przejdź do panelu"
+  },
+  "register": {
+    "title": "Dołącz do społeczności hodowców gołębi",
+    "subtitle": "Zacznij korzystać z Pigeon Map już dziś i odkryj wszystkie możliwości",
+    "benefits": [
+      "100% darmowe - wszystkie funkcje bez opłat",
+      "Śledzenie lotów i wyników w czasie rzeczywistym",
+      "Zarządzanie rodowodami i hodowlą online",
+      "Współpraca z innymi hodowcami",
+      "Dostęp z dowolnego urządzenia"
+    ],
+    "button": "Zarejestruj się za darmo"
   }
 }

@@ -199,17 +199,20 @@ export default function LoginForm(props: LoginFormProps = {}) {
 
         <button
           type="submit"
-          className="mt-2 w-full bg-primary-80 text-white font-semibold py-3 rounded-lg hover:bg-primary-90 transition"
+          className="mt-2 w-full bg-primary-80 text-white font-semibold py-3 rounded-lg hover:bg-primary-90 transition cursor-pointer"
         >
           {t("loginButton")}
         </button>
 
         {/* Linki rejestracji i przypomnienia hasła */}
         <div className="flex justify-between mt-4 text-sm text-primary-70">
-          <Link href="/register" className="hover:underline">
+          <Link href="/register" className="hover:underline cursor-pointer">
             {t("register")}
           </Link>
-          <Link href="/forgot-password" className="hover:underline">
+          <Link
+            href="/forgot-password"
+            className="hover:underline cursor-pointer"
+          >
             {t("forgotPassword")}
           </Link>
         </div>
@@ -219,7 +222,7 @@ export default function LoginForm(props: LoginFormProps = {}) {
           <Link
             href="https://pigeon-map.digging.pl/news"
             target="_blank"
-            rel="noopener noreferrer"
+            rel="noopener noreferrer nofollow"
             className="bg-primary-80 hover:bg-primary-90 text-white px-4 py-2 rounded-full shadow-lg text-sm font-semibold transition-all duration-200 hover:scale-105"
           >
             {t("appNews")}

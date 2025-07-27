@@ -31,6 +31,44 @@
     "appNews": "See news from the world of Pigeon Map!"
   },
   "Landing": {
+    "aboutApp": {
+    "title": "About Pigeon Map Application",
+    "description": "Pigeon Map is a modern PWA (Progressive Web App) designed for pigeon fanciers to manage flights and monitor their flocks.",
+    "tracking": {
+      "title": "Flight Tracking & Mapping",
+      "realTime": "Interactive map with real-time flight tracking",
+      "flightDetails": "Detailed analysis of specific flights",
+      "flightHistory": "Complete history of all flights and results"
+    },
+    "pigeons": {
+      "title": "Pigeon Management",
+      "catalog": "Catalog of bred pigeons with complete data",
+      "profiles": "Detailed profiles for each pigeon",
+      "seasonal": "Seasonal selections of pigeons for competitions"
+    },
+    "community": {
+      "title": "Breeder Community",
+      "breeders": "Browse profiles of other breeders",
+      "profiles": "Manage your own breeder profile",
+      "sharing": "Share data and experiences with others"
+    },
+    "analytics": {
+      "title": "Analytics & Reports",
+      "performance": "Pigeon performance analysis",
+      "weather": "Weather conditions monitoring",
+      "reports": "Detailed flight reports"
+    },
+    "competitions": {
+      "title": "Competition Management",
+      "events": "Sports events organization",
+      "results": "Automatic results calculation",
+      "rankings": "Rankings and classifications"
+    },
+    "privacy": {
+      "description": "Your data is safe. Check our privacy policy.",
+      "link": "Privacy Policy →"
+    }
+  },
     "nav": {
     "login": "Login",
     "news": "News",

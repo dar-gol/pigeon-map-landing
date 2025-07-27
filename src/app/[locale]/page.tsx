@@ -130,19 +130,112 @@ export default async function LandingPage() {
           </div>
         </section>
 
-        {/* Features */}
-        <section className="px-6 py-20 max-w-5xl mx-auto grid md:grid-cols-3 gap-8">
-          {[1, 2, 3].map((i) => (
-            <div
-              key={i}
-              className="bg-white border border-grey-20 rounded-2xl p-6 shadow-sm hover:shadow-md transition"
-            >
-              <h3 className="text-xl font-semibold mb-2 text-grey-100">
-                {t(`features.${i}.title`)}
-              </h3>
-              <p className="text-grey-70">{t(`features.${i}.desc`)}</p>
+        {/* About App - Detailed functionality description */}
+        <section className="px-6 py-20 bg-gray-50">
+          <div className="max-w-5xl mx-auto">
+            <div className="text-center mb-12">
+              <h2 className="text-3xl md:text-4xl font-bold mb-4 text-grey-100">
+                {t("aboutApp.title")}
+              </h2>
+              <p className="text-lg text-grey-70 max-w-3xl mx-auto">
+                {t("aboutApp.description")}
+              </p>
             </div>
-          ))}
+
+            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+              {/* Flight Tracking */}
+              <div className="bg-white rounded-xl p-6 shadow-sm border border-grey-20">
+                <div className="w-12 h-12 bg-grey-10 rounded-lg flex items-center justify-center mb-4">
+                  <span className="text-white text-xl">📍</span>
+                </div>
+                <h3 className="text-xl font-semibold mb-3 text-grey-100">
+                  {t("aboutApp.tracking.title")}
+                </h3>
+                <ul className="space-y-2 text-grey-70">
+                  <li>• {t("aboutApp.tracking.realTime")}</li>
+                  <li>• {t("aboutApp.tracking.flightDetails")}</li>
+                  <li>• {t("aboutApp.tracking.flightHistory")}</li>
+                </ul>
+              </div>
+
+              {/* Pigeon Management */}
+              <div className="bg-white rounded-xl p-6 shadow-sm border border-grey-20">
+                <div className="w-12 h-12 bg-grey-10 rounded-lg flex items-center justify-center mb-4">
+                  <span className="text-white text-xl">🐦</span>
+                </div>
+                <h3 className="text-xl font-semibold mb-3 text-grey-100">
+                  {t("aboutApp.pigeons.title")}
+                </h3>
+                <ul className="space-y-2 text-grey-70">
+                  <li>• {t("aboutApp.pigeons.catalog")}</li>
+                  <li>• {t("aboutApp.pigeons.profiles")}</li>
+                  <li>• {t("aboutApp.pigeons.seasonal")}</li>
+                </ul>
+              </div>
+
+              {/* Community */}
+              <div className="bg-white rounded-xl p-6 shadow-sm border border-grey-20">
+                <div className="w-12 h-12 bg-grey-10 rounded-lg flex items-center justify-center mb-4">
+                  <span className="text-white text-xl">👥</span>
+                </div>
+                <h3 className="text-xl font-semibold mb-3 text-grey-100">
+                  {t("aboutApp.community.title")}
+                </h3>
+                <ul className="space-y-2 text-grey-70">
+                  <li>• {t("aboutApp.community.breeders")}</li>
+                  <li>• {t("aboutApp.community.profiles")}</li>
+                  <li>• {t("aboutApp.community.sharing")}</li>
+                </ul>
+              </div>
+            </div>
+
+            {/* Additional Features Grid */}
+            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mt-4">
+              {/* Analytics & Reports */}
+              <div className="bg-white rounded-xl p-6 shadow-sm border border-grey-20">
+                <div className="w-12 h-12 bg-grey-10 rounded-lg flex items-center justify-center mb-4">
+                  <span className="text-white text-xl">📊</span>
+                </div>
+                <h3 className="text-lg font-semibold mb-3 text-grey-100">
+                  {t("aboutApp.analytics.title")}
+                </h3>
+                <ul className="space-y-2 text-grey-70">
+                  <li>• {t("aboutApp.analytics.performance")}</li>
+                  <li>• {t("aboutApp.analytics.weather")}</li>
+                  <li>• {t("aboutApp.analytics.reports")}</li>
+                </ul>
+              </div>
+
+              {/* Competition Management */}
+              <div className="bg-white rounded-xl p-6 shadow-sm border border-grey-20">
+                <div className="w-12 h-12 bg-grey-10 rounded-lg flex items-center justify-center mb-4">
+                  <span className="text-white text-xl">🏆</span>
+                </div>
+                <h3 className="text-lg font-semibold mb-3 text-grey-100">
+                  {t("aboutApp.competitions.title")}
+                </h3>
+                <ul className="space-y-2 text-grey-70">
+                  <li>• {t("aboutApp.competitions.events")}</li>
+                  <li>• {t("aboutApp.competitions.results")}</li>
+                  <li>• {t("aboutApp.competitions.rankings")}</li>
+                </ul>
+              </div>
+
+              <div className="bg-white border border-grey-20 rounded-2xl p-6 shadow-sm transition">
+                <div
+                  className={`w-12 h-12 bg-grey-10 rounded-lg flex items-center justify-center mb-4`}
+                >
+                  <span className="text-white text-xl">📱</span>
+                </div>
+                <h3 className="text-xl font-semibold mb-2 text-grey-100">
+                  {t(`features.3.title`)}
+                </h3>
+                <ul className="space-y-2 text-grey-70">
+                  <li>• {t(`features.3.desc`)}</li>
+                </ul>
+              </div>
+            </div>
+          </div>
         </section>
 
         {/* FAQ */}
@@ -181,6 +274,18 @@ export default async function LandingPage() {
           </div>
         </section>
 
+        {/* Privacy Notice */}
+        <div className="mt-8 bg-gray-100 rounded-xl p-6 text-center">
+          <p className="text-grey-70 mb-2">
+            {t("aboutApp.privacy.description")}
+          </p>
+          <Link
+            href="/privacy-policy"
+            className="text-primary-80 hover:text-primary-100 font-semibold underline"
+          >
+            {t("aboutApp.privacy.link")}
+          </Link>
+        </div>
         {/* Footer */}
         <Footer />
       </main>

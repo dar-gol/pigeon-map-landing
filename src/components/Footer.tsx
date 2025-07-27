@@ -73,7 +73,7 @@ export default function Footer() {
                 <a
                   href="https://pigeon.digging.pl/news"
                   target="_blank"
-                  rel="noopener noreferrer"
+                  rel="noopener noreferrer nofollow"
                   className="text-grey-10 hover:text-white transition-colors"
                 >
                   {t("news")}

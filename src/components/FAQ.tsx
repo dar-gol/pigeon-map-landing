@@ -15,7 +15,7 @@ function FAQItem({ question, answer, isOpen, onToggle }: FAQItemProps) {
     <div className="border border-grey-20 rounded-lg overflow-hidden">
       <button
         onClick={onToggle}
-        className="w-full px-6 py-4 text-left bg-white hover:bg-grey-5 transition-colors duration-200 flex justify-between items-center"
+        className="w-full px-6 py-4 text-left bg-white hover:bg-grey-5 transition-colors duration-200 flex justify-between items-center cursor-pointer"
       >
         <span className="font-semibold text-grey-100">{question}</span>
         <span

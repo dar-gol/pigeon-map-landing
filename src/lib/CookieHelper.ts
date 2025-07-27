@@ -25,7 +25,9 @@ class Cookie {
   }
 
   remove() {
-    Cookies.remove(this.name);
+    Cookies.remove(this.name, { domain: this._getDomain() });
+    // For previous cookies
+    Cookies.remove(this.name, { domain: "pigeon-map.digging.pl" });
   }
 }
 

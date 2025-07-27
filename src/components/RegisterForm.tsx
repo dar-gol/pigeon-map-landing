@@ -387,10 +387,13 @@ export default function RegisterForm() {
 
         {/* Links to login and forgot password */}
         <div className="flex justify-between mt-4 text-sm text-primary-70">
-          <Link href="/login" className="hover:underline">
+          <Link href="/login" className="hover:underline cursor-pointer">
             {t("login")}
           </Link>
-          <Link href="/forgot-password" className="hover:underline">
+          <Link
+            href="/forgot-password"
+            className="hover:underline cursor-pointer"
+          >
             {t("forgotPassword")}
           </Link>
         </div>

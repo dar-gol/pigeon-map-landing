@@ -13,7 +13,7 @@ export default function Navbar() {
     <nav className="sticky top-0 z-50 w-full border-b bg-white shadow-md px-6 py-4">
       <div className="flex justify-between items-center">
         {/* Logo */}
-        <Link href="/" className="flex items-center space-x-2">
+        <Link href="/" className="flex items-center space-x-2 cursor-pointer">
           <Image src="/assets/logo192.png" alt="Logo" width={36} height={36} />
           <span className="text-xl font-bold text-primary-100">Pigeon Map</span>
         </Link>
@@ -21,7 +21,7 @@ export default function Navbar() {
         {/* Hamburger button (mobile only) */}
         <button
           onClick={() => setIsOpen(!isOpen)}
-          className="md:hidden focus:outline-none text-primary-80"
+          className="md:hidden focus:outline-none text-primary-80 cursor-pointer"
           aria-label={t("toggleMenu")}
         >
           <svg
@@ -71,7 +71,7 @@ export default function Navbar() {
               href="https://digging.pl"
               target="_blank"
               className="hover:text-primary-100 text-primary-80"
-              rel="noopener noreferrer"
+              rel="noopener noreferrer nofollow"
             >
               {t("shop")}
             </a>
@@ -113,7 +113,7 @@ export default function Navbar() {
               className="hover:text-primary-100 text-primary-80"
               href="https://digging.pl"
               target="_blank"
-              rel="noopener"
+              rel="noopener noreferrer nofollow"
               onClick={() => setIsOpen(false)}
             >
               {t("shop")}

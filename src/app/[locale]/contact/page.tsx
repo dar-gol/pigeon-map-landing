@@ -96,7 +96,7 @@ export default function ContactPage() {
                   <a
                     href="https://digging.pl/"
                     target="_blank"
-                    rel="noopener noreferrer"
+                    rel="noopener noreferrer nofollow"
                     className="hover:underline text-primary-80"
                   >
                     Digging shop
@@ -106,7 +106,7 @@ export default function ContactPage() {
                   <a
                     href="https://www.youtube.com/@diggingtv-pigeonmap"
                     target="_blank"
-                    rel="noopener noreferrer"
+                    rel="noopener noreferrer nofollow"
                     className="hover:underline text-primary-80"
                   >
                     YouTube
@@ -116,7 +116,7 @@ export default function ContactPage() {
                   <a
                     href="https://patronite.pl/pigeonmap"
                     target="_blank"
-                    rel="noopener noreferrer"
+                    rel="noopener noreferrer nofollow"
                     className="hover:underline text-primary-80"
                   >
                     Patronite
@@ -132,9 +132,10 @@ export default function ContactPage() {
             <div className="bg-primary-10/30 border border-primary-20 rounded-lg p-4 text-center md:text-left text-grey-80 mb-8">
               <div className="font-semibold">DIGGING Barbara Skrzypnik</div>
               <div className="mb-1">NIP: 879 153 05 59</div>
-              <div>Sikorowo 32</div>
-              <div>88-100 Inowrocław</div>
+              <div>Poland</div>
               <div>Woj. kujawsko-pomorskie</div>
+              <div>88-100 Inowrocław</div>
+              <div>Sikorowo 32</div>
               <div className="mt-2">
                 Call:{" "}
                 <a

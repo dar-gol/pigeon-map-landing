@@ -1,0 +1,8 @@
+[
+  {
+    "user_agent": "*",
+    "google_prefetch": "on",
+    "google_prefetch_delay_ms": 100,
+    "max_age": 86400
+  }
+]

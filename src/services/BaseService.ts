@@ -19,7 +19,7 @@ const getAPIUrl = () => {
 
 const getDashboardUrl = () => {
   if (isProduction()) return "/dashboard/map";
-  return "http://localhost:3001/";
+  return "http://localhost:3001/dashboard/map";
 };
 
 export const API = getAPIUrl();

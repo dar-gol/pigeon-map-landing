@@ -31,6 +31,44 @@
     "appNews": "Sehen Sie Neuigkeiten aus der Welt von Pigeon Map!"
   },
   "Landing": {
+    "aboutApp": {
+    "title": "Über die Pigeon Map Anwendung",
+    "description": "Pigeon Map ist eine moderne PWA (Progressive Web App) für Taubenzüchter zum Verwalten von Flügen und Überwachen ihrer Bestände.",
+    "tracking": {
+      "title": "Flugverfolgung & Kartierung",
+      "realTime": "Interaktive Karte mit Echtzeit-Flugverfolgung",
+      "flightDetails": "Detaillierte Analyse spezifischer Flüge",
+      "flightHistory": "Vollständige Historie aller Flüge und Ergebnisse"
+    },
+    "pigeons": {
+      "title": "Taubenverwaltung",
+      "catalog": "Katalog gezüchteter Tauben mit vollständigen Daten",
+      "profiles": "Detaillierte Profile für jede Taube",
+      "seasonal": "Saisonale Auswahl von Tauben für Wettbewerbe"
+    },
+    "community": {
+      "title": "Züchtergemeinschaft",
+      "breeders": "Profile anderer Züchter durchsuchen",
+      "profiles": "Ihr eigenes Züchterprofil verwalten",
+      "sharing": "Daten und Erfahrungen mit anderen teilen"
+    },
+    "analytics": {
+      "title": "Analysen & Berichte",
+      "performance": "Taubenleistungsanalyse",
+      "weather": "Wetterüberwachung",
+      "reports": "Detaillierte Flugberichte"
+    },
+    "competitions": {
+      "title": "Wettkampfmanagement",
+      "events": "Sportveranstaltungen organisieren",
+      "results": "Automatische Ergebnisberechnung",
+      "rankings": "Rankings und Klassifikationen"
+    },
+    "privacy": {
+      "description": "Ihre Daten sind sicher. Lesen Sie unsere Datenschutzrichtlinie.",
+      "link": "Datenschutzrichtlinie →"
+    }
+  },
     "nav": {
       "login": "Anmelden",
       "news": "Nachrichten",

@@ -31,6 +31,44 @@
     "appNews": "Podívejte se na novinky ze světa Pigeon Map!"
   },
   "Landing": {
+    "AboutApp": {
+    "title": "O Aplikaci Pigeon Map",
+    "description": "Pigeon Map je moderní PWA (Progressive Web App) navržená pro chovatele holubů k řízení letů a monitorování jejich stád.",
+    "tracking": {
+      "title": "Sledování Letů & Mapování",
+      "realTime": "Interaktivní mapa se sledováním letů v reálném čase",
+      "flightDetails": "Podrobná analýza konkrétních letů",
+      "flightHistory": "Úplná historie všech letů a výsledků"
+    },
+    "pigeons": {
+      "title": "Správa Holubů",
+      "catalog": "Katalog chovaných holubů s úplnými údaji",
+      "profiles": "Podrobné profily pro každého holuba",
+      "seasonal": "Sezónní výběry holubů pro soutěže"
+    },
+    "community": {
+      "title": "Komunita Chovatelů",
+      "breeders": "Prohlížení profilů ostatních chovatelů",
+      "profiles": "Správa vlastního chovatelského profilu",
+      "sharing": "Sdílení dat a zkušeností s ostatními"
+    },
+    "analytics": {
+      "title": "Analýzy & Zprávy",
+      "performance": "Analýza výkonu holubů",
+      "weather": "Monitorování povětrnostních podmínek",
+      "reports": "Podrobné zprávy o letech"
+    },
+    "competitions": {
+      "title": "Správa Soutěží",
+      "events": "Organizace sportovních akcí",
+      "results": "Automatické výpočty výsledků",
+      "rankings": "Žebříčky a klasifikace"
+    },
+    "privacy": {
+      "description": "Vaše data jsou v bezpečí. Podívejte se na naše zásady ochrany soukromí.",
+      "link": "Zásady ochrany soukromí →"
+    }
+  },
     "nav": {
       "login": "Přihlášení",
       "news": "Novinky",

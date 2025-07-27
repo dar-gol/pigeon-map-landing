@@ -1,0 +1,6 @@
+{
+  "version": 1,
+  "mode": "force-https",
+  "max_age": 31536000,
+  "include_subdomains": true
+}

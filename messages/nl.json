@@ -31,6 +31,44 @@
     "appNews": "Bekijk nieuws uit de wereld van Pigeon Map!"
   },
   "Landing": {
+    "AboutApp": {
+    "title": "Over de Pigeon Map Applicatie",
+    "description": "Pigeon Map is een moderne PWA (Progressive Web App) ontworpen voor duivenliefhebbers om vluchten te beheren en hun bestanden te monitoren.",
+    "tracking": {
+      "title": "Vluchtvolgingst & Kartering",
+      "realTime": "Interactieve kaart met realtime vluchtvolging",
+      "flightDetails": "Gedetailleerde analyse van specifieke vluchten",
+      "flightHistory": "Volledige geschiedenis van alle vluchten en resultaten"
+    },
+    "pigeons": {
+      "title": "Duivenbeheer",
+      "catalog": "Catalogus van gefokte duiven met volledige gegevens",
+      "profiles": "Gedetailleerde profielen voor elke duif",
+      "seasonal": "Seizoenselecties van duiven voor wedstrijden"
+    },
+    "community": {
+      "title": "Fokkersgemeenschap",
+      "breeders": "Profielen van andere fokkers bekijken",
+      "profiles": "Uw eigen fokkersprofiel beheren",
+      "sharing": "Gegevens en ervaringen delen met anderen"
+    },
+    "analytics": {
+      "title": "Analyses & Rapporten",
+      "performance": "Duivenprestatie-analyse",
+      "weather": "Weersomstandigheden monitoring",
+      "reports": "Gedetailleerde vluchtrapporten"
+    },
+    "competitions": {
+      "title": "Wedstrijdbeheer",
+      "events": "Sportevenementen organiseren",
+      "results": "Automatische resultatenberekening",
+      "rankings": "Rankings en classificaties"
+    },
+    "privacy": {
+      "description": "Uw gegevens zijn veilig. Bekijk ons privacybeleid.",
+      "link": "Privacybeleid →"
+    }
+  },
     "nav": {
       "login": "Inloggen",
       "news": "Nieuws",
