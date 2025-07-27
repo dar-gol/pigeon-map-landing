@@ -31,7 +31,7 @@
     "appNews": "Podívejte se na novinky ze světa Pigeon Map!"
   },
   "Landing": {
-    "AboutApp": {
+    "aboutApp": {
     "title": "O Aplikaci Pigeon Map",
     "description": "Pigeon Map je moderní PWA (Progressive Web App) navržená pro chovatele holubů k řízení letů a monitorování jejich stád.",
     "tracking": {
@@ -92,71 +92,141 @@
         "desc": "Pozvěte ostatní k spolupráci na správě map."
       },
       "3": {
-        "title": "Pokročilé analýzy",
-        "desc": "Využijte výkonné analytické nástroje k pochopení vzorců a trendů."
+        "title": "Mobilní přívětivost",
+        "desc": "Používejte Pigeon Map snadno na jakémkoli zařízení, kamkoli jdete."
       }
     },
-    "pricing": {
-      "title": "Jednoduché ceny",
-      "subtitle": "Vyberte si plán, který vám nejlépe vyhovuje.",
-      "free": {
-        "title": "Zdarma",
-        "price": "0 Kč",
-        "period": "/měsíc",
-        "features": [
-          "Až 10 map",
-          "Základní funkce",
-          "Komunitní podpora"
-        ],
-        "cta": "Začít nyní"
-      },
-      "pro": {
-        "title": "Pro",
-        "price": "220 Kč",
-        "period": "/měsíc",
-        "features": [
-          "Neomezené mapy",
-          "Pokročilé funkce",
-          "Prioritní podpora",
-          "Analýzy"
-        ],
-        "cta": "Přejít na Pro"
-      }
+    "cta": {
+      "title": "Připraveni začít mapovat?",
+      "subtitle": "Přihlaste se nebo vytvořte svou první mapu během sekund.",
+      "button": "Přejít na dashboard"
     },
-    "footer": {
-      "description": "Nejlepší platforma pro sdílení a správu lokací.",
-      "links": {
-        "product": "Produkt",
-        "features": "Funkce",
-        "pricing": "Ceny",
-        "changelog": "Seznam změn",
-        "company": "Společnost",
-        "about": "O nás",
-        "contact": "Kontakt",
-        "blog": "Blog",
-        "resources": "Zdroje",
-        "documentation": "Dokumentace",
-        "help": "Nápověda",
-        "support": "Podpora"
+    "register": {
+      "title": "Připojte se ke komunitě chovatelů holubů",
+      "subtitle": "Začněte používat Pigeon Map již dnes a objevte všechny možnosti",
+      "benefits": [
+        "100% zdarma - všechny funkce bez poplatků",
+        "Sledování letů a výsledků v reálném čase",
+        "Online správa rodokmenů a chovu",
+        "Spolupráce s ostatními chovateli",
+        "Přístup z jakéhokoli zařízení"
+      ],
+      "button": "Registrovat zdarma"
+    }
+  },
+  "Footer": {
+    "description": "Moderní platforma pro chovatele holubů. Sledujte, spravujte a sdílejte lety holubů a rodokmeny online - zcela zdarma.",
+    "rights": "Všechna práva vyhrazena.",
+    "quickLinks": "Rychlé odkazy",
+    "login": "Přihlášení",
+    "register": "Registrace",
+    "blog": "Blog",
+    "contact": "Kontakt",
+    "legal": "Právní",
+    "privacyPolicy": "Zásady ochrany soukromí",
+    "news": "Blog",
+    "support": "Podpora",
+    "madeWith": "Vytvořeno s",
+    "forPigeonCommunity": "pro komunitu chovatelů holubů"
+  },
+  "FAQ": {
+    "title": "Často kladené otázky",
+    "subtitle": "Najděte odpovědi na nejčastější otázky o Pigeon Map",
+    "items": {
+      "1": {
+        "question": "Co je Pigeon Map?",
+        "answer": "Pigeon Map je moderní platforma navržená pro chovatele holubů ke sledování, správě a sdílení letů holubů a rodokmenů online. Nabízí komplexní nástroje pro správu chovu a sledování letů."
       },
-      "legal": {
-        "privacy": "Ochrana soukromí",
-        "terms": "Podmínky použití"
+      "2": {
+        "question": "Jak se zaregistruji do Pigeon Map?",
+        "answer": "Můžete se zaregistrovat kliknutím na tlačítko 'Registrace' a vyplněním registračního formuláře. Po registraci obdržíte potvrzovací e-mail, který musíte ověřit před začátkem používání platformy."
       },
-      "copyright": "© 2024 Pigeon Map. Všechna práva vyhrazena."
+      "3": {
+        "question": "Je Pigeon Map zdarma k použití?",
+        "answer": "Ano! Pigeon Map je 100% zdarma k použití. Všechny funkce jsou k dispozici bez předplatných poplatků nebo skrytých nákladů. Věříme v podporu komunity závodů holubů bezplatným přístupem ke všem našim nástrojům a službám."
+      },
+      "4": {
+        "question": "Je Pigeon Map aplikace?",
+        "answer": "Pigeon Map je webová platforma, která funguje ve vašem prohlížeči. Ačkoli to není nativní mobilní aplikace, je plně optimalizována pro mobilní zařízení a funguje perfektně na smartphonech a tabletech. Můžete ji dokonce přidat na domovskou obrazovku pro zážitek podobný aplikaci."
+      },
+      "5": {
+        "question": "Mohu používat Pigeon Map na svém mobilním zařízení?",
+        "answer": "Ano! Pigeon Map je plně responzivní a funguje bezproblémově na smartphonech, tabletech a stolních počítačích. Můžete přistupovat ke všem funkcím z jakéhokoli zařízení s připojením k internetu."
+      },
+      "6": {
+        "question": "Jak sleduji lety svých holubů?",
+        "answer": "Po přihlášení můžete přidávat lety prostřednictvím dashboardu. Zadejte podrobnosti o letu, nahrajte GPS data, pokud jsou k dispozici, a sledujte výkonnost svých holubů v čase s podrobnými analýzami a mapami."
+      }
     }
   },
   "Register": {
     "title": "Registrace",
-    "name": "Jméno",
+    "username": "Uživatelské jméno",
     "email": "E-mail",
     "password": "Heslo",
-    "confirmPassword": "Potvrdit heslo",
-    "registerButton": "Registrovat se",
-    "login": "Přihlášení",
-    "alreadyHaveAccount": "Již máte účet?",
-    "submitSuccess": "Registrace úspěšná! Zkontrolujte svůj e-mail.",
-    "howToLoginRegister": "Nevíte, jak se zaregistrovat nebo přihlásit?"
+    "passwordRepeat": "Opakovat heslo",
+    "firstName": "Jméno (volitelné)",
+    "lastName": "Příjmení (volitelné)",
+    "phoneNumber": "Telefonní číslo (volitelné)",
+    "country": "Země",
+    "countrySelectPlaceholder": "Vyberte svou zemi",
+    "acceptPrivacyPolicy": "Souhlasím s",
+    "privacyPolicyLink": "zásadami ochrany soukromí",
+    "registerButton": "Registrovat",
+    "submitting": "Registrace probíhá...",
+    "login": "Zpět na přihlášení",
+    "forgotPassword": "Zapomenuté heslo",
+    "usernameRequired": "Uživatelské jméno je povinné",
+    "emailRequired": "E-mail je povinný",
+    "passwordRequired": "Heslo je povinné",
+    "usernameMin": "Uživatelské jméno musí mít alespoň 3 znaky",
+    "emailInvalid": "Neplatná e-mailová adresa",
+    "passwordMin": "Heslo musí mít alespoň 6 znaků",
+    "firstNameRequired": "Zadejte jméno",
+    "lastNameRequired": "Zadejte příjmení",
+    "phoneInvalid": "Neplatné telefonní číslo",
+    "countryRequired": "Vyberte svou zemi",
+    "passwordsMustMatch": "Hesla se musí shodovat",
+    "errorAcceptPrivacyPolicy": "Musíte souhlasit se zásadami ochrany soukromí, abyste se mohli zaregistrovat",
+    "Albania": "Albánie",
+    "Austria": "Rakousko",
+    "Bosnia and Herzegovina": "Bosna a Hercegovina",
+    "Belgium": "Belgie",
+    "Bulgaria": "Bulharsko",
+    "Belarus": "Bělorusko",
+    "Czech Republic": "Česká republika",
+    "Germany": "Německo",
+    "Denmark": "Dánsko",
+    "Estonia": "Estonsko",
+    "Spain": "Španělsko",
+    "Finland": "Finsko",
+    "France": "Francie",
+    "United Kingdom": "Spojené království",
+    "Greece": "Řecko",
+    "Croatia": "Chorvatsko",
+    "Hungary": "Maďarsko",
+    "Ireland": "Irsko",
+    "Italy": "Itálie",
+    "Lithuania": "Litva",
+    "Latvia": "Lotyšsko",
+    "Moldova": "Moldavsko",
+    "Montenegro": "Černá Hora",
+    "North Macedonia": "Severní Makedonie",
+    "Netherlands": "Nizozemsko",
+    "Norway": "Norsko",
+    "Poland": "Polsko",
+    "Portugal": "Portugalsko",
+    "Romania": "Rumunsko",
+    "Serbia": "Srbsko",
+    "Russia": "Rusko",
+    "Sweden": "Švédsko",
+    "Switzerland": "Švýcarsko",
+    "Slovenia": "Slovinsko",
+    "Slovakia": "Slovensko",
+    "Turkey": "Turecko",
+    "Ukraine": "Ukrajina",
+    "United States": "Spojené státy",
+    "Other": "Jiné"
   },
   "ForgotPassword": {
     "title": "Zapomenuté heslo",
@@ -166,34 +236,83 @@
     "backToLogin": "Zpět na přihlášení",
     "submitSuccess": "Odkaz pro resetování hesla byl odeslán!"
   },
-  "Privacy": {
-    "title": "Zásady ochrany soukromí",
-    "lastUpdated": "Naposledy aktualizováno",
-    "sections": {
-      "introduction": {
-        "title": "Úvod",
-        "content": "Tyto zásady ochrany soukromí popisují, jak Pigeon Map shromažďuje, používá a chrání vaše osobní údaje."
-      },
-      "dataCollection": {
-        "title": "Shromažďování údajů",
-        "content": "Shromažďujeme informace, které nám přímo poskytujete, například při vytváření účtu nebo kontaktování nás."
-      },
-      "dataUsage": {
-        "title": "Použití údajů",
-        "content": "Vaše údaje používáme k poskytování, zlepšování našich služeb a komunikaci s vámi."
-      },
-      "dataSharing": {
-        "title": "Sdílení údajů",
-        "content": "Neprodáváme, neobchodujeme ani nepřenášíme vaše osobní údaje třetím stranám, kromě případů popsaných v těchto zásadách."
-      },
-      "security": {
-        "title": "Bezpečnost",
-        "content": "Implementujeme vhodná bezpečnostní opatření k ochraně vašich osobních údajů."
-      },
-      "contact": {
-        "title": "Kontakt",
-        "content": "Pokud máte otázky k těmto zásadám ochrany soukromí, kontaktujte nás prosím."
-      }
-    }
+  "policyPrivacy": {
+    "Title": "Zásady ochrany soukromí",
+    "Administration": "Správcem osobních údajů podle obecně dostupného nařízení (EU) Evropského parlamentu a Rady ze dne 27. dubna 2016 o ochraně fyzických osob v souvislosti s přístupem k osobním údajům a o volném přístupu k takovým údajům a o zrušení směrnice 95/46/ES (dále jen: nařízení) je společnost DIGGING Barbara Skrzypnik, DIČ 8791530559, Sikorowo 32, 88-100 Inowrocław.",
+    "CollectedDataTitle": "Shromažďované osobní údaje",
+    "CollectedDataDescription": "Aplikace PIGEON MAP shromažďuje od uživatelů následující osobní údaje: e-mail, uživatelské jméno, jméno a příjmení, telefonní číslo, všechna data jsou stahována za účelem zlepšení služeb a marketingových cílů. Okres, pobočka, sekce (týká se účasti v závodech holubů) pro poskytování služeb aplikace. Chyby, údaje o letu (název letu, datum letu, datum ukončení letu, místo vypuštění holubů, název holubníku, souřadnice holubníku, účastnící uživatelé, správa letu) jsou stahovány pro poskytování služby, zlepšení poskytování služby.",
+    "DataShareTitle": "Zpracování osobních údajů",
+    "DataShareDescription": "Uživatelé mají možnost poskytovat informace o svých letech ostatním uživatelům. Sdílená data zahrnují: název letu, datum letu, datum ukončení letu, místo vypuštění holubů, název holubníku, souřadnice holubů, účastnící uživatelé, správa letu. Sdílené lety lze zobrazit na mapě v aplikaci.",
+    "ConsentToSharingDataTitle": "Souhlas se sdílením údajů",
+    "ConsentToSharingDataDescription": "V případě účasti v závodech holubů (soutěžní lety), stejně jako v soukromých letech, musí uživatel souhlasit s poskytnutím údajů souvisejících s těmito událostmi. Bez souhlasu uživatele nebudou údaje o letu zpřístupněny ostatním účastníkům události.",
+    "DataRemovalTitle": "Odstraňování údajů",
+    "DataRemovalDescription": "Uživatelé mají možnost smazat některá data související s holuby, místy vypuštění a lety. Je třeba poznamenat, že mazání dat zahrnuje informace související se samotnými holubníky, místy vypuštění a lety, nikoli osobní údaje jako e-mail, telefonní číslo, jméno nebo příjmení. Osobní údaje jsou ukládány v souladu s platnými právními předpisy a zásadami ochrany soukromí.",
+    "PurposeOfDataCollectionTitle": "Účel shromažďování údajů",
+    "PurposeOfDataCollectionDescription": "Osobní údaje jsou shromažďovány za účelem umožnění používání funkcí aplikace Pigeon Map, včetně účasti v závodech holubů, prohlížení letů na mapě a zlepšování chyb ve službách a pro marketingové účely.",
+    "DataSafetyTitle": "Bezpečnost údajů",
+    "DataSafetyDescription": "Tým Pigeon Map se zavazuje zajišťovat bezpečnost shromážděných údajů. Jsou implementována vhodná bezpečnostní opatření k ochraně údajů před neoprávněným přístupem, ztrátou, poškozením nebo neoprávněným zveřejněním.",
+    "RightToAccessCorrectAndDeleteDataTitle": "Právo na přístup, opravu a mazání údajů",
+    "RightToAccessCorrectAndDeleteDataDescription": "Uživatelé mají právo na přístup ke svým osobním údajům, jejich opravu a mazání. Pro uplatnění těchto práv nás prosím kontaktujte. E-mail: kontakt@digging.pl",
+    "LegalBasisTitle": "Právní základ",
+    "LegalBasisDescription": "Zásady ochrany soukromí aplikace Pigeon MAP jsou založeny na zásadách obecného nařízení o ochraně osobních údajů (GDPR) a dalších platných ustanoveních týkajících se ochrany soukromí. Zpracování osobních údajů uživatelů je založeno na jednom z následujících právních důvodů: souhlas uživatele, plnění smlouvy a právní povinnost.",
+    "TargetDescription": "Zásady ochrany soukromí mají za cíl zajistit úplnou ochranu soukromí uživatelů Pigeon MAP v souladu s aktuálními právními předpisy týkajícími se ochrany osobních údajů."
+  },
+  "Error": {
+    "WRONG_PASSWORD_OR_USERNAME": "Nesprávné uživatelské jméno nebo heslo. Zkuste to znovu, nebo pokud nemáte účet, klikněte na tlačítko registrace.",
+    "USERNAME_REQUIRED": "Zadejte prosím své uživatelské jméno",
+    "PASSWORD_REQUIRED": "Zadejte prosím své heslo",
+    "USERNAME_ALREADY_EXISTS": "Toto uživatelské jméno je již obsazeno. Vyberte prosím jiné.",
+    "EMAIL_REQUIRED": "Zadejte prosím svou e-mailovou adresu",
+    "EMAIL_INVALID": "Zadejte prosím platnou e-mailovou adresu. Například: map.pigeon@email.com",
+    "EMAIL_ALREADY_EXISTS": "Tato e-mailová adresa se již používá. Vyberte prosím jinou.",
+    "PHONE_NUMBER_INVALID": "Zadejte prosím platné telefonní číslo s kódem země. Pamatujte, že telefonní číslo je volitelné. Například: +48123456789",
+    "PHONE_NUMBER_ALREADY_EXISTS": "Toto telefonní číslo se již používá. Vyberte prosím jiné.",
+    "USERNAME_TOO_SHORT": "Zadejte prosím uživatelské jméno s alespoň 4 znaky.",
+    "PASSWORD_TOO_SHORT": "Zadejte prosím heslo s alespoň 6 znaky.",
+    "DIFFERENT_PASSWORDS": "Zadejte prosím dvakrát stejné heslo.",
+    "EMAIL_NOT_VERIFIED": "Vaše e-mailová adresa není ověřena. Pro pokračování zkontrolujte svůj e-mail a ověřte svůj účet.",
+    "PRIVATE_TAG": "Chybová zpráva soukromého tagu",
+    "WRONG_TAG_TYPE": "Chybová zpráva nesprávného typu tagu",
+    "TAG_NOT_FOUND": "Chybová zpráva, tag nebyl nalezen",
+    "PREDEFINED_TAG_DELETE": "Chybová zpráva mazání předdefinovaného tagu",
+    "PREDEFINED_TAG_UPDATE": "Chybová zpráva aktualizace předdefinovaného tagu",
+    "WRONG_TYPE_OF_OVERLAY_URL_TYPE": "Chybová zpráva nesprávného typu OverlayUrl",
+    "END_TAG_REQUIRED": "Chybová zpráva, vyžadován koncový tag",
+    "OPEN_FLIGHT_REFER": "Chybová zpráva, odkaz na otevřený let",
+    "OPEN_FLIGHT_REFER_TYPE": "Chybová zpráva, typ odkazu na otevřený let",
+    "END_TAG_NOT_POSSIBLE": "Chybová zpráva, koncový tag není možný",
+    "OPEN_FLIGHT_CREATE_ONLY_PLANNER": "Chybová zpráva, vytvoření otevřeného letu pouze pro plánovače",
+    "DEFAULT_TAG_IS_NOT_COTE": "Chybová zpráva, výchozí tag není cote",
+    "USER_NOT_FOUND": "Chybová zpráva, uživatel nebyl nalezen",
+    "USER_IS_NOT_REGULAR": "Chybová zpráva, uživatel není pravidelný",
+    "REQUEST_IS_PROCESSED": "Chybová zpráva, požadavek se zpracovává",
+    "OPEN_FLIGHT_REFER_OWNER": "Chybová zpráva, odkaz na vlastníka otevřeného letu",
+    "OPEN_FLIGHT_UPDATE_NOT_ALLOWED": "Chybová zpráva, aktualizace otevřeného letu není povolena",
+    "DISTRICT_REQUIRED": "Chybová zpráva, okres je vyžadován",
+    "BRANCH_REQUIRED": "Chybová zpráva, pobočka je vyžadována",
+    "SECTION_REQUIRED": "Chybová zpráva, sekce je vyžadována",
+    "DISTRICT_BRANCH_SECTION_NOT_MATCH": "Chybová zpráva, okres, pobočka a sekce se neshodují",
+    "DISTRICT_ALREADY_FILLED": "Chybová zpráva, okres je již vyplněn",
+    "PIGEONMAP_TYPE_USER": "Zadané uživatelské jméno/e-mail je registrováno, ale pro přihlášení musíte zadat e-mail (uživatelské jméno) a heslo a stisknout tlačítko přihlášení.",
+    "OUTSIDE_TYPE_USER": "Zadané uživatelské jméno/e-mail je registrováno, ale musíte použít jiné ověření. Zkuste se ověřit pomocí tlačítek vpravo od tlačítka 'Přihlásit se'",
+    "CANNOT_UPDATE_FLIGHT": "Zkontrolujte, zda máte všechna potřebná data, tj. název letu, místo vypuštění, holubník a datum startu.",
+    "FINISH_FLIGHT_UPDATE_NOT_ALLOWED": "Nemůžete aktualizovat let, protože již byl dokončen.",
+    "FLIGHT_UPDATE_NOT_ALLOWED": "Nemůžete aktualizovat let. Zkontrolujte, zda jste vlastník a zda již byl let dokončen.",
+    "ALREADY_JOINED_FLIGHT": "K tomuto letu jste se již připojili",
+    "FLIGHT_DELETE_NOT_ALLOWED": "Odstranění letu není možné, zkontrolujte, zda vám let patří",
+    "JOIN__NOT_ALLOWED_ANOTHER_DISTRICT": "Nemůžete se připojit k této soutěži, protože uživatel, který let vytvořil, je v jiné pobočce.",
+    "NOTFOUND": "Objekt se zadaným identifikátorem nebyl nalezen",
+    "FORBIDDEN": "Přístup ke zdroji je odepřen",
+    "ALREADY_EXISTS": "Objekt se zadaným identifikátorem již existuje",
+    "BUYER_NAME_IS_REQUIRED": "Jméno kupce je vyžadováno",
+    "SEASON_IS_REQUIRED": "Sezóna je vyžadována",
+    "BROOD_IS_INVALID": "Vrh je neplatný",
+    "DEFINED_SEX_IS_CHANGED": "Nelze změnit definované pohlaví (lze změnit pouze jednou)",
+    "NOT_FERTILE_EGG": "Nelze vylíhnout vejce, které není oplodněné",
+    "PIGEON_NOT_ACTIVE": "Nelze provádět akce na neaktivním holubovi",
+    "INVALID_MOVE": "Nelze změnit pořadí holuba v seznamu. Zkontrolujte, zda jsou skupina a sezóna správné.",
+    "EGG_IS_BORN": "Pokud byl holub vylíhnut v systému Pigeon Map, nelze změnit rodiče",
+    "DATE_OF_LAYING_EMPTY": "Vyplňte prosím datum snášení",
+    "MAP_FLIGHT_ERROR": "Chybová zpráva letu na mapě"
   }
 }

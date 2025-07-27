@@ -92,108 +92,227 @@
         "desc": "Laden Sie andere ein, um Karten gemeinsam zu verwalten."
       },
       "3": {
-        "title": "Fortgeschrittene Analysen",
-        "desc": "Nutzen Sie leistungsstarke Analysetools, um Muster und Trends zu verstehen."
+        "title": "Mobilfreundlich",
+        "desc": "Nutzen Sie Pigeon Map einfach auf jedem Gerät, wo immer Sie hingehen."
       }
     },
-    "pricing": {
-      "title": "Einfache Preise",
-      "subtitle": "Wählen Sie den Plan, der am besten zu Ihnen passt.",
-      "free": {
-        "title": "Kostenlos",
-        "price": "0€",
-        "period": "/Monat",
-        "features": [
-          "Bis zu 10 Karten",
-          "Grundlegende Funktionen",
-          "Community-Support"
-        ],
-        "cta": "Jetzt beginnen"
-      },
-      "pro": {
-        "title": "Pro",
-        "price": "9€",
-        "period": "/Monat",
-        "features": [
-          "Unbegrenzte Karten",
-          "Erweiterte Funktionen",
-          "Prioritätssupport",
-          "Analysen"
-        ],
-        "cta": "Pro werden"
-      }
+    "cta": {
+      "title": "Bereit zum Kartieren?",
+      "subtitle": "Melden Sie sich an oder erstellen Sie Ihre erste Karte in Sekunden.",
+      "button": "Zum Dashboard"
     },
-    "footer": {
-      "description": "Die beste Plattform zum Teilen und Verwalten von Standorten.",
-      "links": {
-        "product": "Produkt",
-        "features": "Funktionen",
-        "pricing": "Preise",
-        "changelog": "Änderungsprotokoll",
-        "company": "Unternehmen",
-        "about": "Über uns",
-        "contact": "Kontakt",
-        "blog": "Blog",
-        "resources": "Ressourcen",
-        "documentation": "Dokumentation",
-        "help": "Hilfe",
-        "support": "Support"
+    "register": {
+      "title": "Treten Sie der Taubenliebhaber-Community bei",
+      "subtitle": "Beginnen Sie heute mit Pigeon Map und entdecken Sie alle Möglichkeiten",
+      "benefits": [
+        "100% kostenlos - alle Funktionen ohne Gebühren",
+        "Echtzeit-Flugverfolgung und Ergebnisse",
+        "Online-Stammbaum und Zuchtmanagement",
+        "Zusammenarbeit mit anderen Liebhabern",
+        "Zugang von jedem Gerät"
+      ],
+      "button": "Kostenlos registrieren"
+    }
+  },
+  "Footer": {
+    "description": "Moderne Plattform für Taubenliebhaber. Verfolgen, verwalten und teilen Sie Taubenflüge und Stammbäume online - völlig kostenlos.",
+    "rights": "Alle Rechte vorbehalten.",
+    "quickLinks": "Schnelllinks",
+    "login": "Anmelden",
+    "register": "Registrieren",
+    "blog": "Blog",
+    "contact": "Kontakt",
+    "legal": "Rechtliches",
+    "privacyPolicy": "Datenschutzrichtlinie",
+    "news": "Blog",
+    "support": "Support",
+    "madeWith": "Gemacht mit",
+    "forPigeonCommunity": "für die Taubengemeinschaft"
+  },
+  "FAQ": {
+    "title": "Häufig gestellte Fragen",
+    "subtitle": "Finden Sie Antworten auf die häufigsten Fragen zu Pigeon Map",
+    "items": {
+      "1": {
+        "question": "Was ist Pigeon Map?",
+        "answer": "Pigeon Map ist eine moderne Plattform für Taubenliebhaber zum Verfolgen, Verwalten und Teilen ihrer Taubenflüge und Stammbäume online. Es bietet umfassende Tools für Zuchtmanagement und Flugverfolgung."
       },
-      "legal": {
-        "privacy": "Datenschutz",
-        "terms": "Nutzungsbedingungen"
+      "2": {
+        "question": "Wie registriere ich mich für Pigeon Map?",
+        "answer": "Sie können sich registrieren, indem Sie auf die Schaltfläche 'Registrieren' klicken und das Registrierungsformular ausfüllen. Nach der Registrierung erhalten Sie eine Bestätigungs-E-Mail, die Sie verifizieren müssen, bevor Sie die Plattform nutzen können."
       },
-      "copyright": "© 2024 Pigeon Map. Alle Rechte vorbehalten."
+      "3": {
+        "question": "Ist Pigeon Map kostenlos nutzbar?",
+        "answer": "Ja! Pigeon Map ist 100% kostenlos nutzbar. Alle Funktionen sind ohne Abonnementgebühren oder versteckte Kosten verfügbar. Wir glauben daran, die Taubenrennsport-Community mit kostenlosem Zugang zu all unseren Tools und Diensten zu unterstützen."
+      },
+      "4": {
+        "question": "Ist Pigeon Map eine App?",
+        "answer": "Pigeon Map ist eine webbasierte Plattform, die in Ihrem Browser funktioniert. Obwohl es keine native mobile App ist, ist es vollständig für mobile Geräte optimiert und funktioniert perfekt auf Smartphones und Tablets. Sie können es sogar zu Ihrem Startbildschirm hinzufügen für ein app-ähnliches Erlebnis."
+      },
+      "5": {
+        "question": "Kann ich Pigeon Map auf meinem mobilen Gerät verwenden?",
+        "answer": "Ja! Pigeon Map ist vollständig responsiv und funktioniert nahtlos auf Smartphones, Tablets und Desktop-Computern. Sie können auf alle Funktionen von jedem Gerät mit Internetverbindung zugreifen."
+      },
+      "6": {
+        "question": "Wie verfolge ich meine Taubenflüge?",
+        "answer": "Nach dem Anmelden können Sie Flüge über das Dashboard hinzufügen. Geben Sie Flugdetails ein, laden Sie GPS-Daten hoch, falls verfügbar, und verfolgen Sie die Leistung Ihrer Tauben über die Zeit mit detaillierten Analysen und Karten."
+      }
     }
   },
   "Register": {
     "title": "Registrieren",
-    "name": "Name",
+    "username": "Benutzername",
     "email": "E-Mail",
     "password": "Passwort",
-    "confirmPassword": "Passwort bestätigen",
+    "passwordRepeat": "Passwort wiederholen",
+    "firstName": "Vorname (optional)",
+    "lastName": "Nachname (optional)",
+    "phoneNumber": "Telefonnummer (optional)",
+    "country": "Land",
+    "countrySelectPlaceholder": "Wählen Sie Ihr Land",
+    "acceptPrivacyPolicy": "Ich akzeptiere die",
+    "privacyPolicyLink": "Datenschutzrichtlinie",
     "registerButton": "Registrieren",
-    "login": "Anmelden",
-    "alreadyHaveAccount": "Haben Sie bereits ein Konto?",
-    "submitSuccess": "Registrierung erfolgreich! Überprüfen Sie Ihre E-Mail.",
-    "howToLoginRegister": "Wissen Sie nicht, wie man sich registriert oder anmeldet?"
+    "submitting": "Registrierung läuft...",
+    "login": "Zurück zur Anmeldung",
+    "forgotPassword": "Passwort vergessen",
+    "usernameRequired": "Benutzername ist erforderlich",
+    "emailRequired": "E-Mail ist erforderlich",
+    "passwordRequired": "Passwort ist erforderlich",
+    "usernameMin": "Benutzername muss mindestens 3 Zeichen haben",
+    "emailInvalid": "Ungültige E-Mail-Adresse",
+    "passwordMin": "Passwort muss mindestens 6 Zeichen haben",
+    "firstNameRequired": "Vorname eingeben",
+    "lastNameRequired": "Nachname eingeben",
+    "phoneInvalid": "Ungültige Telefonnummer",
+    "countryRequired": "Wählen Sie Ihr Land",
+    "passwordsMustMatch": "Passwörter müssen übereinstimmen",
+    "errorAcceptPrivacyPolicy": "Sie müssen die Datenschutzrichtlinie akzeptieren, um sich zu registrieren",
+    "Albania": "Albanien",
+    "Austria": "Österreich",
+    "Bosnia and Herzegovina": "Bosnien und Herzegowina",
+    "Belgium": "Belgien",
+    "Bulgaria": "Bulgarien",
+    "Belarus": "Weißrussland",
+    "Czech Republic": "Tschechische Republik",
+    "Germany": "Deutschland",
+    "Denmark": "Dänemark",
+    "Estonia": "Estland",
+    "Spain": "Spanien",
+    "Finland": "Finnland",
+    "France": "Frankreich",
+    "United Kingdom": "Vereinigtes Königreich",
+    "Greece": "Griechenland",
+    "Croatia": "Kroatien",
+    "Hungary": "Ungarn",
+    "Ireland": "Irland",
+    "Italy": "Italien",
+    "Lithuania": "Litauen",
+    "Latvia": "Lettland",
+    "Moldova": "Moldau",
+    "Montenegro": "Montenegro",
+    "North Macedonia": "Nordmazedonien",
+    "Netherlands": "Niederlande",
+    "Norway": "Norwegen",
+    "Poland": "Polen",
+    "Portugal": "Portugal",
+    "Romania": "Rumänien",
+    "Serbia": "Serbien",
+    "Russia": "Russland",
+    "Sweden": "Schweden",
+    "Switzerland": "Schweiz",
+    "Slovenia": "Slowenien",
+    "Slovakia": "Slowakei",
+    "Turkey": "Türkei",
+    "Ukraine": "Ukraine",
+    "United States": "Vereinigte Staaten",
+    "Other": "Andere"
+  },
+  "policyPrivacy": {
+    "Title": "Datenschutzrichtlinie",
+    "Administration": "Der Verantwortliche für personenbezogene Daten gemäß der allgemein verfügbaren Verordnung (EU) des Europäischen Parlaments und des Rates vom 27. April 2016 zum Schutz natürlicher Personen bei der Verarbeitung personenbezogener Daten und zum freien Datenverkehr und zur Aufhebung der Richtlinie 95/46/EG (nachfolgend: Verordnung) ist das Unternehmen DIGGING Barbara Skrzypnik, NIP 8791530559, Sikorowo 32, 88-100 Inowrocław.",
+    "CollectedDataTitle": "Gesammelte personenbezogene Daten",
+    "CollectedDataDescription": "Die PIGEON MAP-Anwendung sammelt folgende personenbezogene Daten von Benutzern: E-Mail, Benutzername, Vor- und Nachname, Telefonnummer. Alle Daten werden zur Verbesserung der Dienste und zu Marketingzwecken heruntergeladen. Bezirk, Zweigstelle, Sektionen (betrifft Teilnahme an Taubenrennen) zur Erbringung von Anwendungsdiensten. Flugdaten (Flugname, Flugdatum, Flugendedatum, Ort der Taubenfreigabe, Name des Taubenschlags, Koordinaten des Taubenschlags, teilnehmende Benutzer, Flugverwaltung) werden zur Erbringung des Dienstes und zur Verbesserung der Dienstleistung heruntergeladen.",
+    "DataShareTitle": "Verarbeitung personenbezogener Daten",
+    "DataShareDescription": "Benutzer haben die Möglichkeit, Informationen über ihre Flüge anderen Benutzern zur Verfügung zu stellen. Die offengelegten Daten umfassen: Flugname, Flugdatum, Flugendedatum, Ort der Taubenfreigabe, Name des Taubenschlags, Taubenkoordinaten, teilnehmende Benutzer, Flugverwaltung. Geteilte Flüge können auf der Karte in der Anwendung angezeigt werden.",
+    "ConsentToSharingDataTitle": "Zustimmung zur Datenweitergabe",
+    "ConsentToSharingDataDescription": "Bei der Teilnahme an Taubenrennen (Wettkampfflüge) sowie privaten Flügen muss der Benutzer der Bereitstellung von Daten im Zusammenhang mit diesen Ereignissen zustimmen. Ohne Benutzerzustimmung werden Flugdaten anderen Teilnehmern der Veranstaltung nicht zur Verfügung gestellt.",
+    "DataRemovalTitle": "Datenlöschung",
+    "DataRemovalDescription": "Benutzer haben die Möglichkeit, einige Daten im Zusammenhang mit Tauben, Freigabeorten und Flügen zu löschen. Es ist erwähnenswert, dass die Datenlöschung Informationen im Zusammenhang mit den Taubenschlägen selbst, Freigabeorten und Flügen umfasst, nicht personenbezogene Daten wie E-Mail, Telefonnummer, Vor- oder Nachname. Personenbezogene Daten werden gemäß den geltenden gesetzlichen Bestimmungen und einer Datenschutzrichtlinie gespeichert.",
+    "PurposeOfDataCollectionTitle": "Zweck der Datensammlung",
+    "PurposeOfDataCollectionDescription": "Personenbezogene Daten werden gesammelt, um die Nutzung der Pigeon Map-Anwendungsfunktion zu ermöglichen, einschließlich der Teilnahme an Taubenrennen, dem Durchsuchen von Flügen auf der Karte und der Verbesserung von Fehlern in Diensten und zu Marketingzwecken.",
+    "DataSafetyTitle": "Datensicherheit",
+    "DataSafetyDescription": "Das Pigeon Map-Team ist bestrebt, die Sicherheit der gesammelten Daten zu gewährleisten. Angemessene Sicherheitsmaßnahmen werden implementiert, um Daten vor unbefugtem Zugriff, Verlust, Beschädigung oder unbefugter Offenlegung zu schützen.",
+    "RightToAccessCorrectAndDeleteDataTitle": "Recht auf Zugang, Berichtigung und Löschung von Daten",
+    "RightToAccessCorrectAndDeleteDataDescription": "Benutzer haben das Recht auf Zugang zu ihren personenbezogenen Daten, deren Berichtigung und Löschung. Bitte kontaktieren Sie uns, um diese Rechte auszuüben. E-Mail: kontakt@digging.pl",
+    "LegalBasisTitle": "Rechtsgrundlage",
+    "LegalBasisDescription": "Die Datenschutzrichtlinie der Pigeon MAP-Anwendung basiert auf den Grundsätzen der Datenschutz-Grundverordnung (DSGVO) und anderen anwendbaren Bestimmungen zum Schutz der Privatsphäre. Die Verarbeitung personenbezogener Daten der Benutzer basiert auf einer der folgenden Rechtsgrundlagen: Zustimmung des Benutzers, Vertragserfüllung und gesetzliche Verpflichtung.",
+    "TargetDescription": "Die Datenschutzrichtlinie zielt darauf ab, den vollständigen Schutz der Privatsphäre der Pigeon MAP-Benutzer in Übereinstimmung mit den aktuellen gesetzlichen Bestimmungen zum Schutz personenbezogener Daten zu gewährleisten."
   },
   "ForgotPassword": {
     "title": "Passwort vergessen",
-    "subtitle": "Geben Sie Ihre E-Mail-Adresse ein und wir senden Ihnen einen Link zum Zurücksetzen Ihres Passworts.",
+    "subtitle": "Geben Sie Ihre E-Mail-Adresse ein und wir senden Ihnen einen Link zum Zurücksetzen des Passworts.",
     "email": "E-Mail",
     "submit": "Link senden",
     "backToLogin": "Zurück zur Anmeldung",
     "submitSuccess": "Link zum Zurücksetzen des Passworts wurde gesendet!"
   },
-  "Privacy": {
-    "title": "Datenschutzrichtlinie",
-    "lastUpdated": "Zuletzt aktualisiert",
-    "sections": {
-      "introduction": {
-        "title": "Einführung",
-        "content": "Diese Datenschutzrichtlinie beschreibt, wie Pigeon Map Ihre persönlichen Daten sammelt, verwendet und schützt."
-      },
-      "dataCollection": {
-        "title": "Datensammlung",
-        "content": "Wir sammeln Informationen, die Sie uns direkt zur Verfügung stellen, wie z.B. bei der Erstellung eines Kontos oder der Kontaktaufnahme mit uns."
-      },
-      "dataUsage": {
-        "title": "Datenverwendung",
-        "content": "Wir verwenden Ihre Daten, um unsere Dienste bereitzustellen, zu verbessern und mit Ihnen zu kommunizieren."
-      },
-      "dataSharing": {
-        "title": "Datenweitergabe",
-        "content": "Wir verkaufen, handeln oder übertragen Ihre persönlichen Daten nicht an Dritte, außer wie in dieser Richtlinie beschrieben."
-      },
-      "security": {
-        "title": "Sicherheit",
-        "content": "Wir implementieren angemessene Sicherheitsmaßnahmen zum Schutz Ihrer persönlichen Daten."
-      },
-      "contact": {
-        "title": "Kontakt",
-        "content": "Wenn Sie Fragen zu dieser Datenschutzrichtlinie haben, kontaktieren Sie uns bitte."
-      }
-    }
+  "Error": {
+    "WRONG_PASSWORD_OR_USERNAME": "Falscher Benutzername oder Passwort. Bitte versuchen Sie es erneut, oder falls Sie kein Konto haben, klicken Sie auf die Registrierungs-Schaltfläche.",
+    "USERNAME_REQUIRED": "Bitte geben Sie Ihren Benutzernamen ein",
+    "PASSWORD_REQUIRED": "Bitte geben Sie Ihr Passwort ein",
+    "USERNAME_ALREADY_EXISTS": "Dieser Benutzername ist bereits vergeben. Bitte wählen Sie einen anderen.",
+    "EMAIL_REQUIRED": "Bitte geben Sie Ihre E-Mail-Adresse ein",
+    "EMAIL_INVALID": "Bitte geben Sie eine gültige E-Mail-Adresse ein. Zum Beispiel: map.pigeon@email.com",
+    "EMAIL_ALREADY_EXISTS": "Diese E-Mail-Adresse wird bereits verwendet. Bitte wählen Sie eine andere.",
+    "PHONE_NUMBER_INVALID": "Bitte geben Sie eine gültige Telefonnummer mit Ländervorwahl ein. Bedenken Sie, dass die Telefonnummer optional ist. Zum Beispiel: +48123456789",
+    "PHONE_NUMBER_ALREADY_EXISTS": "Diese Telefonnummer wird bereits verwendet. Bitte wählen Sie eine andere.",
+    "USERNAME_TOO_SHORT": "Bitte geben Sie einen Benutzernamen mit mindestens 4 Zeichen ein.",
+    "PASSWORD_TOO_SHORT": "Bitte geben Sie ein Passwort mit mindestens 6 Zeichen ein.",
+    "DIFFERENT_PASSWORDS": "Bitte geben Sie das gleiche Passwort zweimal ein.",
+    "EMAIL_NOT_VERIFIED": "Ihre E-Mail-Adresse ist nicht verifiziert. Um fortzufahren, überprüfen Sie Ihre E-Mail und verifizieren Sie Ihr Konto.",
+    "PRIVATE_TAG": "Private Tag-Fehlermeldung",
+    "WRONG_TAG_TYPE": "Falscher Tag-Typ-Fehlermeldung",
+    "TAG_NOT_FOUND": "Fehlermeldung, Tag nicht gefunden",
+    "PREDEFINED_TAG_DELETE": "Vordefinierte Tag-Löschungsfehlermeldung",
+    "PREDEFINED_TAG_UPDATE": "Vordefinierte Tag-Update-Fehlermeldung",
+    "WRONG_TYPE_OF_OVERLAY_URL_TYPE": "Falscher OverlayUrl-Typ-Fehlermeldung",
+    "END_TAG_REQUIRED": "Fehlermeldung, End-Tag erforderlich",
+    "OPEN_FLIGHT_REFER": "Fehlermeldung, Verweis auf offenen Flug",
+    "OPEN_FLIGHT_REFER_TYPE": "Fehlermeldung, Typ des Verweises auf offenen Flug",
+    "END_TAG_NOT_POSSIBLE": "Fehlermeldung, End-Tag nicht möglich",
+    "OPEN_FLIGHT_CREATE_ONLY_PLANNER": "Fehlermeldung, Erstellen offener Flug nur für Planer",
+    "DEFAULT_TAG_IS_NOT_COTE": "Fehlermeldung, Standard-Tag ist kein Cote",
+    "USER_NOT_FOUND": "Fehlermeldung, Benutzer nicht gefunden",
+    "USER_IS_NOT_REGULAR": "Fehlermeldung, Benutzer ist nicht regulär",
+    "REQUEST_IS_PROCESSED": "Fehlermeldung, Anfrage wird bearbeitet",
+    "OPEN_FLIGHT_REFER_OWNER": "Fehlermeldung, Verweis auf Besitzer des offenen Flugs",
+    "OPEN_FLIGHT_UPDATE_NOT_ALLOWED": "Fehlermeldung, Update des offenen Flugs nicht erlaubt",
+    "DISTRICT_REQUIRED": "Fehlermeldung, Bezirk erforderlich",
+    "BRANCH_REQUIRED": "Fehlermeldung, Zweigstelle erforderlich",
+    "SECTION_REQUIRED": "Fehlermeldung, Sektion erforderlich",
+    "DISTRICT_BRANCH_SECTION_NOT_MATCH": "Fehlermeldung, Bezirk, Zweigstelle und Sektion stimmen nicht überein",
+    "DISTRICT_ALREADY_FILLED": "Fehlermeldung, Bezirk bereits ausgefüllt",
+    "PIGEONMAP_TYPE_USER": "Der angegebene Benutzername/E-Mail ist registriert, aber zum Anmelden müssen Sie die E-Mail (Benutzername) und das Passwort eingeben und die Anmelde-Schaltfläche drücken.",
+    "OUTSIDE_TYPE_USER": "Der angegebene Benutzername/E-Mail ist registriert, aber Sie müssen eine andere Authentifizierung verwenden. Versuchen Sie sich mit den Schaltflächen rechts von der 'Anmelden'-Schaltfläche zu authentifizieren",
+    "CANNOT_UPDATE_FLIGHT": "Überprüfen Sie, ob Sie alle notwendigen Daten haben, d.h. Flugname, Freigabeort, Taubenschlag und Startdatum.",
+    "FINISH_FLIGHT_UPDATE_NOT_ALLOWED": "Sie können den Flug nicht aktualisieren, da er bereits abgeschlossen wurde.",
+    "FLIGHT_UPDATE_NOT_ALLOWED": "Sie können den Flug nicht aktualisieren. Überprüfen Sie, ob Sie der Besitzer sind und ob der Flug bereits abgeschlossen wurde.",
+    "ALREADY_JOINED_FLIGHT": "Sie sind diesem Flug bereits beigetreten",
+    "FLIGHT_DELETE_NOT_ALLOWED": "Das Entfernen des Flugs ist nicht möglich, überprüfen Sie, ob der Flug Ihnen gehört",
+    "JOIN__NOT_ALLOWED_ANOTHER_DISTRICT": "Sie können diesem Wettbewerb nicht beitreten, da der Benutzer, der den Flug erstellt hat, in einer anderen Zweigstelle ist.",
+    "NOTFOUND": "Objekt mit der angegebenen Kennung nicht gefunden",
+    "FORBIDDEN": "Zugriff auf die Ressource verweigert",
+    "ALREADY_EXISTS": "Objekt mit der angegebenen Kennung existiert bereits",
+    "BUYER_NAME_IS_REQUIRED": "Käufername ist erforderlich",
+    "SEASON_IS_REQUIRED": "Saison ist erforderlich",
+    "BROOD_IS_INVALID": "Brut ist ungültig",
+    "DEFINED_SEX_IS_CHANGED": "Definiertes Geschlecht kann nicht geändert werden (es kann nur einmal geändert werden)",
+    "NOT_FERTILE_EGG": "Ein nicht fruchtbares Ei kann nicht ausgebrütet werden",
+    "PIGEON_NOT_ACTIVE": "Aktionen an einer inaktiven Taube können nicht ausgeführt werden",
+    "INVALID_MOVE": "Die Reihenfolge der Taube in der Liste kann nicht geändert werden. Überprüfen Sie, ob Gruppe und Saison korrekt sind.",
+    "EGG_IS_BORN": "Wenn die Taube im Pigeon Map-System geschlüpft ist, kann der Elternteil nicht geändert werden",
+    "DATE_OF_LAYING_EMPTY": "Bitte füllen Sie das Legedatum aus",
+    "MAP_FLIGHT_ERROR": "Karten-Flug-Fehlermeldung"
   }
 }

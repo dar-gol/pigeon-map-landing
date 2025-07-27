@@ -30,8 +30,38 @@
     "howToLoginRegister": "Weet u niet hoe u zich moet registreren of inloggen?",
     "appNews": "Bekijk nieuws uit de wereld van Pigeon Map!"
   },
+  "FAQ": {
+    "title": "Veelgestelde vragen",
+    "subtitle": "Vind antwoorden op de meest gestelde vragen over Pigeon Map",
+    "items": {
+      "1": {
+        "question": "Wat is Pigeon Map?",
+        "answer": "Pigeon Map is een modern platform ontworpen voor duivenliefhebbers om hun duivenvluchten en stambomen online te volgen, beheren en delen. Het biedt uitgebreide tools voor fokbeheer en vluchttracking."
+      },
+      "2": {
+        "question": "Hoe registreer ik me voor Pigeon Map?",
+        "answer": "U kunt zich registreren door op de knop 'Registreren' te klikken en het registratieformulier in te vullen. Na registratie ontvangt u een bevestigingsmail die u moet verifiëren voordat u het platform kunt gebruiken."
+      },
+      "3": {
+        "question": "Is Pigeon Map gratis?",
+        "answer": "Ja! Pigeon Map is 100% gratis. Alle functies zijn beschikbaar zonder abonnementskosten of verborgen kosten. Wij geloven in het ondersteunen van de duivenliefhebbersgemeenschap door gratis toegang tot al onze tools en diensten."
+      },
+      "4": {
+        "question": "Is er een mobiele app?",
+        "answer": "Pigeon Map is een Progressive Web App (PWA), wat betekent dat het werkt als een native app op uw telefoon of tablet. U kunt het eenvoudig aan uw startscherm toevoegen voor snelle toegang."
+      },
+      "5": {
+        "question": "Kan ik Pigeon Map op mijn mobiele apparaat gebruiken?",
+        "answer": "Ja! Pigeon Map is volledig responsief en werkt naadloos op smartphones, tablets en desktopcomputers. U hebt toegang tot alle functies vanaf elk apparaat met een internetverbinding."
+      },
+      "6": {
+        "question": "Hoe volg ik mijn duivenvluchten?",
+        "answer": "Eenmaal ingelogd kunt u vluchten toevoegen via het dashboard. Voer vluchtdetails in, upload GPS-gegevens indien beschikbaar, en volg de prestaties van uw duiven in de tijd met gedetailleerde analyses en kaarten."
+      }
+    }
+  },
   "Landing": {
-    "AboutApp": {
+    "aboutApp": {
     "title": "Over de Pigeon Map Applicatie",
     "description": "Pigeon Map is een moderne PWA (Progressive Web App) ontworpen voor duivenliefhebbers om vluchten te beheren en hun bestanden te monitoren.",
     "tracking": {
@@ -88,13 +118,42 @@
         "desc": "Creëer en beheer complete records van uw duiven met stambomen en fokgegevens."
       },
       "2": {
-        "title": "Real-time samenwerking",
-        "desc": "Nodig anderen uit om samen kaarten te beheren."
+        "title": "Vluchttracking",
+        "desc": "Volg uw duivenvluchten in realtime met GPS-monitoring en gedetailleerde analyses."
       },
       "3": {
-        "title": "Geavanceerde analyses",
-        "desc": "Gebruik krachtige analysetools om patronen en trends te begrijpen."
+        "title": "Weersmonitoring",
+        "desc": "Controleer weersomstandigheden om optimale vluchttijden te plannen."
+      },
+      "4": {
+        "title": "Prestatie-analyses",
+        "desc": "Analyseer de prestaties van uw duiven met uitgebreide statistieken en rapporten."
+      },
+      "5": {
+        "title": "Gemeenschap van fokkers",
+        "desc": "Verbind met andere duivenliefhebbers en deel ervaringen en resultaten."
+      },
+      "6": {
+        "title": "Mobiele toegang",
+        "desc": "Toegang tot alle functies vanaf elk apparaat - smartphone, tablet of desktop."
       }
+    },
+    "cta": {
+      "title": "Klaar om te beginnen met mappen?",
+      "subtitle": "Log in of maak uw eerste kaart binnen enkele seconden.",
+      "button": "Ga naar dashboard"
+    },
+    "register": {
+      "title": "Word lid van de duivenliefhebbersgemeenschap",
+      "subtitle": "Begin vandaag nog met Pigeon Map en ontdek alle mogelijkheden",
+      "benefits": [
+        "100% gratis - alle functies zonder kosten",
+        "Realtime tracking van vluchten en resultaten",
+        "Online stamboom- en fokbeheer",
+        "Samenwerking met andere fokkers",
+        "Toegang vanaf elk apparaat"
+      ],
+      "button": "Gratis registreren"
     },
     "pricing": {
       "title": "Eenvoudige prijzen",
@@ -122,49 +181,123 @@
         ],
         "cta": "Ga Pro"
       }
-    },
-    "footer": {
-      "description": "Het beste platform voor het delen en beheren van locaties.",
-      "links": {
-        "product": "Product",
-        "features": "Functies",
-        "pricing": "Prijzen",
-        "changelog": "Wijzigingslog",
-        "company": "Bedrijf",
-        "about": "Over ons",
-        "contact": "Contact",
-        "blog": "Blog",
-        "resources": "Bronnen",
-        "documentation": "Documentatie",
-        "help": "Hulp",
-        "support": "Ondersteuning"
-      },
-      "legal": {
-        "privacy": "Privacy",
-        "terms": "Voorwaarden"
-      },
-      "copyright": "© 2024 Pigeon Map. Alle rechten voorbehouden."
     }
   },
+"Footer": {
+    "description": "Modern platform voor duivenliefhebbers. Volg, beheer en deel je duivenvluchten en stambomen online - volledig gratis.",
+    "rights": "Alle rechten voorbehouden.",
+    "quickLinks": "Snelle Links",
+    "login": "Inloggen",
+    "register": "Registreren",
+    "blog": "Blog",
+    "contact": "Contact",
+    "legal": "Juridisch",
+    "privacyPolicy": "Privacybeleid",
+    "news": "Blog",
+    "support": "Ondersteuning",
+    "madeWith": "Gemaakt met",
+    "forPigeonCommunity": "voor de duivengemeenschap"
+},
   "Register": {
     "title": "Registreren",
-    "name": "Naam",
+    "username": "Gebruikersnaam",
     "email": "E-mail",
     "password": "Wachtwoord",
-    "confirmPassword": "Wachtwoord bevestigen",
+    "passwordRepeat": "Herhaal wachtwoord",
+    "firstName": "Voornaam (optioneel)",
+    "lastName": "Achternaam (optioneel)",
+    "phoneNumber": "Telefoonnummer (optioneel)",
+    "country": "Land",
+    "countrySelectPlaceholder": "Selecteer uw land",
+    "acceptPrivacyPolicy": "Ik accepteer het",
+    "privacyPolicyLink": "privacybeleid",
     "registerButton": "Registreren",
-    "login": "Inloggen",
-    "alreadyHaveAccount": "Heeft u al een account?",
-    "submitSuccess": "Registratie succesvol! Controleer uw e-mail.",
-    "howToLoginRegister": "Weet u niet hoe u zich moet registreren of inloggen?"
+    "submitting": "Registreren...",
+    "login": "Terug naar inloggen",
+    "forgotPassword": "Wachtwoord vergeten",
+    "usernameRequired": "Gebruikersnaam is verplicht",
+    "emailRequired": "E-mail is verplicht",
+    "passwordRequired": "Wachtwoord is verplicht",
+    "usernameMin": "Gebruikersnaam moet minimaal 3 tekens hebben",
+    "emailInvalid": "Ongeldig e-mailadres",
+    "passwordMin": "Wachtwoord moet minimaal 6 tekens hebben",
+    "firstNameRequired": "Voer voornaam in",
+    "lastNameRequired": "Voer achternaam in",
+    "phoneInvalid": "Ongeldig telefoonnummer",
+    "countryRequired": "Selecteer uw land",
+    "passwordsMustMatch": "Wachtwoorden moeten overeenkomen",
+    "errorAcceptPrivacyPolicy": "U moet het privacybeleid accepteren om u te kunnen registreren",
+    "Albania": "Albanië",
+    "Austria": "Oostenrijk",
+    "Bosnia and Herzegovina": "Bosnië en Herzegovina",
+    "Belgium": "België",
+    "Bulgaria": "Bulgarije",
+    "Belarus": "Wit-Rusland",
+    "Czech Republic": "Tsjechië",
+    "Germany": "Duitsland",
+    "Denmark": "Denemarken",
+    "Estonia": "Estland",
+    "Spain": "Spanje",
+    "Finland": "Finland",
+    "France": "Frankrijk",
+    "United Kingdom": "Verenigd Koninkrijk",
+    "Greece": "Griekenland",
+    "Croatia": "Kroatië",
+    "Hungary": "Hongarije",
+    "Ireland": "Ierland",
+    "Italy": "Italië",
+    "Lithuania": "Litouwen",
+    "Latvia": "Letland",
+    "Moldova": "Moldavië",
+    "Montenegro": "Montenegro",
+    "North Macedonia": "Noord-Macedonië",
+    "Netherlands": "Nederland",
+    "Norway": "Noorwegen",
+    "Poland": "Polen",
+    "Portugal": "Portugal",
+    "Romania": "Roemenië",
+    "Serbia": "Servië",
+    "Russia": "Rusland",
+    "Sweden": "Zweden",
+    "Switzerland": "Zwitserland",
+    "Slovenia": "Slovenië",
+    "Slovakia": "Slowakije",
+    "Turkey": "Turkije",
+    "Ukraine": "Oekraïne",
+    "United States": "Verenigde Staten",
+    "Other": "Anders"
+  },
+  "policyPrivacy": {
+    "Title": "Privacybeleid",
+    "Administration": "De verwerkingsverantwoordelijke voor persoonsgegevens in de algemeen beschikbare Verordening (EU) van het Europees Parlement en de Raad van 27 april 2016 betreffende de bescherming van natuurlijke personen in verband met de verwerking van persoonsgegevens en betreffende het vrije verkeer van die gegevens en tot intrekking van Richtlijn 95/46/EG (hierna: verordening) is het bedrijf DIGGING Barbara Skrzypnik, BTW 8791530559, Sikorowo 32, 88-100 Inowrocław.",
+    "CollectedDataTitle": "Verzamelde persoonsgegevens",
+    "CollectedDataDescription": "De PIGEON MAP applicatie verzamelt de volgende persoonsgegevens van gebruikers: e-mail, gebruikersnaam, voor- en achternaam, telefoonnummer, alle gegevens worden verzameld om diensten te verbeteren en voor marketingdoeleinden. District, afdeling, secties (betreft deelname aan duivenraces) om applicatiediensten uit te voeren. Fouten, vluchtgegevens (vluchtnaam, vluchtdatum, einddatum van de vlucht, plaats van duivenloslating, naam van de hok, coördinaten van de hok, deelnemende gebruikers, vluchtbeheer) worden verzameld om de dienst uit te voeren, dienstverlening te verbeteren.",
+    "DataShareTitle": "Verwerking van persoonsgegevens",
+    "DataShareDescription": "Gebruikers hebben de mogelijkheid om informatie over hun vluchten te delen met andere gebruikers. De gedeelde gegevens omvatten: vluchtnaam, vluchtdatum, einddatum van de vlucht, plaats van duivenloslating, naam van de hok, duivencoördinaten, deelnemende gebruikers, vluchtbeheer. Gedeelde vluchten kunnen bekeken worden op de kaart in de applicatie.",
+    "ConsentToSharingDataTitle": "Toestemming voor het delen van gegevens",
+    "ConsentToSharingDataDescription": "In het geval van deelname aan duivenraces (wedstrijdvluchten), evenals privévluchten, moet de gebruiker instemmen met het verstrekken van gegevens gerelateerd aan deze evenementen. Zonder toestemming van de gebruiker zullen vluchtgegevens niet beschikbaar worden gesteld aan andere deelnemers van het evenement.",
+    "DataRemovalTitle": "Gegevensverwijdering",
+    "DataRemovalDescription": "Gebruikers hebben de mogelijkheid om bepaalde gegevens gerelateerd aan duiven, loslaatplaatsen en vluchten te verwijderen. Het is belangrijk om op te merken dat gegevensverwijdering informatie betreft gerelateerd aan de hokken zelf, loslaatplaatsen en vluchten, niet persoonsgegevens zoals e-mail, telefoonnummer, voor- of achternaam. Persoonsgegevens worden opgeslagen in overeenstemming met toepasselijke wettelijke voorschriften en een privacybeleid.",
+    "PurposeOfDataCollectionTitle": "Doel van gegevensverzameling",
+    "PurposeOfDataCollectionDescription": "Persoonsgegevens worden verzameld om het gebruik van de Pigeon Map applicatiefuncties mogelijk te maken, waaronder deelname aan duivenraces, bekijken van vluchten op de kaart en verbeteren van fouten in diensten en voor marketingdoeleinden.",
+    "DataSafetyTitle": "Gegevensbeveiliging",
+    "DataSafetyDescription": "Het Pigeon Map team is toegewijd aan het waarborgen van de beveiliging van de verzamelde gegevens. Passende beveiligingsmaatregelen worden geïmplementeerd om gegevens te beschermen tegen ongeautoriseerde toegang, verlies, schade of ongeautoriseerde openbaarmaking.",
+    "RightToAccessCorrectAndDeleteDataTitle": "Recht op toegang, correctie en verwijdering van gegevens",
+    "RightToAccessCorrectAndDeleteDataDescription": "Gebruikers hebben het recht op toegang tot hun persoonsgegevens, correctie en verwijdering ervan. Neem contact met ons op om deze rechten uit te oefenen. E-mail: kontakt@digging.pl",
+    "LegalBasisTitle": "Wettelijke basis",
+    "LegalBasisDescription": "Het Privacybeleid van de Pigeon MAP applicatie is gebaseerd op de principes van de algemene verordening betreffende de bescherming van persoonsgegevens (AVG) en andere toepasselijke bepalingen betreffende de bescherming van privacy. De verwerking van persoonsgegevens van gebruikers is gebaseerd op een van de volgende wettelijke gronden: toestemming van de gebruiker, uitvoering van het contract en wettelijke verplichting.",
+    "TargetDescription": "Het Privacybeleid heeft tot doel volledige bescherming van de Privacy van Pigeon MAP Gebruikers te waarborgen, in overeenstemming met huidige wettelijke voorschriften betreffende de bescherming van persoonsgegevens."
   },
   "ForgotPassword": {
-    "title": "Wachtwoord vergeten",
+    "title": "Wachtwoord vergeten?",
     "subtitle": "Voer uw e-mailadres in en we sturen u een link om uw wachtwoord opnieuw in te stellen.",
     "email": "E-mail",
-    "submit": "Link verzenden",
+    "emailRequired": "E-mail is verplicht.",
+    "submit": "Reset link verzenden",
+    "submitButton": "Reset link verzenden",
     "backToLogin": "Terug naar inloggen",
-    "submitSuccess": "Link voor wachtwoordreset is verzonden!"
+    "submitSuccess": "Als een account met dit e-mailadres bestaat, is een wachtwoord reset link verzonden.",
+    "successMessage": "Als een account met dit e-mailadres bestaat, is een wachtwoord reset link verzonden."
   },
   "Privacy": {
     "title": "Privacybeleid",
@@ -195,5 +328,63 @@
         "content": "Als u vragen heeft over dit privacybeleid, neem dan contact met ons op."
       }
     }
+  },
+  "Error": {
+    "WRONG_PASSWORD_OR_USERNAME": "Onjuiste gebruikersnaam of wachtwoord. Probeer het opnieuw, of als u geen account hebt, klik op de registratieknop.",
+    "USERNAME_REQUIRED": "Voer uw gebruikersnaam in",
+    "PASSWORD_REQUIRED": "Voer uw wachtwoord in",
+    "USERNAME_ALREADY_EXISTS": "Deze gebruikersnaam is al bezet. Kies een andere.",
+    "EMAIL_REQUIRED": "Voer uw e-mailadres in",
+    "EMAIL_INVALID": "Voer een geldig e-mailadres in. Bijvoorbeeld: map.pigeon@email.com",
+    "EMAIL_ALREADY_EXISTS": "Dit e-mailadres wordt al gebruikt. Kies een ander.",
+    "PHONE_NUMBER_INVALID": "Voer een geldig telefoonnummer in met landcode. Onthoud dat het telefoonnummer optioneel is. Bijvoorbeeld: +48123456789",
+    "PHONE_NUMBER_ALREADY_EXISTS": "Dit telefoonnummer wordt al gebruikt. Kies een ander.",
+    "USERNAME_TOO_SHORT": "Voer een gebruikersnaam in met minimaal 4 tekens.",
+    "PASSWORD_TOO_SHORT": "Voer een wachtwoord in met minimaal 6 tekens.",
+    "DIFFERENT_PASSWORDS": "Voer hetzelfde wachtwoord tweemaal in.",
+    "EMAIL_NOT_VERIFIED": "Uw e-mailadres is niet geverifieerd. Om door te gaan, controleer uw e-mail en verifieer uw account.",
+    "PRIVATE_TAG": "Privé tag foutmelding",
+    "WRONG_TAG_TYPE": "Verkeerd tag type foutmelding",
+    "TAG_NOT_FOUND": "Foutmelding, tag niet gevonden",
+    "PREDEFINED_TAG_DELETE": "Voorgedefinieerde tag verwijderingsfout",
+    "PREDEFINED_TAG_UPDATE": "Voorgedefinieerde tag updatefout",
+    "WRONG_TYPE_OF_OVERLAY_URL_TYPE": "Verkeerd OverlayUrl type foutmelding",
+    "END_TAG_REQUIRED": "Foutmelding, eindtag vereist",
+    "OPEN_FLIGHT_REFER": "Foutmelding, verwijzing naar open vlucht",
+    "OPEN_FLIGHT_REFER_TYPE": "Foutmelding, type verwijzing naar open vlucht",
+    "END_TAG_NOT_POSSIBLE": "Foutmelding, eindtag niet mogelijk",
+    "OPEN_FLIGHT_CREATE_ONLY_PLANNER": "Foutmelding, open vlucht aanmaken alleen voor planner",
+    "DEFAULT_TAG_IS_NOT_COTE": "Foutmelding, standaard tag is geen cote",
+    "USER_NOT_FOUND": "Foutmelding, gebruiker niet gevonden",
+    "USER_IS_NOT_REGULAR": "Foutmelding, gebruiker is niet regulier",
+    "REQUEST_IS_PROCESSED": "Foutmelding, verzoek wordt verwerkt",
+    "OPEN_FLIGHT_REFER_OWNER": "Foutmelding, verwijzing naar eigenaar open vlucht",
+    "OPEN_FLIGHT_UPDATE_NOT_ALLOWED": "Foutmelding, open vlucht update niet toegestaan",
+    "DISTRICT_REQUIRED": "Foutmelding, district vereist",
+    "BRANCH_REQUIRED": "Foutmelding, afdeling vereist",
+    "SECTION_REQUIRED": "Foutmelding, sectie vereist",
+    "DISTRICT_BRANCH_SECTION_NOT_MATCH": "Foutmelding, district, afdeling en sectie komen niet overeen",
+    "DISTRICT_ALREADY_FILLED": "Foutmelding, district al ingevuld",
+    "PIGEONMAP_TYPE_USER": "De opgegeven gebruikersnaam/e-mail is geregistreerd, maar om in te loggen moet u de e-mail (gebruikersnaam) en wachtwoord invoeren en op de inlogknop drukken.",
+    "OUTSIDE_TYPE_USER": "De opgegeven gebruikersnaam/e-mail is geregistreerd, maar u moet een andere authenticatie gebruiken. Probeer te authenticeren met de knoppen rechts van de 'Inloggen' knop",
+    "CANNOT_UPDATE_FLIGHT": "Controleer of u alle benodigde gegevens heeft, d.w.z. vluchtnaam, plaats van loslating, duivenhok en startdatum.",
+    "FINISH_FLIGHT_UPDATE_NOT_ALLOWED": "U kunt de vlucht niet bijwerken omdat deze al is voltooid.",
+    "FLIGHT_UPDATE_NOT_ALLOWED": "U kunt de vlucht niet bijwerken. Controleer of u de eigenaar bent en of de vlucht al is voltooid.",
+    "ALREADY_JOINED_FLIGHT": "U bent al toegetreden tot deze vlucht",
+    "FLIGHT_DELETE_NOT_ALLOWED": "Verwijderen van de vlucht is niet mogelijk, controleer of de vlucht van u is",
+    "JOIN__NOT_ALLOWED_ANOTHER_DISTRICT": "U kunt niet deelnemen aan deze wedstrijd omdat de gebruiker die de vlucht heeft aangemaakt in een andere afdeling zit.",
+    "NOTFOUND": "Object met de opgegeven identificatie niet gevonden",
+    "FORBIDDEN": "Toegang tot de bron is geweigerd",
+    "ALREADY_EXISTS": "Object met de opgegeven identificatie bestaat al",
+    "BUYER_NAME_IS_REQUIRED": "Kopernaam is vereist",
+    "SEASON_IS_REQUIRED": "Seizoen is vereist",
+    "BROOD_IS_INVALID": "Broedsel is ongeldig",
+    "DEFINED_SEX_IS_CHANGED": "Kan gedefinieerd geslacht niet wijzigen (kan slechts één keer worden gewijzigd)",
+    "NOT_FERTILE_EGG": "Kan een ei dat niet vruchtbaar is niet laten uitkomen",
+    "PIGEON_NOT_ACTIVE": "Kan geen acties uitvoeren op een inactieve duif",
+    "INVALID_MOVE": "Kan de volgorde van de duif in de lijst niet wijzigen. Controleer of de groep en het seizoen correct zijn.",
+    "EGG_IS_BORN": "Als de duif is uitgekomen in het Pigeon Map systeem, kan de ouder niet worden gewijzigd",
+    "DATE_OF_LAYING_EMPTY": "Vul de datum van leggen in",
+    "MAP_FLIGHT_ERROR": "Kaart vlucht foutmelding"
   }
 }
