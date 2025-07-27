@@ -124,8 +124,12 @@
     "contact": "Kontakt",
     "legal": "Informacje prawne",
     "privacyPolicy": "Polityka prywatności",
-    "news": "Blog",
     "support": "Wsparcie",
+    "blogCategories": "Kategorie bloga",
+    "news": "Nowości",
+    "breeding": "Hodowla",
+    "health": "Zdrowie",
+    "tutorial": "Poradnik",
     "madeWith": "Stworzone z",
     "forPigeonCommunity": "dla społeczności hodowców gołębi"
   },

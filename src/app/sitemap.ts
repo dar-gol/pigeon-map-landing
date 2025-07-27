@@ -1,6 +1,6 @@
 import { MetadataRoute } from "next";
 import { routing } from "@/i18n/routing";
-import { getAllPosts } from "@/lib/posts";
+import { getAllPosts, getAllCategories } from "@/lib/posts";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = "https://pigeon-map.digging.pl";
@@ -51,6 +51,32 @@ export default function sitemap(): MetadataRoute.Sitemap {
       });
     } catch (error) {
       console.error(`Error loading posts for locale ${locale}:`, error);
+    }
+  });
+
+  // Add blog category pages for SEO
+  locales.forEach((locale) => {
+    try {
+      const categories = getAllCategories(locale);
+      categories.forEach((category) => {
+        const categoryPath =
+          locale === "pl" ? "/blog/kategoria" : "/blog/category";
+        const url =
+          locale === "pl"
+            ? `${baseUrl}${categoryPath}/${encodeURIComponent(category)}`
+            : `${baseUrl}/${locale}${categoryPath}/${encodeURIComponent(
+                category
+              )}`;
+
+        sitemapEntries.push({
+          url,
+          lastModified: new Date(),
+          changeFrequency: "weekly",
+          priority: 0.7,
+        });
+      });
+    } catch (error) {
+      console.error(`Error loading categories for locale ${locale}:`, error);
     }
   });
 

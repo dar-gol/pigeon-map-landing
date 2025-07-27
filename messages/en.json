@@ -124,8 +124,12 @@
     "contact": "Contact",
     "legal": "Legal",
     "privacyPolicy": "Privacy Policy",
-    "news": "Blog",
     "support": "Support",
+    "blogCategories": "Blog Categories",
+    "news": "News",
+    "breeding": "Breeding",
+    "health": "Health",
+    "tutorial": "Tutorial",
     "madeWith": "Made with",
     "forPigeonCommunity": "for the pigeon community"
   },

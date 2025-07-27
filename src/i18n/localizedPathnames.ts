@@ -34,6 +34,27 @@ export const localizedPathnames = {
     cs: "/",
     nl: "/",
   },
+  "/blog": {
+    en: "/blog",
+    pl: "/blog",
+    de: "/blog",
+    cs: "/blog",
+    nl: "/blog",
+  },
+  "/blog/category": {
+    en: "/blog/category",
+    pl: "/blog/kategoria",
+    de: "/blog/kategorie",
+    cs: "/blog/kategorie",
+    nl: "/blog/categorie",
+  },
+  "/blog/category/[category]": {
+    en: "/blog/category/[category]",
+    pl: "/blog/kategoria/[category]",
+    de: "/blog/kategorie/[category]",
+    cs: "/blog/kategorie/[category]",
+    nl: "/blog/categorie/[category]",
+  },
   "/news": {
     en: "/news",
     pl: "/aktualnosci",

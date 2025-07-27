@@ -138,3 +138,34 @@ export function getAllPosts(locale?: string) {
     return [];
   }
 }
+
+export function getAllCategories(locale?: string): string[] {
+  logger.blogInfo("Fetching all categories for locale", { locale });
+
+  try {
+    const posts = getAllPosts(locale);
+
+    const categories = Array.from(
+      new Set(
+        posts
+          .filter((post): post is NonNullable<typeof post> => post !== null)
+          .map((post) => post.metadata?.category)
+          .filter((category): category is string => Boolean(category))
+      )
+    );
+
+    logger.blogDebug("Found unique categories", {
+      locale,
+      categories,
+      count: categories.length,
+    });
+    return categories;
+  } catch (error) {
+    const errorMessage = error instanceof Error ? error.message : String(error);
+    logger.blogError("Error loading categories", {
+      locale,
+      error: errorMessage,
+    });
+    return [];
+  }
+}
