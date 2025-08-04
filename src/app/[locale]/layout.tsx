@@ -103,12 +103,27 @@ export default async function LocaleLayout({
         <link rel="icon" href="/assets/logo192.png" />
         <link rel="apple-touch-icon" href="/assets/logo192.png" />
         <link type="text/plain" rel="author" href="/humans.txt" />
-        <meta name="theme-color" content="#009fbe" />
-        <meta name="msapplication-TileColor" content="#009fbe" />
+
+        {/* PWA Manifest */}
+        <link rel="manifest" href="/dashboard-manifest.json" />
+
+        {/* PWA Meta Tags */}
+        <meta name="theme-color" content="#3b82f6" />
+        <meta name="msapplication-TileColor" content="#3b82f6" />
+        <meta name="mobile-web-app-capable" content="yes" />
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+        <meta
+          name="apple-mobile-web-app-title"
+          content="Pigeon Map Dashboard"
+        />
         <meta
           name="viewport"
           content="width=device-width, initial-scale=1, shrink-to-fit=no"
         />
+
+        {/* PWA Initialization Script */}
+        <script src="/dashboard-pwa.js" defer />
 
         {/* Structured Data */}
         <script

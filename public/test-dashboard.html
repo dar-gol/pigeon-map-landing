@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dashboard PWA Test</title>
+    <link rel="manifest" href="/dashboard-manifest.json" />
+    <meta name="theme-color" content="#3b82f6" />
+    <style>
+      body {
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+          sans-serif;
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 20px;
+        line-height: 1.6;
+      }
+      .button {
+        background: #3b82f6;
+        color: white;
+        border: none;
+        padding: 12px 24px;
+        border-radius: 6px;
+        cursor: pointer;
+        margin: 10px 5px;
+        font-size: 16px;
+      }
+      .button:hover {
+        background: #2563eb;
+      }
+      .status {
+        padding: 10px;
+        margin: 10px 0;
+        border-radius: 4px;
+        border: 1px solid #ccc;
+      }
+      .success {
+        background: #d4edda;
+        border-color: #c3e6cb;
+      }
+      .info {
+        background: #d1ecf1;
+        border-color: #bee5eb;
+      }
+      .error {
+        background: #f8d7da;
+        border-color: #f5c6cb;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Dashboard PWA Test Page</h1>
+    <p>
+      This page simulates how the external dashboard would integrate with the
+      PWA functionality.
+    </p>
+
+    <div id="status" class="status info">Initializing PWA...</div>
+
+    <button class="button" onclick="testServiceWorker()">
+      Test Service Worker
+    </button>
+    <button class="button" onclick="testInstall()">Test Install Prompt</button>
+    <button class="button" onclick="checkPWAStatus()">Check PWA Status</button>
+    <button class="button" onclick="testCaching()">Test Caching</button>
+
+    <div
+      id="logs"
+      style="
+        margin-top: 20px;
+        background: #f5f5f5;
+        padding: 15px;
+        border-radius: 4px;
+        max-height: 300px;
+        overflow-y: auto;
+        white-space: pre-wrap;
+        font-family: monospace;
+        font-size: 12px;
+      "
+    ></div>
+
+    <script>
+      // Load the PWA script
+      const script = document.createElement("script");
+      script.src = "/dashboard-pwa.js";
+      document.head.appendChild(script);
+
+      function log(message) {
+        const logs = document.getElementById("logs");
+        const timestamp = new Date().toISOString().split("T")[1].split(".")[0];
+        logs.textContent += `[${timestamp}] ${message}\n`;
+        logs.scrollTop = logs.scrollHeight;
+      }
+
+      function updateStatus(message, type = "info") {
+        const status = document.getElementById("status");
+        status.textContent = message;
+        status.className = `status ${type}`;
+      }
+
+      function testServiceWorker() {
+        if ("serviceWorker" in navigator) {
+          navigator.serviceWorker.ready
+            .then((registration) => {
+              log("✅ Service Worker is ready");
+              log(`Scope: ${registration.scope}`);
+              log(
+                `State: ${
+                  registration.active
+                    ? registration.active.state
+                    : "No active worker"
+                }`
+              );
+              updateStatus("Service Worker is active", "success");
+            })
+            .catch((error) => {
+              log(`❌ Service Worker error: ${error.message}`);
+              updateStatus("Service Worker error", "error");
+            });
+        } else {
+          log("❌ Service Worker not supported");
+          updateStatus("Service Worker not supported", "error");
+        }
+      }
+
+      function testInstall() {
+        if (window.installPWA) {
+          log("🔄 Triggering install prompt...");
+          window.installPWA();
+        } else {
+          log("❌ Install function not available");
+          updateStatus("Install function not ready", "error");
+        }
+      }
+
+      function checkPWAStatus() {
+        if (window.isPWAInstalled) {
+          const isInstalled = window.isPWAInstalled();
+          log(`📱 PWA installed: ${isInstalled ? "Yes" : "No"}`);
+          updateStatus(
+            `PWA ${isInstalled ? "is" : "is not"} installed`,
+            isInstalled ? "success" : "info"
+          );
+        } else {
+          log("❌ PWA status function not available");
+        }
+      }
+
+      function testCaching() {
+        log("🔄 Testing cache functionality...");
+        // Test if files are being cached
+        fetch("/dashboard-manifest.json")
+          .then((response) => {
+            log(
+              `✅ Manifest fetch: ${response.status} (from ${
+                response.headers.get("cache-control") ? "cache" : "network"
+              })`
+            );
+          })
+          .catch((error) => {
+            log(`❌ Manifest fetch failed: ${error.message}`);
+          });
+      }
+
+      // Set up event listeners
+      window.addEventListener("load", () => {
+        log("🔄 Page loaded, waiting for PWA initialization...");
+        setTimeout(() => {
+          testServiceWorker();
+          checkPWAStatus();
+        }, 2000);
+      });
+
+      // Listen for service worker updates
+      navigator.serviceWorker?.addEventListener("message", (event) => {
+        log(`📨 Message from SW: ${JSON.stringify(event.data)}`);
+      });
+
+      // Override console methods to capture PWA logs
+      const originalLog = console.log;
+      console.log = function (...args) {
+        if (args[0] && args[0].includes("[PWA]")) {
+          log(args.join(" "));
+        }
+        originalLog.apply(console, args);
+      };
+
+      log("📄 Test page initialized");
+    </script>
+  </body>
+</html>

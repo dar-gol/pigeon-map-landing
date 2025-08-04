@@ -141,33 +141,41 @@ export default async function CategoryPage({
   }
 }
 
-// Generate static params for known categories
-export async function generateStaticParams({
-  params,
-}: {
-  params: { locale: string };
-}) {
-  const { locale } = params;
+// Add at the top of the file
+export const dynamic = "force-dynamic";
 
-  try {
-    const allPosts = getAllPosts(locale);
-    const categories = Array.from(
-      new Set(
-        allPosts
-          .filter((post) => post !== null)
-          .map((post) => post?.metadata?.category)
-          .filter((category): category is string => Boolean(category))
-      )
-    );
-
-    return categories.map((category) => ({
-      category: encodeURIComponent(category),
-    }));
-  } catch (error) {
-    logger.blogError("Error generating static params for categories", {
-      locale,
-      error: error instanceof Error ? error.message : String(error),
-    });
-    return [];
-  }
+// And simplify generateStaticParams
+export async function generateStaticParams() {
+  return []; // Generate all pages on-demand
 }
+
+// Generate static params for known categories
+// export async function generateStaticParams({
+//   params,
+// }: {
+//   params: { locale: string };
+// }) {
+//   const { locale } = params;
+
+//   try {
+//     const allPosts = getAllPosts(locale);
+//     const categories = Array.from(
+//       new Set(
+//         allPosts
+//           .filter((post) => post !== null)
+//           .map((post) => post?.metadata?.category)
+//           .filter((category): category is string => Boolean(category))
+//       )
+//     );
+
+//     return categories.map((category) => ({
+//       category: encodeURIComponent(category),
+//     }));
+//   } catch (error) {
+//     logger.blogError("Error generating static params for categories", {
+//       locale,
+//       error: error instanceof Error ? error.message : String(error),
+//     });
+//     return [];
+//   }
+// }

@@ -5,6 +5,7 @@ import Navbar from "@/components/Navbar";
 import FAQ from "@/components/FAQ";
 import Footer from "@/components/Footer";
 import { Metadata } from "next";
+import PWARedirect from "@/components/PWARedirect";
 
 export async function generateMetadata({
   params,
@@ -95,6 +96,7 @@ export default async function LandingPage() {
           __html: JSON.stringify(structuredData),
         }}
       />
+      <PWARedirect />
       <main className="min-h-screen bg-white text-grey-100 transition-colors duration-300">
         {/* Navbar */}
         <Navbar />
