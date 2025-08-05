@@ -67,6 +67,14 @@ export default function Navbar() {
             </Link>
           </li>
           <li>
+            <Link
+              href="/about"
+              className="hover:text-primary-100 text-primary-80"
+            >
+              {t("about")}
+            </Link>
+          </li>
+          <li>
             <a
               href="https://digging.pl"
               target="_blank"
@@ -106,6 +114,15 @@ export default function Navbar() {
               onClick={() => setIsOpen(false)}
             >
               {t("news")}
+            </Link>
+          </li>
+          <li>
+            <Link
+              className="hover:text-primary-100 text-primary-80"
+              href="/about"
+              onClick={() => setIsOpen(false)}
+            >
+              {t("about")}
             </Link>
           </li>
           <li>

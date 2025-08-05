@@ -131,7 +131,8 @@
     "health": "Zdrowie",
     "tutorial": "Poradnik",
     "madeWith": "Stworzone z",
-    "forPigeonCommunity": "dla społeczności hodowców gołębi"
+    "forPigeonCommunity": "dla społeczności hodowców gołębi",
+    "about": "O nas"
   },
   "FAQ": {
     "title": "Najczęściej zadawane pytania",
@@ -314,6 +315,115 @@
     "EGG_IS_BORN": "Jeśli gołąb został wykluty w systemie Pigeon Map, nie można zmienić rodzica",
     "DATE_OF_LAYING_EMPTY": "Uzupełnij datę zniesienia",
     "MAP_FLIGHT_ERROR": "Błąd lotu na mapie"
+  },
+  "About": {
+    "title": "O nas",
+    "description": "Poznaj zespół i historię Pigeon Map. Darmowa aplikacja dla hodowców gołębi pocztowych do zarządzania stadami, lotami i rodowodami.",
+    "keywords": "o nas, pigeon map, zespół, historia, hodowcy gołębi, DIGGING Barbara Skrzypnik, Marek Skrzypnik, darmowa aplikacja",
+    "hero": {
+      "title": "O Pigeon Map",
+      "subtitle": "Poznaj naszą historię i zespół pasjonatów gołębi pocztowych"
+    },
+    "forWho": {
+      "title": "Dla kogo jest Pigeon Map?",
+      "description": "Nasza aplikacja została stworzona z myślą o różnych grupach miłośników gołębi:",
+      "pigeonBreeders": "Hodowcy gołębi",
+      "pigeonEnthusiasts": "Miłośnicy gołębi",
+      "flightOrganizers": "Organizatorzy lotów",
+      "recordKeepers": "Prowadzący ewidencję",
+      "pedigreeCreators": "Twórcy rodowodów",
+      "weatherCheckers": "Sprawdzający pogodę",
+      "breeders": "Hodowców gołębi pocztowych prowadzących profesjonalne hodowle",
+      "enthusiasts": "Miłośników gołębi interessujących się lotami i wyścigami",
+      "organizers": "Organizatorów lotów oddziałowych i zawodów",
+      "recordKeepersDesc": "Osób chcących prowadzić uporządkowaną ewidencję gołębi",
+      "pedigreeCreatorsDesc": "Hodowców tworzących szczegółowe rodowody",
+      "weatherUsers": "Osób potrzebujących szybkiego dostępu do warunków pogodowych"
+    },
+    "whoCreates": {
+      "title": "Kto tworzy Pigeon Map?",
+      "description": "Jesteśmy zespołem miłośników gołębi z wieloletnim doświadczeniem:",
+      "familyBusiness": "Rodzinna firma z pasją do gołębi",
+      "experience": "Z miłości do gołębi zaczęliśmy tworzyć pasze wysokiej jakości",
+      "marekDescription": "Pan Marek Skrzypnik to doświadczony hodowca, który zajmuje wysokie pozycje w rankingach lotów gołębi",
+      "teamPassion": "Nasza pasja do gołębi przekłada się na tworzenie narzędzi dla całej społeczności hodowców",
+      "companyDescription": "Barbara Skrzypnik prowadzi firmę DIGGING, która od lat specjalizuje się w tworzeniu rozwiązań dla branży gołębiarskiej.",
+      "innovativeSolutions": "Innowacyjne rozwiązania",
+      "solutionsDescription": "Dzięki pasji do gołębi pocztowych i wieloletniemu doświadczeniu w hodowli, zespół tworzy nowoczesne narzędzia dopasowane do realnych potrzeb hodowców.",
+      "pigeonExpert": "Ekspert gołębiarski - Marek Skrzypnik",
+      "expertDescription": "Jego praktyczna wiedza i doświadczenie w hodowli gołębi pocztowych są fundamentem funkcjonalności aplikacji Pigeon Map.",
+      "communityCollaboration": "Współpraca ze społecznością",
+      "collaborationDescription": "Regularnie współpracujemy z hodowcami z całej Polski i Europy, zbierając feedback i doskonaląc nasze rozwiązania.",
+      "experienceYears": "Ponad 15 lat doświadczenia w hodowli gołębi",
+      "passion": "Pasja",
+      "familyBusinessTitle": "Rodzinna firma DIGGING",
+      "teamDescription": "Tworzymy narzędzia z pasji dla społeczności hodowców gołębi. Każda funkcja w Pigeon Map jest przemyślana i testowana przez prawdziwych użytkowników.",
+      "itExperience": "Ponad 15 lat doświadczenia w hodowli gołębi",
+      "passionQuote": "Tworzymy narzędzia z pasji dla społeczności hodowców gołębi. Każda funkcja w Pigeon Map jest przemyślana i testowana przez prawdziwych użytkowników.",
+      "familyBusinessExtended": "Barbara Skrzypnik prowadzi firmę DIGGING, która od lat specjalizuje się w tworzeniu rozwiązań dla branży gołębiarskiej.",
+      "innovativeSolutionsExtended": "Dzięki pasji do gołębi pocztowych i wieloletniemu doświadczeniu w hodowli, zespół tworzy nowoczesne narzędzia dopasowane do realnych potrzeb hodowców.",
+      "expertDescriptionExtended": "Jego praktyczna wiedza i doświadczenie w hodowli gołębi pocztowych są fundamentem funkcjonalności aplikacji Pigeon Map.",
+      "communityCollaborationTitle": "Współpraca ze społecznością",
+      "communityCollaborationExtended": "Regularnie współpracujemy z hodowcami z całej Polski i Europy, zbierając feedback i doskonaląc nasze rozwiązania."
+    },
+    "meetTheTeam": {
+      "title": "Poznaj nasz zespół",
+      "description": "Za Pigeon Map stoi zespół pasjonatów technologii i miłośników gołębi pocztowych",
+      "teamStory": "Nasz zespół łączy głęboką pasję do gołębi pocztowych z wieloletnim doświadczeniem w hodowli. Każdy członek zespołu wnosi unikalną perspektywę i doświadczenie, co pozwala nam tworzyć narzędzia, które rzeczywiście odpowiadają na potrzeby hodowców.",
+      "values": {
+        "title": "Nasze wartości",
+        "passion": "Mała rodzinna firma, która dba o każdy detal",
+        "community": "Osobiste podejście do każdego użytkownika",
+        "innovation": "Prostota i funkcjonalność zamiast niepotrzebnych komplikacji",
+        "support": "Szybka pomoc i wsparcie od właścicieli firmy"
+      }
+    },
+    "features": {
+      "title": "Główne funkcje Pigeon Map",
+      "description": "Nasza aplikacja oferuje kompleksowe narzędzia dla hodowców:",
+      "earlyAccessLabel": "Wczesny dostęp",
+      "weather": {
+        "title": "Sprawdzanie pogody do lotów",
+        "description": "Aktualne warunki pogodowe i prognozy dla planowania lotów"
+      },
+      "flightManagement": {
+        "title": "Tworzenie i monitorowanie lotów",
+        "description": "Pełne zarządzanie lotami od planowania po analizę wyników"
+      },
+      "pigeonRegistry": {
+        "title": "Ewidencja gołębi",
+        "description": "Kompletny system zarządzania danymi Twoich gołębi"
+      },
+      "pedigrees": {
+        "title": "Tworzenie rodowodów",
+        "description": "Zaawansowany system genealogiczny (dostępny dla użytkowników z wczesnym dostępem)"
+      },
+      "competitions": {
+        "title": "Loty oddziałowe",
+        "description": "Uczestnictwo i sprawdzanie wyników lotów organizowanych przez oddziały"
+      }
+    },
+    "freeApp": {
+      "title": "Darmowa aplikacja",
+      "description": "Pigeon Map jest całkowicie darmową aplikacją dostępną dla wszystkich hodowców gołębi. Nasze narzędzia są tworzone z pasji i dla społeczności.",
+      "commitment": "Zobowiązujemy się do utrzymania darmowego dostępu do podstawowych funkcji aplikacji."
+    },
+    "socialMedia": {
+      "title": "Śledź nas w mediach społecznościowych",
+      "description": "Bądź na bieżąco z nowościami i aktualizacjami:",
+      "youtube": "Kanał YouTube z poradnikami i nowościami",
+      "facebook": "Strona Facebook z aktualnościami",
+      "contact": "Kontakt: kontakt@digging.pl",
+      "visitChannel": "Odwiedź kanał",
+      "visitPage": "Odwiedź stronę",
+      "contactUs": "Napisz do nas"
+    },
+    "earlyAccess": {
+      "title": "Wczesny dostęp do rodowodów",
+      "description": "Chcesz przetestować funkcję tworzenia rodowodów przed oficjalnym wydaniem?",
+      "contact": "Napisz do nas na kontakt@digging.pl",
+      "limited": "Liczba miejsc jest ograniczona!"
+    }
   },
   "features": {
     "1": {

@@ -131,7 +131,8 @@
     "health": "Health",
     "tutorial": "Tutorial",
     "madeWith": "Made with",
-    "forPigeonCommunity": "for the pigeon community"
+    "forPigeonCommunity": "for the pigeon community",
+    "about": "About"
   },
   "FAQ": {
     "title": "Frequently Asked Questions",
@@ -317,5 +318,114 @@
     "EGG_IS_BORN": "If the pigeon was hatched in the Pigeon Map system, the parent cannot be changed",
     "DATE_OF_LAYING_EMPTY": "Please fill the date of laying",
     "MAP_FLIGHT_ERROR": "Map flight error message"
+  },
+  "About": {
+    "title": "About Us",
+    "description": "Meet the team and story behind Pigeon Map. Free application for racing pigeon breeders to manage flocks, flights and pedigrees.",
+    "keywords": "about us, pigeon map, team, story, pigeon breeders, DIGGING Barbara Skrzypnik, Marek Skrzypnik, free app",
+    "hero": {
+      "title": "About Pigeon Map",
+      "subtitle": "Discover our story and team of racing pigeon enthusiasts"
+    },
+    "forWho": {
+      "title": "Who is Pigeon Map for?",
+      "description": "Our application was created with different groups of pigeon enthusiasts in mind:",
+      "pigeonBreeders": "Pigeon Breeders",
+      "pigeonEnthusiasts": "Pigeon Enthusiasts",
+      "flightOrganizers": "Flight Organizers",
+      "recordKeepers": "Record Keepers",
+      "pedigreeCreators": "Pedigree Creators",
+      "weatherCheckers": "Weather Checkers",
+      "breeders": "Racing pigeon breeders running professional lofts",
+      "enthusiasts": "Pigeon lovers interested in flights and racing",
+      "organizers": "Organizers of club flights and competitions",
+      "recordKeepersDesc": "People wanting to maintain organized pigeon records",
+      "pedigreeCreatorsDesc": "Breeders creating detailed pedigrees",
+      "weatherUsers": "People needing quick access to weather conditions"
+    },
+    "whoCreates": {
+      "title": "Who creates Pigeon Map?",
+      "description": "We are a team of pigeon enthusiasts with years of experience:",
+      "familyBusiness": "A family business with passion for pigeons",
+      "experience": "From our love of pigeons, we started creating high-quality feeds",
+      "marekDescription": "Mr. Marek Skrzypnik is an experienced breeder who achieves high rankings in pigeon racing",
+      "teamPassion": "Our passion for pigeons translates into creating tools for the entire breeding community",
+      "companyDescription": "Barbara Skrzypnik runs DIGGING company, which has been specializing in creating solutions for the pigeon breeding industry for years.",
+      "innovativeSolutions": "Innovative Solutions",
+      "solutionsDescription": "Thanks to passion for racing pigeons and years of experience in breeding, the team creates modern tools tailored to the real needs of breeders.",
+      "pigeonExpert": "Pigeon Expert - Marek Skrzypnik",
+      "expertDescription": "His practical knowledge and experience in racing pigeon breeding are the foundation of Pigeon Map application functionality.",
+      "communityCollaboration": "Community Collaboration",
+      "collaborationDescription": "We regularly collaborate with breeders from all over Poland and Europe, collecting feedback and improving our solutions.",
+      "experienceYears": "Over 15 years of pigeon breeding experience",
+      "passion": "Passion",
+      "familyBusinessTitle": "DIGGING Family Business",
+      "teamDescription": "Creating tools with passion for the pigeon breeding community. Every feature in Pigeon Map is thoughtfully designed and tested by real users.",
+      "itExperience": "Over 15 years of pigeon breeding experience",
+      "passionQuote": "Creating tools with passion for the pigeon breeding community. Every feature in Pigeon Map is thoughtfully designed and tested by real users.",
+      "familyBusinessExtended": "Barbara Skrzypnik runs DIGGING company, which has been specializing in creating solutions for the pigeon breeding industry for years.",
+      "innovativeSolutionsExtended": "Thanks to passion for racing pigeons and years of experience in breeding, the team creates modern tools tailored to the real needs of breeders.",
+      "expertDescriptionExtended": "His practical knowledge and experience in racing pigeon breeding are the foundation of Pigeon Map application functionality.",
+      "communityCollaborationTitle": "Community Collaboration",
+      "communityCollaborationExtended": "We regularly collaborate with breeders from all over Poland and Europe, collecting feedback and improving our solutions."
+    },
+    "meetTheTeam": {
+      "title": "Meet Our Team",
+      "description": "Behind Pigeon Map stands a team of technology enthusiasts and racing pigeon lovers",
+      "teamStory": "Our team combines deep passion for racing pigeons with years of experience in breeding. Each team member brings a unique perspective and experience, allowing us to create tools that truly meet the needs of breeders.",
+      "values": {
+        "title": "Our Values",
+        "passion": "Small family business that cares about every detail",
+        "community": "Personal approach to every user",
+        "innovation": "Simplicity and functionality over unnecessary complications",
+        "support": "Quick help and support directly from company owners"
+      }
+    },
+    "features": {
+      "title": "Main Features of Pigeon Map",
+      "description": "Our application offers comprehensive tools for breeders:",
+      "earlyAccessLabel": "Early Access",
+      "weather": {
+        "title": "Weather Checking for Flights",
+        "description": "Current weather conditions and forecasts for flight planning"
+      },
+      "flightManagement": {
+        "title": "Flight Creation and Monitoring",
+        "description": "Complete flight management from planning to results analysis"
+      },
+      "pigeonRegistry": {
+        "title": "Pigeon Registry",
+        "description": "Complete system for managing your pigeon data"
+      },
+      "pedigrees": {
+        "title": "Pedigree Creation",
+        "description": "Advanced genealogy system (available for early access users)"
+      },
+      "competitions": {
+        "title": "Club Flights",
+        "description": "Participation and checking results of flights organized by clubs"
+      }
+    },
+    "freeApp": {
+      "title": "Free Application",
+      "description": "Pigeon Map is a completely free application available to all pigeon breeders. Our tools are created with passion and for the community.",
+      "commitment": "We are committed to maintaining free access to the basic features of the application."
+    },
+    "socialMedia": {
+      "title": "Follow us on social media",
+      "description": "Stay updated with news and updates:",
+      "youtube": "YouTube channel with tutorials and news",
+      "facebook": "Facebook page with updates",
+      "contact": "Contact: kontakt@digging.pl",
+      "visitChannel": "Visit Channel",
+      "visitPage": "Visit Page",
+      "contactUs": "Contact Us"
+    },
+    "earlyAccess": {
+      "title": "Early Access to Pedigrees",
+      "description": "Want to test the pedigree creation feature before official release?",
+      "contact": "Write to us at kontakt@digging.pl",
+      "limited": "Number of spots is limited!"
+    }
   }
 }

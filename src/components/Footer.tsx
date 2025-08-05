@@ -83,6 +83,14 @@ export default function Footer() {
               </li>
               <li>
                 <I18nLink
+                  href="/about"
+                  className="text-grey-10 hover:text-white transition-colors"
+                >
+                  {t("about")}
+                </I18nLink>
+              </li>
+              <li>
+                <I18nLink
                   href="/blog"
                   className="text-grey-10 hover:text-white transition-colors"
                 >

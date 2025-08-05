@@ -125,9 +125,14 @@
     "legal": "Rechtliches",
     "privacyPolicy": "Datenschutzrichtlinie",
     "news": "Blog",
+    "breeding": "Zucht",
+    "health": "Gesundheit",
+    "tutorial": "Anleitung",
+    "blogCategories": "Blog-Kategorien",
     "support": "Support",
     "madeWith": "Gemacht mit",
-    "forPigeonCommunity": "für die Taubengemeinschaft"
+    "forPigeonCommunity": "für die Taubengemeinschaft",
+    "about": "Über uns"
   },
   "FAQ": {
     "title": "Häufig gestellte Fragen",
@@ -314,5 +319,114 @@
     "EGG_IS_BORN": "Wenn die Taube im Pigeon Map-System geschlüpft ist, kann der Elternteil nicht geändert werden",
     "DATE_OF_LAYING_EMPTY": "Bitte füllen Sie das Legedatum aus",
     "MAP_FLIGHT_ERROR": "Karten-Flug-Fehlermeldung"
+  },
+  "About": {
+    "title": "Über uns",
+    "description": "Lernen Sie das Team und die Geschichte von Pigeon Map kennen. Kostenlose Anwendung für Brieftaubenzüchter zur Verwaltung von Beständen, Flügen und Stammbäumen.",
+    "keywords": "über uns, pigeon map, team, geschichte, taubenzüchter, DIGGING Barbara Skrzypnik, Marek Skrzypnik, kostenlose anwendung",
+    "hero": {
+      "title": "Über Pigeon Map",
+      "subtitle": "Lernen Sie unsere Geschichte und das Team der Brieftauben-Enthusiasten kennen"
+    },
+    "forWho": {
+      "title": "Für wen ist Pigeon Map gedacht?",
+      "description": "Unsere Anwendung wurde mit verschiedenen Gruppen von Taubenliebhabern im Sinn entwickelt:",
+      "pigeonBreeders": "Taubenzüchter",
+      "pigeonEnthusiasts": "Taubenliebhaber",
+      "flightOrganizers": "Flugorganisatoren",
+      "recordKeepers": "Aufzeichnungsführer",
+      "pedigreeCreators": "Stammbaum-Ersteller",
+      "weatherCheckers": "Wetter-Prüfer",
+      "breeders": "Brieftaubenzüchter mit professionellen Zuchtbetrieben",
+      "enthusiasts": "Taubenliebhaber, die sich für Flüge und Rennen interessieren",
+      "organizers": "Organisatoren von Vereinsflügen und Wettbewerben",
+      "recordKeepersDesc": "Personen, die geordnete Aufzeichnungen über Tauben führen möchten",
+      "pedigreeCreatorsDesc": "Züchter, die detaillierte Stammbäume erstellen",
+      "weatherUsers": "Personen, die schnellen Zugang zu Wetterbedingungen benötigen"
+    },
+    "whoCreates": {
+      "title": "Wer erstellt Pigeon Map?",
+      "description": "Wir sind ein Team von Taubenliebhabern mit langjähriger Erfahrung:",
+      "familyBusiness": "Familienunternehmen mit Leidenschaft für Tauben",
+      "experience": "Aus Liebe zu Tauben begannen wir, hochwertiges Futter zu produzieren",
+      "marekDescription": "Herr Marek Skrzypnik ist ein erfahrener Züchter, der hohe Positionen in Taubenflug-Rankings einnimmt",
+      "teamPassion": "Unsere Leidenschaft für Tauben spiegelt sich in der Entwicklung von Werkzeugen für die gesamte Züchtergemeinschaft wider",
+      "companyDescription": "Barbara Skrzypnik führt das Unternehmen DIGGING, das sich seit Jahren auf die Entwicklung von Lösungen für die Taubenbranche spezialisiert hat.",
+      "innovativeSolutions": "Innovative Lösungen",
+      "solutionsDescription": "Dank der Leidenschaft für Brieftauben und langjähriger Erfahrung in der Zucht entwickelt das Team moderne Werkzeuge, die auf die realen Bedürfnisse der Züchter zugeschnitten sind.",
+      "pigeonExpert": "Taubenexperte - Marek Skrzypnik",
+      "expertDescription": "Sein praktisches Wissen und seine Erfahrung in der Brieftaubenzucht sind das Fundament der Funktionalität der Pigeon Map-Anwendung.",
+      "communityCollaboration": "Zusammenarbeit mit der Gemeinschaft",
+      "collaborationDescription": "Wir arbeiten regelmäßig mit Züchtern aus ganz Polen und Europa zusammen, sammeln Feedback und verbessern unsere Lösungen.",
+      "experienceYears": "Über 15 Jahre Erfahrung in der Taubenzucht",
+      "passion": "Leidenschaft",
+      "familyBusinessTitle": "Familienunternehmen DIGGING",
+      "teamDescription": "Wir entwickeln Werkzeuge mit Leidenschaft für die Züchtergemeinschaft. Jede Funktion in Pigeon Map ist durchdacht und von echten Benutzern getestet.",
+      "itExperience": "Über 15 Jahre Erfahrung in der Taubenzucht",
+      "passionQuote": "Wir entwickeln Werkzeuge mit Leidenschaft für die Züchtergemeinschaft. Jede Funktion in Pigeon Map ist durchdacht und von echten Benutzern getestet.",
+      "familyBusinessExtended": "Barbara Skrzypnik führt das Unternehmen DIGGING, das sich seit Jahren auf die Entwicklung von Lösungen für die Taubenbranche spezialisiert hat.",
+      "innovativeSolutionsExtended": "Dank der Leidenschaft für Brieftauben und langjähriger Erfahrung in der Zucht entwickelt das Team moderne Werkzeuge, die auf die realen Bedürfnisse der Züchter zugeschnitten sind.",
+      "expertDescriptionExtended": "Sein praktisches Wissen und seine Erfahrung in der Brieftaubenzucht sind das Fundament der Funktionalität der Pigeon Map-Anwendung.",
+      "communityCollaborationTitle": "Zusammenarbeit mit der Gemeinschaft",
+      "communityCollaborationExtended": "Wir arbeiten regelmäßig mit Züchtern aus ganz Polen und Europa zusammen, sammeln Feedback und verbessern unsere Lösungen."
+    },
+    "meetTheTeam": {
+      "title": "Lernen Sie unser Team kennen",
+      "description": "Hinter Pigeon Map steht ein Team von Technologie-Enthusiasten und Brieftauben-Liebhabern",
+      "teamStory": "Unser Team kombiniert tiefe Leidenschaft für Brieftauben mit langjähriger Erfahrung in der Zucht. Jedes Teammitglied bringt eine einzigartige Perspektive und Erfahrung mit, was es uns ermöglicht, Werkzeuge zu entwickeln, die wirklich den Bedürfnissen der Züchter entsprechen.",
+      "values": {
+        "title": "Unsere Werte",
+        "passion": "Kleines Familienunternehmen, das auf jedes Detail achtet",
+        "community": "Persönlicher Ansatz für jeden Benutzer",
+        "innovation": "Einfachheit und Funktionalität statt unnötiger Komplikationen",
+        "support": "Schnelle Hilfe und Unterstützung direkt von den Firmeninhabern"
+      }
+    },
+    "features": {
+      "title": "Hauptfunktionen von Pigeon Map",
+      "description": "Unsere Anwendung bietet umfassende Werkzeuge für Züchter:",
+      "earlyAccessLabel": "Früher Zugang",
+      "weather": {
+        "title": "Wetterprüfung für Flüge",
+        "description": "Aktuelle Wetterbedingungen und Vorhersagen für die Flugplanung"
+      },
+      "flightManagement": {
+        "title": "Flugerstellung und -überwachung",
+        "description": "Vollständige Flugverwaltung von der Planung bis zur Ergebnisanalyse"
+      },
+      "pigeonRegistry": {
+        "title": "Taubenregister",
+        "description": "Vollständiges System zur Verwaltung Ihrer Taubendaten"
+      },
+      "pedigrees": {
+        "title": "Stammbaumerstellung",
+        "description": "Erweiterte genealogische System (verfügbar für Benutzer mit frühem Zugang)"
+      },
+      "competitions": {
+        "title": "Vereinsflüge",
+        "description": "Teilnahme und Überprüfung der Ergebnisse von Vereinsflügen"
+      }
+    },
+    "freeApp": {
+      "title": "Kostenlose Anwendung",
+      "description": "Pigeon Map ist eine vollständig kostenlose Anwendung, die allen Taubenzüchtern zur Verfügung steht. Unsere Werkzeuge werden mit Leidenschaft und für die Gemeinschaft entwickelt.",
+      "commitment": "Wir verpflichten uns, den kostenlosen Zugang zu den grundlegenden Funktionen der Anwendung aufrechtzuerhalten."
+    },
+    "socialMedia": {
+      "title": "Folgen Sie uns in den sozialen Medien",
+      "description": "Bleiben Sie auf dem Laufenden mit Neuigkeiten und Updates:",
+      "youtube": "YouTube-Kanal mit Anleitungen und Neuigkeiten",
+      "facebook": "Facebook-Seite mit Aktualisierungen",
+      "contact": "Kontakt: kontakt@digging.pl",
+      "visitChannel": "Kanal besuchen",
+      "visitPage": "Seite besuchen",
+      "contactUs": "Schreiben Sie uns"
+    },
+    "earlyAccess": {
+      "title": "Früher Zugang zu Stammbäumen",
+      "description": "Möchten Sie die Stammbaum-Erstellungsfunktion vor der offiziellen Veröffentlichung testen?",
+      "contact": "Schreiben Sie uns an kontakt@digging.pl",
+      "limited": "Die Anzahl der Plätze ist begrenzt!"
+    }
   }
 }

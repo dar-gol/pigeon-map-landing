@@ -193,10 +193,15 @@
     "contact": "Contact",
     "legal": "Juridisch",
     "privacyPolicy": "Privacybeleid",
-    "news": "Blog",
     "support": "Ondersteuning",
     "madeWith": "Gemaakt met",
-    "forPigeonCommunity": "voor de duivengemeenschap"
+    "forPigeonCommunity": "voor de duivengemeenschap",
+    "about": "Over ons",
+    "blogCategories": "Blog Categorieën",
+    "news": "Nieuws",
+    "breeding": "Fokkerij",
+    "health": "Gezondheid",
+    "tutorial": "Handleiding"
 },
   "Register": {
     "title": "Registreren",
@@ -386,5 +391,114 @@
     "EGG_IS_BORN": "Als de duif is uitgekomen in het Pigeon Map systeem, kan de ouder niet worden gewijzigd",
     "DATE_OF_LAYING_EMPTY": "Vul de datum van leggen in",
     "MAP_FLIGHT_ERROR": "Kaart vlucht foutmelding"
+  },
+  "About": {
+    "title": "Over ons",
+    "description": "Leer het team en de geschiedenis van Pigeon Map kennen. Gratis applicatie voor postduivenliefhebbers voor het beheren van vluchten, duiven en stambomen.",
+    "keywords": "over ons, pigeon map, team, geschiedenis, duivenliefhebbers, DIGGING Barbara Skrzypnik, Marek Skrzypnik, gratis applicatie",
+    "hero": {
+      "title": "Over Pigeon Map",
+      "subtitle": "Leer onze geschiedenis en het team van postduiven-enthousiastelingen kennen"
+    },
+    "forWho": {
+      "title": "Voor wie is Pigeon Map bedoeld?",
+      "description": "Onze applicatie is ontwikkeld met verschillende groepen duivenliefhebbers in gedachten:",
+      "pigeonBreeders": "Duivenfokkers",
+      "pigeonEnthusiasts": "Duivenliefhebbers",
+      "flightOrganizers": "Vluchtorganisatoren",
+      "recordKeepers": "Recordhouders",
+      "pedigreeCreators": "Stamboom-makers",
+      "weatherCheckers": "Weercontroleurs",
+      "breeders": "Postduivenfokkers met professionele fok",
+      "enthusiasts": "Duivenliefhebbers geïnteresseerd in vluchten en races",
+      "organizers": "Organisatoren van verenigingsvluchten en wedstrijden",
+      "recordKeepersDesc": "Mensen die georganiseerde duivenregistraties willen bijhouden",
+      "pedigreeCreatorsDesc": "Fokkers die gedetailleerde stambomen maken",
+      "weatherUsers": "Mensen die snelle toegang tot weersomstandigheden nodig hebben"
+    },
+    "whoCreates": {
+      "title": "Wie maakt Pigeon Map?",
+      "description": "We zijn een team van duivenliefhebbers met jarenlange ervaring:",
+      "familyBusiness": "Familiebedrijf met passie voor duiven",
+      "experience": "Uit liefde voor duiven begonnen we hoogwaardig voer te produceren",
+      "marekDescription": "Dhr. Marek Skrzypnik is een ervaren fokker die hoge posities inneemt in duivenvlucht-rankings",
+      "teamPassion": "Onze passie voor duiven vertaalt zich in het maken van tools voor de hele fokkergemeenschap",
+      "companyDescription": "Barbara Skrzypnik leidt het bedrijf DIGGING, dat zich al jaren specialiseert in het creëren van oplossingen voor de duivenindustrie.",
+      "innovativeSolutions": "Innovatieve oplossingen",
+      "solutionsDescription": "Dankzij passie voor postduiven en jarenlange ervaring in de fokkerij creëert het team moderne tools aangepast aan de echte behoeften van fokkers.",
+      "pigeonExpert": "Duivenexpert - Marek Skrzypnik",
+      "expertDescription": "Zijn praktische kennis en ervaring in postduivenfokkerij vormen de basis van de functionaliteit van de Pigeon Map applicatie.",
+      "communityCollaboration": "Samenwerking met de gemeenschap",
+      "collaborationDescription": "We werken regelmatig samen met fokkers uit heel Polen en Europa, verzamelen feedback en verbeteren onze oplossingen.",
+      "experienceYears": "Meer dan 15 jaar ervaring in duivenfokkerij",
+      "passion": "Passie",
+      "familyBusinessTitle": "Familiebedrijf DIGGING",
+      "teamDescription": "We maken tools met passie voor de fokkergemeenschap. Elke functie in Pigeon Map is doordacht en getest door echte gebruikers.",
+      "itExperience": "Meer dan 15 jaar ervaring in duivenfokkerij",
+      "passionQuote": "We maken tools met passie voor de fokkergemeenschap. Elke functie in Pigeon Map is doordacht en getest door echte gebruikers.",
+      "familyBusinessExtended": "Barbara Skrzypnik leidt het bedrijf DIGGING, dat zich al jaren specialiseert in het creëren van oplossingen voor de duivenindustrie.",
+      "innovativeSolutionsExtended": "Dankzij passie voor postduiven en jarenlange ervaring in de fokkerij creëert het team moderne tools aangepast aan de echte behoeften van fokkers.",
+      "expertDescriptionExtended": "Zijn praktische kennis en ervaring in postduivenfokkerij vormen de basis van de functionaliteit van de Pigeon Map applicatie.",
+      "communityCollaborationTitle": "Samenwerking met de gemeenschap",
+      "communityCollaborationExtended": "We werken regelmatig samen met fokkers uit heel Polen en Europa, verzamelen feedback en verbeteren onze oplossingen."
+    },
+    "meetTheTeam": {
+      "title": "Maak kennis met ons team",
+      "description": "Achter Pigeon Map staat een team van technologie-enthousiastelingen en postduivenliefhebbers",
+      "teamStory": "Ons team combineert diepe passie voor postduiven met jarenlange ervaring in de fokkerij. Elk teamlid brengt een uniek perspectief en ervaring mee, waardoor we tools kunnen maken die echt aansluiten bij de behoeften van fokkers.",
+      "values": {
+        "title": "Onze waarden",
+        "passion": "Klein familiebedrijf dat zorg draagt voor elk detail",
+        "community": "Persoonlijke benadering van elke gebruiker",
+        "innovation": "Eenvoud en functionaliteit in plaats van onnodige complicaties",
+        "support": "Snelle hulp en ondersteuning direct van de eigenaren"
+      }
+    },
+    "features": {
+      "title": "Hoofdfuncties van Pigeon Map",
+      "description": "Onze applicatie biedt uitgebreide tools voor fokkers:",
+      "earlyAccessLabel": "Vroege toegang",
+      "weather": {
+        "title": "Weercontrole voor vluchten",
+        "description": "Actuele weersomstandigheden en voorspellingen voor vluchtplanning"
+      },
+      "flightManagement": {
+        "title": "Vluchtcreatie en -monitoring",
+        "description": "Volledig vluchtbeheer van planning tot resultaatanalyse"
+      },
+      "pigeonRegistry": {
+        "title": "Duivenregistratie",
+        "description": "Compleet systeem voor het beheren van uw duivengegevens"
+      },
+      "pedigrees": {
+        "title": "Stamboomcreatie",
+        "description": "Geavanceerd genealogisch systeem (beschikbaar voor gebruikers met vroege toegang)"
+      },
+      "competitions": {
+        "title": "Verenigingsvluchten",
+        "description": "Deelname en controle van resultaten van verenigingsvluchten"
+      }
+    },
+    "freeApp": {
+      "title": "Gratis applicatie",
+      "description": "Pigeon Map is een volledig gratis applicatie beschikbaar voor alle duivenfokkers. Onze tools worden gemaakt met passie en voor de gemeenschap.",
+      "commitment": "We verbinden ons ertoe gratis toegang tot de basisfuncties van de applicatie te behouden."
+    },
+    "socialMedia": {
+      "title": "Volg ons op sociale media",
+      "description": "Blijf op de hoogte van nieuws en updates:",
+      "youtube": "YouTube-kanaal met tutorials en nieuws",
+      "facebook": "Facebook-pagina met updates",
+      "contact": "Contact: kontakt@digging.pl",
+      "visitChannel": "Bezoek kanaal",
+      "visitPage": "Bezoek pagina",
+      "contactUs": "Schrijf ons"
+    },
+    "earlyAccess": {
+      "title": "Vroege toegang tot stambomen",
+      "description": "Wilt u de stamboomcreatiefunctie testen voor de officiële release?",
+      "contact": "Schrijf ons op kontakt@digging.pl",
+      "limited": "Het aantal plaatsen is beperkt!"
+    }
   }
 }

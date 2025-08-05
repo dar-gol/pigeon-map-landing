@@ -125,9 +125,14 @@
     "legal": "Právní",
     "privacyPolicy": "Zásady ochrany soukromí",
     "news": "Blog",
+    "breeding": "Chov",
+    "health": "Zdraví",
+    "tutorial": "Návod",
+    "blogCategories": "Kategorie blogu",
     "support": "Podpora",
     "madeWith": "Vytvořeno s",
-    "forPigeonCommunity": "pro komunitu chovatelů holubů"
+    "forPigeonCommunity": "pro komunitu chovatelů holubů",
+    "about": "O nás"
   },
   "FAQ": {
     "title": "Často kladené otázky",
@@ -314,5 +319,114 @@
     "EGG_IS_BORN": "Pokud byl holub vylíhnut v systému Pigeon Map, nelze změnit rodiče",
     "DATE_OF_LAYING_EMPTY": "Vyplňte prosím datum snášení",
     "MAP_FLIGHT_ERROR": "Chybová zpráva letu na mapě"
+  },
+  "About": {
+    "title": "O nás",
+    "description": "Poznejte tým a historii Pigeon Map. Bezplatná aplikace pro chovatele poštovních holubů pro správu stád, letů a rodokmenů.",
+    "keywords": "o nás, pigeon map, tým, historie, chovatelé holubů, DIGGING Barbara Skrzypnik, Marek Skrzypnik, bezplatná aplikace",
+    "hero": {
+      "title": "O Pigeon Map",
+      "subtitle": "Poznejte naši historii a tým nadšenců poštovních holubů"
+    },
+    "forWho": {
+      "title": "Pro koho je Pigeon Map?",
+      "description": "Naše aplikace byla vytvořena s ohledem na různé skupiny milovníků holubů:",
+      "pigeonBreeders": "Chovatelé holubů",
+      "pigeonEnthusiasts": "Milovníci holubů",
+      "flightOrganizers": "Organizátoři letů",
+      "recordKeepers": "Vedoucí evidence",
+      "pedigreeCreators": "Tvůrci rodokmenů",
+      "weatherCheckers": "Kontroloři počasí",
+      "breeders": "Chovatelé poštovních holubů provozující profesionální chovy",
+      "enthusiasts": "Milovníci holubů zajímající se o lety a závody",
+      "organizers": "Organizátoři klubových letů a soutěží",
+      "recordKeepersDesc": "Lidé chtějící vést uspořádané záznamy o holubech",
+      "pedigreeCreatorsDesc": "Chovatelé vytvářející podrobné rodokmeny",
+      "weatherUsers": "Lidé potřebující rychlý přístup k povětrnostním podmínkám"
+    },
+    "whoCreates": {
+      "title": "Kdo vytváří Pigeon Map?",
+      "description": "Jsme tým milovníků holubů s mnohaletými zkušenostmi:",
+      "familyBusiness": "Rodinná firma s vášní pro holuby",
+      "experience": "Z lásky k holubům jsme začali vyrábět vysoce kvalitní krmiva",
+      "marekDescription": "Pan Marek Skrzypnik je zkušený chovatel, který obsazuje vysoké pozice v žebříčcích holubích letů",
+      "teamPassion": "Naše vášeň pro holuby se promítá do vytváření nástrojů pro celou komunitu chovatelů",
+      "companyDescription": "Barbara Skrzypnik vede společnost DIGGING, která se již roky specializuje na vytváření řešení pro holubí průmysl.",
+      "innovativeSolutions": "Inovativní řešení",
+      "solutionsDescription": "Díky vášni pro poštovní holuby a mnohaletým zkušenostem v chovu tým vytváří moderní nástroje přizpůsobené skutečným potřebám chovatelů.",
+      "pigeonExpert": "Holubí expert - Marek Skrzypnik",
+      "expertDescription": "Jeho praktické znalosti a zkušenosti v chovu poštovních holubů jsou základem funkcionality aplikace Pigeon Map.",
+      "communityCollaboration": "Spolupráce s komunitou",
+      "collaborationDescription": "Pravidelně spolupracujeme s chovateli z celého Polska a Evropy, sbíráme zpětnou vazbu a zdokonalujeme naše řešení.",
+      "experienceYears": "Více než 15 let zkušeností v chovu holubů",
+      "passion": "Vášeň",
+      "familyBusinessTitle": "Rodinná firma DIGGING",
+      "teamDescription": "Vytváříme nástroje s vášní pro komunitu chovatelů holubů. Každá funkce v Pigeon Map je promyšlená a testovaná skutečnými uživateli.",
+      "itExperience": "Více než 15 let zkušeností v chovu holubů",
+      "passionQuote": "Vytváříme nástroje s vášní pro komunitu chovatelů holubů. Každá funkce v Pigeon Map je promyšlená a testovaná skutečnými uživateli.",
+      "familyBusinessExtended": "Barbara Skrzypnik vede společnost DIGGING, která se již roky specializuje na vytváření řešení pro holubí průmysl.",
+      "innovativeSolutionsExtended": "Díky vášni pro poštovní holuby a mnohaletým zkušenostem v chovu tým vytváří moderní nástroje přizpůsobené skutečným potřebám chovatelů.",
+      "expertDescriptionExtended": "Jeho praktické znalosti a zkušenosti v chovu poštovních holubů jsou základem funkcionality aplikace Pigeon Map.",
+      "communityCollaborationTitle": "Spolupráce s komunitou",
+      "communityCollaborationExtended": "Pravidelně spolupracujeme s chovateli z celého Polska a Evropy, sbíráme zpětnou vazbu a zdokonalujeme naše řešení."
+    },
+    "meetTheTeam": {
+      "title": "Poznejte náš tým",
+      "description": "Za Pigeon Map stojí tým nadšenců technologií a milovníků poštovních holubů",
+      "teamStory": "Náš tým kombinuje hlubokou vášeň pro poštovní holuby s mnohaletými zkušenostmi v chovu. Každý člen týmu přináší jedinečnou perspektivu a zkušenosti, což nám umožňuje vytvářet nástroje, které skutečně odpovídají potřebám chovatelů.",
+      "values": {
+        "title": "Naše hodnoty",
+        "passion": "Malá rodinná firma, která dbá na každý detail",
+        "community": "Osobní přístup ke každému uživateli",
+        "innovation": "Jednoduchost a funkčnost místo zbytečných komplikací",
+        "support": "Rychlá pomoc a podpora přímo od majitelů firmy"
+      }
+    },
+    "features": {
+      "title": "Hlavní funkce Pigeon Map",
+      "description": "Naše aplikace nabízí komplexní nástroje pro chovatele:",
+      "earlyAccessLabel": "Předčasný přístup",
+      "weather": {
+        "title": "Kontrola počasí pro lety",
+        "description": "Aktuální povětrnostní podmínky a předpovědi pro plánování letů"
+      },
+      "flightManagement": {
+        "title": "Vytváření a monitorování letů",
+        "description": "Kompletní správa letů od plánování po analýzu výsledků"
+      },
+      "pigeonRegistry": {
+        "title": "Evidence holubů",
+        "description": "Kompletní systém pro správu dat vašich holubů"
+      },
+      "pedigrees": {
+        "title": "Vytváření rodokmenů",
+        "description": "Pokročilý genealogický systém (dostupný pro uživatele s předčasným přístupem)"
+      },
+      "competitions": {
+        "title": "Klubové lety",
+        "description": "Účast a kontrola výsledků letů organizovaných kluby"
+      }
+    },
+    "freeApp": {
+      "title": "Bezplatná aplikace",
+      "description": "Pigeon Map je zcela bezplatná aplikace dostupná všem chovatelům holubů. Naše nástroje jsou vytvářeny s vášní a pro komunitu.",
+      "commitment": "Zavazujeme se udržet bezplatný přístup k základním funkcím aplikace."
+    },
+    "socialMedia": {
+      "title": "Sledujte nás na sociálních sítích",
+      "description": "Buďte v obraze s novinkami a aktualizacemi:",
+      "youtube": "YouTube kanál s návody a novinkami",
+      "facebook": "Facebook stránka s aktuálnostmi",
+      "contact": "Kontakt: kontakt@digging.pl",
+      "visitChannel": "Navštívit kanál",
+      "visitPage": "Navštívit stránku",
+      "contactUs": "Napište nám"
+    },
+    "earlyAccess": {
+      "title": "Předčasný přístup k rodokmenům",
+      "description": "Chcete otestovat funkci vytváření rodokmenů před oficiálním vydáním?",
+      "contact": "Napište nám na kontakt@digging.pl",
+      "limited": "Počet míst je omezen!"
+    }
   }
 }
