@@ -91,6 +91,14 @@ export default function Footer() {
               </li>
               <li>
                 <I18nLink
+                  href="/faq"
+                  className="text-grey-10 hover:text-white transition-colors"
+                >
+                  {t("faq")}
+                </I18nLink>
+              </li>
+              <li>
+                <I18nLink
                   href="/blog"
                   className="text-grey-10 hover:text-white transition-colors"
                 >
