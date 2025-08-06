@@ -202,7 +202,7 @@
       },
       "10": {
         "question": "Jak tworzyć raporty z lotów?",
-        "answer": "System automatycznie generuje szczegółowe raporty z każdego lotu, zawierające analizy prędkości, warunków pogodowych, tras i porównania z poprzednimi wynikami."
+        "answer": "System automatycznie generuje szczegółowe raporty z każdego lotu, zawierające analizy prędkości, warunków pogodowych, tras i porównania z poprzednimi wynikami. Aby wygenerować raport do druku, naciśnij przycisk 'Wygeneruj dokument', który utworzy plik PDF z podstawowymi informacjami o locie: datą zakończenia, miejscem wylotu, gołębnikiem, pogodą sumaryczną i innymi szczegółami. Następnie możesz wydrukować raport."
       },
       "11": {
         "question": "Czy dane są bezpieczne?",

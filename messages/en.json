@@ -202,7 +202,7 @@
       },
       "10": {
         "question": "How to create flight reports?",
-        "answer": "The system automatically generates detailed reports from each flight, containing speed analyses, weather conditions, routes and comparisons with previous results."
+        "answer": "The system automatically generates detailed reports from each flight, containing speed analyses, weather conditions, routes and comparisons with previous results. To generate a printable report, click the 'Generate document' button, which will create a PDF file with basic flight information: completion date, release location, loft, summary weather and other details. You can then print the report."
       },
       "11": {
         "question": "Is my data secure?",

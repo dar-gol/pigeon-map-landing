@@ -76,7 +76,7 @@
       },
       "10": {
         "question": "Hoe maak ik vluchtrapporten?",
-        "answer": "Het systeem genereert automatisch gedetailleerde rapporten van elke vlucht, met snelheidsanalyses, weersomstandigheden, routes en vergelijkingen met vorige resultaten."
+        "answer": "Het systeem genereert automatisch gedetailleerde rapporten van elke vlucht, met snelheidsanalyses, weersomstandigheden, routes en vergelijkingen met vorige resultaten. Om een afdrukbaar rapport te maken, klikt u op de knop 'Document genereren', die een PDF-bestand maakt met basis vluchtinformatie: voltooiingsdatum, startlocatie, hok, weersamenvatting en andere details. Vervolgens kunt u het rapport afdrukken."
       },
       "11": {
         "question": "Zijn mijn gegevens veilig?",

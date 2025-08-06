@@ -202,7 +202,7 @@
       },
       "10": {
         "question": "Jak vytvořit zprávy o letech?",
-        "answer": "Systém automaticky generuje podrobné zprávy z každého letu obsahující analýzy rychlosti, povětrnostní podmínky, trasy a porovnání s předchozími výsledky."
+        "answer": "Systém automaticky generuje podrobné zprávy z každého letu obsahující analýzy rychlosti, povětrnostní podmínky, trasy a porovnání s předchozími výsledky. Pro vytvoření tisknutelné zprávy klikněte na tlačítko 'Generovat dokument', které vytvoří PDF soubor se základními informacemi o letu: datum dokončení, místo startu, holubník, souhrnné počasí a další podrobnosti. Poté můžete zprávu vytisknout."
       },
       "11": {
         "question": "Jsou moje data bezpečná?",

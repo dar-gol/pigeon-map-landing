@@ -202,7 +202,7 @@
       },
       "10": {
         "question": "Wie erstelle ich Flugberichte?",
-        "answer": "Das System generiert automatisch detaillierte Berichte von jedem Flug mit Geschwindigkeitsanalysen, Wetterbedingungen, Routen und Vergleichen mit vorherigen Ergebnissen."
+        "answer": "Das System generiert automatisch detaillierte Berichte von jedem Flug mit Geschwindigkeitsanalysen, Wetterbedingungen, Routen und Vergleichen mit vorherigen Ergebnissen. Um einen druckbaren Bericht zu erstellen, klicken Sie auf die Schaltfläche 'Dokument generieren', die eine PDF-Datei mit grundlegenden Fluginformationen erstellt: Abschlussdatum, Startort, Schlag, Wetterzusammenfassung und andere Details. Anschließend können Sie den Bericht ausdrucken."
       },
       "11": {
         "question": "Sind meine Daten sicher?",
