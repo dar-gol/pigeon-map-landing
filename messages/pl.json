@@ -96,6 +96,28 @@
         "desc": "Korzystaj z Pigeon Map na dowolnym urządzeniu, gdziekolwiek jesteś."
       }
     },
+    "screenshots": {
+      "title": "Zobacz Pigeon Map w działaniu",
+      "subtitle": "Odkryj potężne funkcje zaprojektowane specjalnie dla hodowców gołębi",
+      "items": {
+        "1": {
+          "title": "Szczegółowe profile gołębi",
+          "description": "Zarządzaj kompletnymi profilami każdego gołębia z danymi hodowlanymi takimi jak numer obrączki, płeć czy rasa, ale również możesz określić rodziców dzięki którym możesz tworzyć rodowody."
+        },
+        "2": {
+          "title": "Śledzenie lotów z pogodą",
+          "description": "Śledź loty swoich gołębi w czasie rzeczywistym z zintegrowanymi danymi pogodowymi, aby analizować wydolność w różnych warunkach."
+        },
+        "3": {
+          "title": "Zarządzanie sezonowe",
+          "description": "Organizuj swoje gołębie według sezonów i konkursów dzięki łatwym w użyciu narzędziom do planowania hodowli i śledzenia wydolności."
+        },
+        "4": {
+          "title": "Analiza warstwy pogodowej",
+          "description": "Zaawansowana integracja warstw pogodowych pomaga podejmować świadome decyzje dotyczące warunków i czasu lotów."
+        }
+      }
+    },
     "cta": {
       "title": "Gotowy, by zacząć mapować?",
       "subtitle": "Zaloguj się lub stwórz swoją pierwszą mapę w kilka sekund.",
@@ -137,6 +159,10 @@
   "FAQ": {
     "title": "Najczęściej zadawane pytania",
     "subtitle": "Znajdź odpowiedzi na najpopularniejsze pytania dotyczące Pigeon Map",
+    "viewAll": "Zobacz wszystkie pytania",
+    "needMoreHelp": "Potrzebujesz więcej pomocy?",
+    "needMoreHelpDescription": "Jeśli nie znalazłeś odpowiedzi na swoje pytanie, skontaktuj się z naszym zespołem wsparcia.",
+    "contactTeam": "Kontakt z zespołem",
     "items": {
       "1": {
         "question": "Czym jest Pigeon Map?",
@@ -161,6 +187,42 @@
       "6": {
         "question": "Jak śledzić loty moich gołębi?",
         "answer": "Po zalogowaniu możesz dodawać loty przez panel kontrolny. Wprowadź szczegóły lotu, wgraj dane GPS jeśli są dostępne, i śledź wydajność swoich gołębi w czasie dzięki szczegółowym analizom i mapom."
+      },
+      "7": {
+        "question": "Jak dodać gołębia do systemu?",
+        "answer": "W panelu zarządzania gołębiami kliknij 'Dodaj gołębia', wypełnij dane podstawowe jak numer obrączki, płeć, kolor i inne szczegóły. Możesz też dodać zdjęcie i informacje o rodzicach."
+      },
+      "8": {
+        "question": "Czy mogę importować dane z innych systemów?",
+        "answer": "Tak, obsługujemy import danych z najpopularniejszych formatów używanych w hodowli gołębi. Skontaktuj się z naszym zespołem technicznym, aby uzyskać pomoc w migracji danych."
+      },
+      "9": {
+        "question": "Jak działa śledzenie pogody?",
+        "answer": "Pigeon Map integruje się z serwisami meteorologicznymi, dostarczając dane o wietrze, opadach, ciśnieniu i innych warunkach pogodowych które wpływają na loty gołębi."
+      },
+      "10": {
+        "question": "Czy mogę udostępniać dane innym hodowcom?",
+        "answer": "Tak, możesz kontrolować jakie dane chcesz udostępnić społeczności. Możesz dzielić się wynikami lotów, rodowodami czy nawet organizować wspólne zawody."
+      },
+      "11": {
+        "question": "Jak tworzyć raporty z lotów?",
+        "answer": "System automatycznie generuje szczegółowe raporty z każdego lotu, zawierające analizy prędkości, warunków pogodowych, tras i porównania z poprzednimi wynikami."
+      },
+      "12": {
+        "question": "Czy dane są bezpieczne?",
+        "answer": "Tak, wszystkie dane są szyfrowane i przechowywane na bezpiecznych serwerach. Mamy pełną politykę prywatności zgodną z RODO i regularnę backupy danych."
+      },
+      "13": {
+        "question": "Jak skontaktować się z pomocą techniczną?",
+        "answer": "Możesz skontaktować się z nami przez email: kontakt@digging.pl lub przez formularz kontaktowy na stronie. Odpowiadamy zwykle w ciągu 24 godzin."
+      },
+      "14": {
+        "question": "Czy mogę używać Pigeon Map offline?",
+        "answer": "Podstawowe funkcje są dostępne offline dzięki technologii PWA. Jednak pełna funkcjonalność, jak śledzenie pogody czy synchronizacja danych, wymaga połączenia internetowego."
+      },
+      "15": {
+        "question": "Jak organizować zawody w systemie?",
+        "answer": "W sekcji zawodów możesz utworzyć wydarzenie, zaprosić innych hodowców, ustawić punkty startowe i lądowania, a system automatycznie obliczy wyniki i rankingi."
       }
     }
   },

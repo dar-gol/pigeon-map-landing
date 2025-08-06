@@ -75,6 +75,20 @@ export default async function LandingPage() {
       operatingSystem: "Web Browser",
       description: meta("description"),
       url: "https://pigeon-map.digging.pl/login",
+      screenshot: [
+        "https://pigeon-map.digging.pl/assets/Dashboard-pigeon-detail.PNG",
+        "https://pigeon-map.digging.pl/assets/Dashboard-pigeon-flight-with-weather.PNG",
+        "https://pigeon-map.digging.pl/assets/Dashboard-pigeon-season.PNG",
+        "https://pigeon-map.digging.pl/assets/Dashboard-weather-layer.PNG",
+      ],
+      featureList: [
+        "Pigeon registry and management",
+        "Real-time flight tracking",
+        "Weather condition monitoring",
+        "Performance analytics",
+        "Breeding management",
+        "Community features",
+      ],
       offers: {
         "@type": "Offer",
         price: "0",
@@ -235,6 +249,117 @@ export default async function LandingPage() {
                 <ul className="space-y-2 text-grey-70">
                   <li>• {t(`features.3.desc`)}</li>
                 </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* App Screenshots Section */}
+        <section className="px-6 py-16 sm:py-20 bg-white">
+          <div className="max-w-5xl mx-auto">
+            <div className="text-center mb-12">
+              <h2 className="text-3xl md:text-4xl font-bold mb-4 text-grey-100">
+                {t("screenshots.title")}
+              </h2>
+              <p className="text-lg text-grey-70 max-w-3xl mx-auto">
+                {t("screenshots.subtitle")}
+              </p>
+            </div>
+
+            <div className="space-y-12 md:space-y-16">
+              {/* Screenshot 1 - Pigeon Detail */}
+              <div className="grid md:grid-cols-2 gap-8 lg:gap-12 items-center">
+                <div className="flex justify-end order-2 md:order-1">
+                  <div className="relative w-48 sm:w-56 lg:w-64 mx-auto md:mx-0">
+                    <Image
+                      src="/assets/Dashboard-pigeon-detail.PNG"
+                      alt={t("screenshots.items.1.title")}
+                      width={300}
+                      height={450}
+                      className="rounded-2xl shadow-lg w-full h-auto"
+                      priority
+                      sizes="(max-width: 768px) 192px, (max-width: 1024px) 224px, 256px"
+                    />
+                  </div>
+                </div>
+                <div className="order-1 md:order-2 text-center md:text-left md:pl-4 lg:pl-8">
+                  <h3 className="text-xl md:text-2xl font-bold mb-3 text-grey-100">
+                    {t("screenshots.items.1.title")}
+                  </h3>
+                  <p className="text-base md:text-lg text-grey-70 leading-relaxed">
+                    {t("screenshots.items.1.description")}
+                  </p>
+                </div>
+              </div>
+
+              {/* Screenshot 2 - Flight with Weather */}
+              <div className="grid md:grid-cols-2 gap-8 lg:gap-12 items-center">
+                <div className="text-center md:text-left md:pr-4 lg:pr-8">
+                  <h3 className="text-xl md:text-2xl font-bold mb-3 text-grey-100">
+                    {t("screenshots.items.2.title")}
+                  </h3>
+                  <p className="text-base md:text-lg text-grey-70 leading-relaxed">
+                    {t("screenshots.items.2.description")}
+                  </p>
+                </div>
+                <div className="relative w-48 sm:w-56 lg:w-64 mx-auto md:mx-0">
+                  <Image
+                    src="/assets/Dashboard-pigeon-flight-with-weather.PNG"
+                    alt={t("screenshots.items.2.title")}
+                    width={300}
+                    height={450}
+                    className="rounded-2xl shadow-lg w-full h-auto"
+                    sizes="(max-width: 768px) 192px, (max-width: 1024px) 224px, 256px"
+                  />
+                </div>
+              </div>
+
+              {/* Screenshot 3 - Season Management */}
+              <div className="grid md:grid-cols-2 gap-8 lg:gap-12 items-center">
+                <div className="order-2 md:order-1">
+                  <div className="flex justify-end order-2 md:order-1">
+                    <div className="relative w-48 sm:w-56 lg:w-64 mx-auto md:mx-0">
+                      <Image
+                        src="/assets/Dashboard-pigeon-season.PNG"
+                        alt={t("screenshots.items.3.title")}
+                        width={300}
+                        height={450}
+                        className="rounded-2xl shadow-lg w-full h-auto"
+                        sizes="(max-width: 768px) 192px, (max-width: 1024px) 224px, 256px"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div className="order-1 md:order-2 text-center md:text-left md:pl-4 lg:pl-8">
+                  <h3 className="text-xl md:text-2xl font-bold mb-3 text-grey-100">
+                    {t("screenshots.items.3.title")}
+                  </h3>
+                  <p className="text-base md:text-lg text-grey-70 leading-relaxed">
+                    {t("screenshots.items.3.description")}
+                  </p>
+                </div>
+              </div>
+
+              {/* Screenshot 4 - Weather Layer */}
+              <div className="grid md:grid-cols-2 gap-8 lg:gap-12 items-center">
+                <div className="text-center md:text-left md:pr-4 lg:pr-8">
+                  <h3 className="text-xl md:text-2xl font-bold mb-3 text-grey-100">
+                    {t("screenshots.items.4.title")}
+                  </h3>
+                  <p className="text-base md:text-lg text-grey-70 leading-relaxed">
+                    {t("screenshots.items.4.description")}
+                  </p>
+                </div>
+                <div className="relative w-48 sm:w-56 lg:w-64 mx-auto md:mx-0">
+                  <Image
+                    src="/assets/Dashboard-weather-layer.PNG"
+                    alt={t("screenshots.items.4.title")}
+                    width={300}
+                    height={450}
+                    className="rounded-2xl shadow-lg w-full h-auto"
+                    sizes="(max-width: 768px) 192px, (max-width: 1024px) 224px, 256px"
+                  />
+                </div>
               </div>
             </div>
           </div>

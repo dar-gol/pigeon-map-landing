@@ -96,6 +96,28 @@
         "desc": "Nutzen Sie Pigeon Map einfach auf jedem Gerät, wo immer Sie hingehen."
       }
     },
+    "screenshots": {
+      "title": "Sehen Sie Pigeon Map in Aktion",
+      "subtitle": "Entdecken Sie die leistungsstarken Funktionen, die speziell für Taubenzüchter entwickelt wurden",
+      "items": {
+        "1": {
+          "title": "Detaillierte Taubenprofile",
+          "description": "Verwalten Sie umfassende Profile für jede Taube mit Zuchtdaten, Leistungsstatistiken und Gesundheitsaufzeichnungen an einem Ort."
+        },
+        "2": {
+          "title": "Flugverfolgung mit Wetter",
+          "description": "Verfolgen Sie die Flüge Ihrer Tauben in Echtzeit mit integrierten Wetterdaten, um die Leistung unter verschiedenen Bedingungen zu analysieren."
+        },
+        "3": {
+          "title": "Saisonales Management",
+          "description": "Organisieren Sie Ihre Tauben nach Saisons und Wettbewerben mit benutzerfreundlichen Tools für Zuchtplanung und Leistungsverfolgung."
+        },
+        "4": {
+          "title": "Wetterebenen-Analyse",
+          "description": "Erweiterte Wetterebenen-Integration hilft Ihnen, fundierte Entscheidungen über Flugbedingungen und Timing zu treffen."
+        }
+      }
+    },
     "cta": {
       "title": "Bereit zum Kartieren?",
       "subtitle": "Melden Sie sich an oder erstellen Sie Ihre erste Karte in Sekunden.",
@@ -137,6 +159,10 @@
   "FAQ": {
     "title": "Häufig gestellte Fragen",
     "subtitle": "Finden Sie Antworten auf die häufigsten Fragen zu Pigeon Map",
+    "viewAll": "Alle Fragen anzeigen",
+    "needMoreHelp": "Brauchen Sie mehr Hilfe?",
+    "needMoreHelpDescription": "Wenn Sie die Antwort auf Ihre Frage nicht gefunden haben, kontaktieren Sie unser Support-Team.",
+    "contactTeam": "Team kontaktieren",
     "items": {
       "1": {
         "question": "Was ist Pigeon Map?",
@@ -161,6 +187,42 @@
       "6": {
         "question": "Wie verfolge ich meine Taubenflüge?",
         "answer": "Nach dem Anmelden können Sie Flüge über das Dashboard hinzufügen. Geben Sie Flugdetails ein, laden Sie GPS-Daten hoch, falls verfügbar, und verfolgen Sie die Leistung Ihrer Tauben über die Zeit mit detaillierten Analysen und Karten."
+      },
+      "7": {
+        "question": "Wie füge ich eine Taube zum System hinzu?",
+        "answer": "Im Taubenverwaltungsbereich klicken Sie auf 'Taube hinzufügen', füllen Grunddaten wie Ringnummer, Geschlecht, Farbe und andere Details aus. Sie können auch Fotos und Elterninformationen hinzufügen."
+      },
+      "8": {
+        "question": "Kann ich Daten aus anderen Systemen importieren?",
+        "answer": "Ja, wir unterstützen den Datenimport aus den beliebtesten Formaten der Taubenzucht. Kontaktieren Sie unser technisches Team für Hilfe bei der Datenmigration."
+      },
+      "9": {
+        "question": "Wie funktioniert die Wetterüberwachung?",
+        "answer": "Pigeon Map integriert sich mit meteorologischen Diensten und liefert Daten zu Wind, Niederschlag, Druck und anderen Wetterbedingungen, die Taubenflüge beeinflussen."
+      },
+      "10": {
+        "question": "Kann ich Daten mit anderen Züchtern teilen?",
+        "answer": "Ja, Sie können kontrollieren, welche Daten Sie mit der Community teilen möchten. Sie können Flugergebnisse, Stammbäume teilen oder sogar gemeinsame Wettbewerbe organisieren."
+      },
+      "11": {
+        "question": "Wie erstelle ich Flugberichte?",
+        "answer": "Das System generiert automatisch detaillierte Berichte von jedem Flug mit Geschwindigkeitsanalysen, Wetterbedingungen, Routen und Vergleichen mit vorherigen Ergebnissen."
+      },
+      "12": {
+        "question": "Sind meine Daten sicher?",
+        "answer": "Ja, alle Daten sind verschlüsselt und auf sicheren Servern gespeichert. Wir haben eine vollständige DSGVO-konforme Datenschutzrichtlinie und regelmäßige Datensicherungen."
+      },
+      "13": {
+        "question": "Wie kontaktiere ich den technischen Support?",
+        "answer": "Sie können uns per E-Mail kontaktieren: kontakt@digging.pl oder über das Kontaktformular auf der Website. Wir antworten normalerweise innerhalb von 24 Stunden."
+      },
+      "14": {
+        "question": "Kann ich Pigeon Map offline verwenden?",
+        "answer": "Grundfunktionen sind dank PWA-Technologie offline verfügbar. Jedoch erfordert die volle Funktionalität wie Wetterüberwachung oder Datensynchronisation eine Internetverbindung."
+      },
+      "15": {
+        "question": "Wie organisiere ich Wettbewerbe im System?",
+        "answer": "Im Wettbewerbsbereich können Sie ein Ereignis erstellen, andere Züchter einladen, Start- und Landepunkte festlegen, und das System berechnet automatisch Ergebnisse und Ranglisten."
       }
     }
   },

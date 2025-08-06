@@ -33,6 +33,10 @@
   "FAQ": {
     "title": "Veelgestelde vragen",
     "subtitle": "Vind antwoorden op de meest gestelde vragen over Pigeon Map",
+    "viewAll": "Bekijk alle vragen",
+    "needMoreHelp": "Meer hulp nodig?",
+    "needMoreHelpDescription": "Als u het antwoord op uw vraag niet heeft gevonden, neem dan contact op met ons ondersteuningsteam.",
+    "contactTeam": "Contact opnemen met team",
     "items": {
       "1": {
         "question": "Wat is Pigeon Map?",
@@ -57,6 +61,42 @@
       "6": {
         "question": "Hoe volg ik mijn duivenvluchten?",
         "answer": "Eenmaal ingelogd kunt u vluchten toevoegen via het dashboard. Voer vluchtdetails in, upload GPS-gegevens indien beschikbaar, en volg de prestaties van uw duiven in de tijd met gedetailleerde analyses en kaarten."
+      },
+      "7": {
+        "question": "Hoe voeg ik een duif toe aan het systeem?",
+        "answer": "In het duivenbeheer paneel klikt u op 'Duif toevoegen', vult u basisgegevens in zoals ringnummer, geslacht, kleur en andere details. U kunt ook foto's en ouderinformatie toevoegen."
+      },
+      "8": {
+        "question": "Kan ik gegevens importeren uit andere systemen?",
+        "answer": "Ja, we ondersteunen gegevensimport uit de meest populaire formaten gebruikt in duivenfokkerij. Neem contact op met ons technische team voor hulp bij gegevensmigratie."
+      },
+      "9": {
+        "question": "Hoe werkt weervolging?",
+        "answer": "Pigeon Map integreert met meteorologische diensten en biedt gegevens over wind, neerslag, druk en andere weersomstandigheden die duivenvluchten beïnvloeden."
+      },
+      "10": {
+        "question": "Kan ik gegevens delen met andere fokkers?",
+        "answer": "Ja, u kunt bepalen welke gegevens u wilt delen met de gemeenschap. U kunt vluchtresultaten, stambomen delen of zelfs gezamenlijke wedstrijden organiseren."
+      },
+      "11": {
+        "question": "Hoe maak ik vluchtrapporten?",
+        "answer": "Het systeem genereert automatisch gedetailleerde rapporten van elke vlucht, met snelheidsanalyses, weersomstandigheden, routes en vergelijkingen met vorige resultaten."
+      },
+      "12": {
+        "question": "Zijn mijn gegevens veilig?",
+        "answer": "Ja, alle gegevens zijn versleuteld en opgeslagen op beveiligde servers. We hebben een volledig privacybeleid dat voldoet aan de AVG en regelmatige gegevensback-ups."
+      },
+      "13": {
+        "question": "Hoe neem ik contact op met technische ondersteuning?",
+        "answer": "U kunt contact met ons opnemen via e-mail: kontakt@digging.pl of via het contactformulier op de website. We reageren meestal binnen 24 uur."
+      },
+      "14": {
+        "question": "Kan ik Pigeon Map offline gebruiken?",
+        "answer": "Basisfuncties zijn offline beschikbaar dankzij PWA-technologie. Echter, volledige functionaliteit zoals weervolging of gegevenssynchronisatie vereist een internetverbinding."
+      },
+      "15": {
+        "question": "Hoe organiseer ik wedstrijden in het systeem?",
+        "answer": "In de wedstrijdsectie kunt u een evenement aanmaken, andere fokkers uitnodigen, start- en landingspunten instellen, en het systeem berekent automatisch resultaten en ranglijsten."
       }
     }
   },
@@ -136,6 +176,28 @@
       "6": {
         "title": "Mobiele toegang",
         "desc": "Toegang tot alle functies vanaf elk apparaat - smartphone, tablet of desktop."
+      }
+    },
+    "screenshots": {
+      "title": "Zie Pigeon Map in actie",
+      "subtitle": "Ontdek de krachtige functies speciaal ontworpen voor duivenliefhebbers",
+      "items": {
+        "1": {
+          "title": "Gedetailleerde duivenprofielen",
+          "description": "Beheer uitgebreide profielen voor elke duif met fokgegevens, prestatiestatistieken en gezondheidsrecords op één plek."
+        },
+        "2": {
+          "title": "Vluchttracking met weer",
+          "description": "Volg de vluchten van uw duiven in realtime met geïntegreerde weergegevens om prestaties onder verschillende omstandigheden te analyseren."
+        },
+        "3": {
+          "title": "Seizoensbeheer",
+          "description": "Organiseer uw duiven per seizoen en wedstrijden met gebruiksvriendelijke tools voor fokplanning en prestatietracking."
+        },
+        "4": {
+          "title": "Weerlaag analyse",
+          "description": "Geavanceerde weerlaag integratie helpt u weloverwogen beslissingen te nemen over vluchtomstandigheden en timing."
+        }
       }
     },
     "cta": {

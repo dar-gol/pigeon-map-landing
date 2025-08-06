@@ -96,6 +96,28 @@
         "desc": "Používejte Pigeon Map snadno na jakémkoli zařízení, kamkoli jdete."
       }
     },
+    "screenshots": {
+      "title": "Podívejte se na Pigeon Map v akci",
+      "subtitle": "Objevte výkonné funkce navržené speciálně pro chovatele holubů",
+      "items": {
+        "1": {
+          "title": "Podrobné profily holubů",
+          "description": "Spravujte komplexní profily pro každého holuba s chovnými daty, statistikami výkonu a zdravotními záznamy na jednom místě."
+        },
+        "2": {
+          "title": "Sledování letů s počasím",
+          "description": "Sledujte lety svých holubů v reálném čase s integrovanými meteorologickými daty pro analýzu výkonu za různých podmínek."
+        },
+        "3": {
+          "title": "Správa sezón",
+          "description": "Organizujte své holuby podle sezón a soutěží pomocí uživatelsky přívětivých nástrojů pro plánování chovu a sledování výkonu."
+        },
+        "4": {
+          "title": "Analýza meteorologických vrstev",
+          "description": "Pokročilá integrace meteorologických vrstev vám pomůže činit informovaná rozhodnutí o podmínkách letů a časování."
+        }
+      }
+    },
     "cta": {
       "title": "Připraveni začít mapovat?",
       "subtitle": "Přihlaste se nebo vytvořte svou první mapu během sekund.",
@@ -137,6 +159,10 @@
   "FAQ": {
     "title": "Často kladené otázky",
     "subtitle": "Najděte odpovědi na nejčastější otázky o Pigeon Map",
+    "viewAll": "Zobrazit všechny otázky",
+    "needMoreHelp": "Potřebujete více pomoci?",
+    "needMoreHelpDescription": "Pokud jste nenašli odpověď na svou otázku, kontaktujte náš tým podpory.",
+    "contactTeam": "Kontaktovat tým",
     "items": {
       "1": {
         "question": "Co je Pigeon Map?",
@@ -161,6 +187,42 @@
       "6": {
         "question": "Jak sleduji lety svých holubů?",
         "answer": "Po přihlášení můžete přidávat lety prostřednictvím dashboardu. Zadejte podrobnosti o letu, nahrajte GPS data, pokud jsou k dispozici, a sledujte výkonnost svých holubů v čase s podrobnými analýzami a mapami."
+      },
+      "7": {
+        "question": "Jak přidám holuba do systému?",
+        "answer": "V panelu správy holubů klikněte na 'Přidat holuba', vyplňte základní údaje jako číslo kroužku, pohlaví, barvu a další specifika. Můžete také přidat fotky a informace o rodičích."
+      },
+      "8": {
+        "question": "Mohu importovat data z jiných systémů?",
+        "answer": "Ano, podporujeme import dat z nejpopulárnějších formátů používaných v chovu holubů. Kontaktujte náš technický tým pro pomoc s migrací dat."
+      },
+      "9": {
+        "question": "Jak funguje sledování počasí?",
+        "answer": "Pigeon Map se integruje s meteorologickými službami a poskytuje data o větru, srážkách, tlaku a dalších povětrnostních podmínkách, které ovlivňují lety holubů."
+      },
+      "10": {
+        "question": "Mohu sdílet data s ostatními chovateli?",
+        "answer": "Ano, můžete kontrolovat, jaká data chcete sdílet s komunitou. Můžete sdílet výsledky letů, rodokmeny nebo dokonce organizovat společné soutěže."
+      },
+      "11": {
+        "question": "Jak vytvořit zprávy o letech?",
+        "answer": "Systém automaticky generuje podrobné zprávy z každého letu obsahující analýzy rychlosti, povětrnostní podmínky, trasy a porovnání s předchozími výsledky."
+      },
+      "12": {
+        "question": "Jsou moje data bezpečná?",
+        "answer": "Ano, všechna data jsou šifrována a uložena na zabezpečených serverech. Máme kompletní zásady ochrany soukromí v souladu s GDPR a pravidelné zálohy dat."
+      },
+      "13": {
+        "question": "Jak kontaktuji technickou podporu?",
+        "answer": "Můžete nás kontaktovat e-mailem: kontakt@digging.pl nebo prostřednictvím kontaktního formuláře na webových stránkách. Obvykle odpovídáme do 24 hodin."
+      },
+      "14": {
+        "question": "Mohu používat Pigeon Map offline?",
+        "answer": "Základní funkce jsou k dispozici offline díky technologii PWA. Plná funkcionalita jako sledování počasí nebo synchronizace dat však vyžaduje připojení k internetu."
+      },
+      "15": {
+        "question": "Jak organizovat soutěže v systému?",
+        "answer": "V sekci soutěží můžete vytvořit událost, pozvat ostatní chovatele, nastavit start a cílové body a systém automaticky vypočítá výsledky a pořadí."
       }
     }
   },

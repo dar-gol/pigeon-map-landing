@@ -27,6 +27,13 @@ export const localizedPathnames = {
     cs: "/kontakt",
     nl: "/contact",
   },
+  "/faq": {
+    en: "/faq",
+    pl: "/faq",
+    de: "/faq",
+    cs: "/faq",
+    nl: "/faq",
+  },
   "/": {
     en: "/",
     pl: "/",
