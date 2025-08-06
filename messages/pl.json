@@ -193,36 +193,28 @@
         "answer": "W panelu zarządzania gołębiami kliknij 'Dodaj gołębia', wypełnij dane podstawowe jak numer obrączki, płeć, kolor i inne szczegóły. Możesz też dodać zdjęcie i informacje o rodzicach."
       },
       "8": {
-        "question": "Czy mogę importować dane z innych systemów?",
-        "answer": "Tak, obsługujemy import danych z najpopularniejszych formatów używanych w hodowli gołębi. Skontaktuj się z naszym zespołem technicznym, aby uzyskać pomoc w migracji danych."
-      },
-      "9": {
         "question": "Jak działa śledzenie pogody?",
         "answer": "Pigeon Map integruje się z serwisami meteorologicznymi, dostarczając dane o wietrze, opadach, ciśnieniu i innych warunkach pogodowych które wpływają na loty gołębi."
       },
-      "10": {
+      "9": {
         "question": "Czy mogę udostępniać dane innym hodowcom?",
         "answer": "Tak, możesz kontrolować jakie dane chcesz udostępnić społeczności. Możesz dzielić się wynikami lotów, rodowodami czy nawet organizować wspólne zawody."
       },
-      "11": {
+      "10": {
         "question": "Jak tworzyć raporty z lotów?",
         "answer": "System automatycznie generuje szczegółowe raporty z każdego lotu, zawierające analizy prędkości, warunków pogodowych, tras i porównania z poprzednimi wynikami."
       },
-      "12": {
+      "11": {
         "question": "Czy dane są bezpieczne?",
         "answer": "Tak, wszystkie dane są szyfrowane i przechowywane na bezpiecznych serwerach. Mamy pełną politykę prywatności zgodną z RODO i regularnę backupy danych."
       },
-      "13": {
+      "12": {
         "question": "Jak skontaktować się z pomocą techniczną?",
         "answer": "Możesz skontaktować się z nami przez email: kontakt@digging.pl lub przez formularz kontaktowy na stronie. Odpowiadamy zwykle w ciągu 24 godzin."
       },
-      "14": {
-        "question": "Czy mogę używać Pigeon Map offline?",
-        "answer": "Podstawowe funkcje są dostępne offline dzięki technologii PWA. Jednak pełna funkcjonalność, jak śledzenie pogody czy synchronizacja danych, wymaga połączenia internetowego."
-      },
-      "15": {
+      "13": {
         "question": "Jak organizować zawody w systemie?",
-        "answer": "W sekcji zawodów możesz utworzyć wydarzenie, zaprosić innych hodowców, ustawić punkty startowe i lądowania, a system automatycznie obliczy wyniki i rankingi."
+        "answer": "Aby organizować zawody konkursowe, najpierw musisz zostać lotowym. Skontaktuj się z pomocą techniczną pod adresem kontakt@digging.pl, aby otrzymać uprawnienia lotowego. Następnie podczas tworzenia lotu wybierz opcję 'lot konkursowy' i zapros innych hodowców do udziału."
       }
     }
   },

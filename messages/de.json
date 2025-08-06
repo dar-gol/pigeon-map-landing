@@ -193,36 +193,28 @@
         "answer": "Im Taubenverwaltungsbereich klicken Sie auf 'Taube hinzufügen', füllen Grunddaten wie Ringnummer, Geschlecht, Farbe und andere Details aus. Sie können auch Fotos und Elterninformationen hinzufügen."
       },
       "8": {
-        "question": "Kann ich Daten aus anderen Systemen importieren?",
-        "answer": "Ja, wir unterstützen den Datenimport aus den beliebtesten Formaten der Taubenzucht. Kontaktieren Sie unser technisches Team für Hilfe bei der Datenmigration."
-      },
-      "9": {
         "question": "Wie funktioniert die Wetterüberwachung?",
         "answer": "Pigeon Map integriert sich mit meteorologischen Diensten und liefert Daten zu Wind, Niederschlag, Druck und anderen Wetterbedingungen, die Taubenflüge beeinflussen."
       },
-      "10": {
+      "9": {
         "question": "Kann ich Daten mit anderen Züchtern teilen?",
         "answer": "Ja, Sie können kontrollieren, welche Daten Sie mit der Community teilen möchten. Sie können Flugergebnisse, Stammbäume teilen oder sogar gemeinsame Wettbewerbe organisieren."
       },
-      "11": {
+      "10": {
         "question": "Wie erstelle ich Flugberichte?",
         "answer": "Das System generiert automatisch detaillierte Berichte von jedem Flug mit Geschwindigkeitsanalysen, Wetterbedingungen, Routen und Vergleichen mit vorherigen Ergebnissen."
       },
-      "12": {
+      "11": {
         "question": "Sind meine Daten sicher?",
         "answer": "Ja, alle Daten sind verschlüsselt und auf sicheren Servern gespeichert. Wir haben eine vollständige DSGVO-konforme Datenschutzrichtlinie und regelmäßige Datensicherungen."
       },
-      "13": {
+      "12": {
         "question": "Wie kontaktiere ich den technischen Support?",
         "answer": "Sie können uns per E-Mail kontaktieren: kontakt@digging.pl oder über das Kontaktformular auf der Website. Wir antworten normalerweise innerhalb von 24 Stunden."
       },
-      "14": {
-        "question": "Kann ich Pigeon Map offline verwenden?",
-        "answer": "Grundfunktionen sind dank PWA-Technologie offline verfügbar. Jedoch erfordert die volle Funktionalität wie Wetterüberwachung oder Datensynchronisation eine Internetverbindung."
-      },
-      "15": {
+      "13": {
         "question": "Wie organisiere ich Wettbewerbe im System?",
-        "answer": "Im Wettbewerbsbereich können Sie ein Ereignis erstellen, andere Züchter einladen, Start- und Landepunkte festlegen, und das System berechnet automatisch Ergebnisse und Ranglisten."
+        "answer": "Um Wettbewerbsflüge zu organisieren, müssen Sie zunächst Flugmanager werden. Kontaktieren Sie den technischen Support unter kontakt@digging.pl, um Flugmanager-Berechtigungen zu erhalten. Dann wählen Sie beim Erstellen eines Fluges die Option 'Wettbewerbsflug' und laden andere Züchter zur Teilnahme ein."
       }
     }
   },

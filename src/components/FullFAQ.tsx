@@ -45,7 +45,7 @@ export default function FullFAQ() {
     );
   };
 
-  const allFaqItems = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15];
+  const allFaqItems = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13];
 
   return (
     <section className="px-6 py-20 max-w-4xl mx-auto">

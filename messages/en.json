@@ -193,36 +193,28 @@
         "answer": "In the pigeon management panel, click 'Add Pigeon', fill in basic details like ring number, sex, color and other specifics. You can also add photos and parent information."
       },
       "8": {
-        "question": "Can I import data from other systems?",
-        "answer": "Yes, we support data import from the most popular formats used in pigeon breeding. Contact our technical team for assistance with data migration."
-      },
-      "9": {
         "question": "How does weather tracking work?",
         "answer": "Pigeon Map integrates with meteorological services, providing data on wind, precipitation, pressure and other weather conditions that affect pigeon flights."
       },
-      "10": {
+      "9": {
         "question": "Can I share data with other breeders?",
         "answer": "Yes, you can control what data you want to share with the community. You can share flight results, pedigrees or even organize joint competitions."
       },
-      "11": {
+      "10": {
         "question": "How to create flight reports?",
         "answer": "The system automatically generates detailed reports from each flight, containing speed analyses, weather conditions, routes and comparisons with previous results."
       },
-      "12": {
+      "11": {
         "question": "Is my data secure?",
         "answer": "Yes, all data is encrypted and stored on secure servers. We have a complete privacy policy compliant with GDPR and regular data backups."
       },
-      "13": {
+      "12": {
         "question": "How do I contact technical support?",
         "answer": "You can contact us via email: kontakt@digging.pl or through the contact form on the website. We usually respond within 24 hours."
       },
-      "14": {
-        "question": "Can I use Pigeon Map offline?",
-        "answer": "Basic functions are available offline thanks to PWA technology. However, full functionality like weather tracking or data synchronization requires an internet connection."
-      },
-      "15": {
+      "13": {
         "question": "How to organize competitions in the system?",
-        "answer": "In the competitions section, you can create an event, invite other breeders, set start and landing points, and the system will automatically calculate results and rankings."
+        "answer": "To organize competitive flights, you must first become a flight manager. Contact technical support at kontakt@digging.pl to receive flight manager permissions. Then when creating a flight, select the 'competitive flight' option and invite other breeders to participate."
       }
     }
   },

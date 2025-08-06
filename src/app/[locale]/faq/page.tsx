@@ -67,7 +67,7 @@ export default async function FAQPage({
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "FAQPage",
-    mainEntity: Array.from({ length: 15 }, (_, i) => ({
+    mainEntity: Array.from({ length: 13 }, (_, i) => ({
       "@type": "Question",
       name: t(`items.${i + 1}.question`),
       acceptedAnswer: {

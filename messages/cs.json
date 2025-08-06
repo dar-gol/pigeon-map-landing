@@ -193,36 +193,28 @@
         "answer": "V panelu správy holubů klikněte na 'Přidat holuba', vyplňte základní údaje jako číslo kroužku, pohlaví, barvu a další specifika. Můžete také přidat fotky a informace o rodičích."
       },
       "8": {
-        "question": "Mohu importovat data z jiných systémů?",
-        "answer": "Ano, podporujeme import dat z nejpopulárnějších formátů používaných v chovu holubů. Kontaktujte náš technický tým pro pomoc s migrací dat."
-      },
-      "9": {
         "question": "Jak funguje sledování počasí?",
         "answer": "Pigeon Map se integruje s meteorologickými službami a poskytuje data o větru, srážkách, tlaku a dalších povětrnostních podmínkách, které ovlivňují lety holubů."
       },
-      "10": {
+      "9": {
         "question": "Mohu sdílet data s ostatními chovateli?",
         "answer": "Ano, můžete kontrolovat, jaká data chcete sdílet s komunitou. Můžete sdílet výsledky letů, rodokmeny nebo dokonce organizovat společné soutěže."
       },
-      "11": {
+      "10": {
         "question": "Jak vytvořit zprávy o letech?",
         "answer": "Systém automaticky generuje podrobné zprávy z každého letu obsahující analýzy rychlosti, povětrnostní podmínky, trasy a porovnání s předchozími výsledky."
       },
-      "12": {
+      "11": {
         "question": "Jsou moje data bezpečná?",
         "answer": "Ano, všechna data jsou šifrována a uložena na zabezpečených serverech. Máme kompletní zásady ochrany soukromí v souladu s GDPR a pravidelné zálohy dat."
       },
-      "13": {
+      "12": {
         "question": "Jak kontaktuji technickou podporu?",
         "answer": "Můžete nás kontaktovat e-mailem: kontakt@digging.pl nebo prostřednictvím kontaktního formuláře na webových stránkách. Obvykle odpovídáme do 24 hodin."
       },
-      "14": {
-        "question": "Mohu používat Pigeon Map offline?",
-        "answer": "Základní funkce jsou k dispozici offline díky technologii PWA. Plná funkcionalita jako sledování počasí nebo synchronizace dat však vyžaduje připojení k internetu."
-      },
-      "15": {
+      "13": {
         "question": "Jak organizovat soutěže v systému?",
-        "answer": "V sekci soutěží můžete vytvořit událost, pozvat ostatní chovatele, nastavit start a cílové body a systém automaticky vypočítá výsledky a pořadí."
+        "answer": "Pro organizování soutěžních letů musíte nejprve získat oprávnění správce letů. Kontaktujte technickou podporu na kontakt@digging.pl pro získání oprávnění správce letů. Poté při vytváření letu vyberte možnost 'soutěžní let' a pozvěte ostatní chovatele k účasti."
       }
     }
   },

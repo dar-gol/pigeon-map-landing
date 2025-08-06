@@ -67,36 +67,28 @@
         "answer": "In het duivenbeheer paneel klikt u op 'Duif toevoegen', vult u basisgegevens in zoals ringnummer, geslacht, kleur en andere details. U kunt ook foto's en ouderinformatie toevoegen."
       },
       "8": {
-        "question": "Kan ik gegevens importeren uit andere systemen?",
-        "answer": "Ja, we ondersteunen gegevensimport uit de meest populaire formaten gebruikt in duivenfokkerij. Neem contact op met ons technische team voor hulp bij gegevensmigratie."
-      },
-      "9": {
         "question": "Hoe werkt weervolging?",
         "answer": "Pigeon Map integreert met meteorologische diensten en biedt gegevens over wind, neerslag, druk en andere weersomstandigheden die duivenvluchten beïnvloeden."
       },
-      "10": {
+      "9": {
         "question": "Kan ik gegevens delen met andere fokkers?",
         "answer": "Ja, u kunt bepalen welke gegevens u wilt delen met de gemeenschap. U kunt vluchtresultaten, stambomen delen of zelfs gezamenlijke wedstrijden organiseren."
       },
-      "11": {
+      "10": {
         "question": "Hoe maak ik vluchtrapporten?",
         "answer": "Het systeem genereert automatisch gedetailleerde rapporten van elke vlucht, met snelheidsanalyses, weersomstandigheden, routes en vergelijkingen met vorige resultaten."
       },
-      "12": {
+      "11": {
         "question": "Zijn mijn gegevens veilig?",
         "answer": "Ja, alle gegevens zijn versleuteld en opgeslagen op beveiligde servers. We hebben een volledig privacybeleid dat voldoet aan de AVG en regelmatige gegevensback-ups."
       },
-      "13": {
+      "12": {
         "question": "Hoe neem ik contact op met technische ondersteuning?",
         "answer": "U kunt contact met ons opnemen via e-mail: kontakt@digging.pl of via het contactformulier op de website. We reageren meestal binnen 24 uur."
       },
-      "14": {
-        "question": "Kan ik Pigeon Map offline gebruiken?",
-        "answer": "Basisfuncties zijn offline beschikbaar dankzij PWA-technologie. Echter, volledige functionaliteit zoals weervolging of gegevenssynchronisatie vereist een internetverbinding."
-      },
-      "15": {
+      "13": {
         "question": "Hoe organiseer ik wedstrijden in het systeem?",
-        "answer": "In de wedstrijdsectie kunt u een evenement aanmaken, andere fokkers uitnodigen, start- en landingspunten instellen, en het systeem berekent automatisch resultaten en ranglijsten."
+        "answer": "Om competitievluchten te organiseren, moet u eerst vluchtmanager worden. Neem contact op met technische ondersteuning op kontakt@digging.pl om vluchtmanager-rechten te krijgen. Selecteer vervolgens bij het maken van een vlucht de optie 'competitievlucht' en nodig andere fokkers uit om deel te nemen."
       }
     }
   },
