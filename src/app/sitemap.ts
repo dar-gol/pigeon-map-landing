@@ -6,7 +6,14 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = "https://pigeon-map.digging.pl";
 
   // Generate URLs for all locales
-  const staticPages = ["/", "/contact", "/about", "/privacy-policy", "/blog"];
+  const staticPages = [
+    "/",
+    "/contact",
+    "/about",
+    "/privacy-policy",
+    "/blog",
+    "/faq",
+  ];
   const locales = ["", ...routing.locales];
 
   const sitemapEntries: MetadataRoute.Sitemap = [];

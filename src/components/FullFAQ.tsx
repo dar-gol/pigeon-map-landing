@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import { useTranslations } from "next-intl";
+import { Link as I18nLink } from "@/i18n/navigation";
 
 interface FAQItemProps {
   question: string;
@@ -74,12 +75,12 @@ export default function FullFAQ() {
             {t("needMoreHelp")}
           </h3>
           <p className="text-grey-70 mb-6">{t("needMoreHelpDescription")}</p>
-          <a
+          <I18nLink
             href="/contact"
             className="inline-flex items-center px-6 py-3 bg-primary-80 text-white rounded-lg hover:bg-primary-90 transition-colors duration-200"
           >
             {t("contactTeam")}
-          </a>
+          </I18nLink>
         </div>
       </div>
     </section>

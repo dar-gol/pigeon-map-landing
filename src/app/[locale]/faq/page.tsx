@@ -56,12 +56,7 @@ export async function generateMetadata({
   };
 }
 
-export default async function FAQPage({
-  params,
-}: {
-  params: Promise<{ locale: string }>;
-}) {
-  const { locale } = await params;
+export default async function FAQPage() {
   const t = await getTranslations("FAQ");
 
   const jsonLd = {
