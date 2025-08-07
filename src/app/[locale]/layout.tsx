@@ -23,7 +23,10 @@ export async function generateMetadata({
     },
     description: t("description"),
     keywords: t("keywords"),
-    authors: [{ name: "DIGGING Barbara Skrzypnik" }],
+    authors: [
+      { name: "DIGGING Barbara Skrzypnik" },
+      { name: "Dariusz Golomski", url: "https://github.com/dar-gol" },
+    ],
     creator: "DIGGING Barbara Skrzypnik",
     publisher: "DIGGING Barbara Skrzypnik",
     robots: {

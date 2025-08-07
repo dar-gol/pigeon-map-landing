@@ -206,6 +206,9 @@ export default function Footer() {
           <p className="text-grey-15 text-sm">
             {t("madeWith")} ❤️ {t("forPigeonCommunity")}
           </p>
+          <p className="text-grey-10 text-xs mt-2 opacity-60">
+            {t("createdBy")} Dariusz Golomski
+          </p>
         </div>
       </div>
     </footer>
