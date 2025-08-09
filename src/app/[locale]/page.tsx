@@ -116,33 +116,52 @@ export default async function LandingPage() {
         <Navbar />
 
         {/* Hero */}
-        <section className="relative px-6 py-28 text-center bg-primary-1 overflow-hidden">
-          {/* Duże logo w tle */}
-          <div className="absolute inset-0 flex justify-center items-center pointer-events-none">
-            <Image
-              src="/assets/logo512.png"
-              alt="Pigeon Map Logo Background"
-              width={500}
-              height={500}
-              className="opacity-10"
-              priority
-            />
+        <section className="relative px-6 py-20 md:py-24 text-center bg-primary-1 overflow-hidden h-screen">
+          {/* Interaktywna mapa w tle */}
+          <div className="absolute inset-0 pointer-events-none">
+            <video
+              autoPlay
+              muted
+              loop
+              playsInline
+              className="w-full h-full object-cover"
+              poster="/assets/logo512.png"
+              preload="metadata"
+            >
+              <source
+                src="/assets/Pigeon-map-map-presentation.mp4"
+                type="video/mp4"
+              />
+              {/* Fallback dla starszych przeglądarek */}
+              <Image
+                src="/assets/logo512.png"
+                alt="Pigeon Map Interactive Demo"
+                fill
+                className="opacity-90 object-cover scale-100"
+                priority
+              />
+            </video>
           </div>
 
+          {/* Lekki overlay dla czytelności tekstu */}
+          <div className="absolute inset-0 bg-primary-1/40 pointer-events-none"></div>
+
           {/* Treść hero */}
-          <div className="relative z-10 max-w-3xl mx-auto text-grey-100">
-            <h1 className="text-4xl md:text-5xl font-bold mb-4">
-              {t("hero.title")}
-            </h1>
-            <p className="text-lg md:text-xl mb-8 text-grey-70">
-              {t("hero.subtitle")}
-            </p>
-            <Link
-              href="/login"
-              className="inline-block bg-primary-100 hover:bg-primary-80 text-white font-semibold px-6 py-3 rounded-xl shadow"
-            >
-              {t("hero.cta")}
-            </Link>
+          <div className="relative z-10 max-w-4xl mx-auto text-white flex flex-col justify-center h-full">
+            <div>
+              <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6">
+                {t("hero.title")}
+              </h1>
+              <p className="text-lg md:text-xl lg:text-2xl mb-8 text-gray-200 max-w-3xl mx-auto leading-relaxed">
+                {t("hero.subtitle")}
+              </p>
+              <Link
+                href="/login"
+                className="inline-block bg-white hover:bg-primary-80 hover:text-white text-primary-100 font-semibold px-8 py-4 rounded-xl shadow-lg hover:shadow-xl transition-all duration-200 text-lg"
+              >
+                {t("hero.cta")}
+              </Link>
+            </div>
           </div>
         </section>
 
@@ -294,11 +313,11 @@ export default async function LandingPage() {
 
               {/* Screenshot 2 - Flight with Weather */}
               <div className="grid md:grid-cols-2 gap-8 lg:gap-12 items-center">
-                <div className="text-center md:text-left md:pr-4 lg:pr-8">
-                  <h3 className="text-xl md:text-2xl font-bold mb-3 text-grey-100">
+                <div className="text-center md:text-right md:pr-4 lg:pr-8">
+                  <h3 className="text-center md:text-right text-xl md:text-2xl font-bold mb-3 text-grey-100">
                     {t("screenshots.items.2.title")}
                   </h3>
-                  <p className="text-base md:text-lg text-grey-70 leading-relaxed">
+                  <p className="text-center md:text-right text-base md:text-lg text-grey-70 leading-relaxed">
                     {t("screenshots.items.2.description")}
                   </p>
                 </div>
@@ -342,11 +361,11 @@ export default async function LandingPage() {
 
               {/* Screenshot 4 - Weather Layer */}
               <div className="grid md:grid-cols-2 gap-8 lg:gap-12 items-center">
-                <div className="text-center md:text-left md:pr-4 lg:pr-8">
-                  <h3 className="text-xl md:text-2xl font-bold mb-3 text-grey-100">
+                <div className="text-center md:text-right md:pr-4 lg:pr-8">
+                  <h3 className="text-center md:text-right text-xl md:text-2xl font-bold mb-3 text-grey-100">
                     {t("screenshots.items.4.title")}
                   </h3>
-                  <p className="text-base md:text-lg text-grey-70 leading-relaxed">
+                  <p className="text-center md:text-right text-base md:text-lg text-grey-70 leading-relaxed">
                     {t("screenshots.items.4.description")}
                   </p>
                 </div>

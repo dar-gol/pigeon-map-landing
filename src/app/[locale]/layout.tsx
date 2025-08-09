@@ -107,6 +107,14 @@ export default async function LocaleLayout({
         <link rel="apple-touch-icon" href="/assets/logo192.png" />
         <link type="text/plain" rel="author" href="/humans.txt" />
 
+        {/* Video preload for better LCP */}
+        <link
+          rel="preload"
+          as="video"
+          href="/assets/Pigeon-map-map-presentation.mp4"
+          type="video/mp4"
+        />
+
         {/* PWA Manifest */}
         <link rel="manifest" href="/dashboard-manifest.json" />
 
