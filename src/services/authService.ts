@@ -17,6 +17,12 @@ export const signIn = async (data: LoginProps) => {
   return result.data;
 };
 
+export const googleSignIn = async (data: { token: string }) => {
+  const result = await post<LoginData>("auth/google-login", data);
+  CookieHelper.token.set(result.data.access_token);
+  return result.data;
+};
+
 export const acceptPlanner = (token: string) => {
   return authPatch(`users/accept-planner`, { token });
 };

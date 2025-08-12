@@ -28,7 +28,14 @@
     "TypeEmailInEmailInput": "Wpisz email w polu email",
     "ResendSuccessfully": "Email potwierdzający został wysłany. Sprawdź swoją skrzynkę odbiorczą.",
     "howToLoginRegister": "Nie wiesz jak się zarejestrować lub zalogować?",
-    "appNews": "Zobacz newsy ze świata Pigeon Map!"
+    "appNews": "Zobacz newsy ze świata Pigeon Map!",
+    "googleLogin": "Zaloguj się przez Google",
+    "googleLoginError": "Błąd logowania przez Google",
+    "or": "lub",
+    "quickLogin": "Szybkie logowanie",
+    "quickLoginDescription": "Zaloguj się jednym kliknięciem przez Google i uzyskaj natychmiastowy dostęp do swoich gołębi!",
+    "orContinueWithEmail": "lub kontynuuj z emailem poniżej",
+    "clickToClose": "Kliknij aby zamknąć"
   },
   "Landing": {
     "aboutApp": {

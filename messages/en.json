@@ -28,7 +28,14 @@
     "TypeEmailInEmailInput": "Type email in the email input",
     "ResendSuccessfully": "Confirmation email has been sent. Please check your inbox.",
     "howToLoginRegister": "Don't know how to register or log in?",
-    "appNews": "See news from the world of Pigeon Map!"
+    "appNews": "See news from the world of Pigeon Map!",
+    "googleLogin": "Sign in with Google",
+    "googleLoginError": "Google login error",
+    "or": "or",
+    "quickLogin": "Quick Login",
+    "quickLoginDescription": "Sign in with one click using Google and get instant access to your pigeons!",
+    "orContinueWithEmail": "or continue with email below",
+    "clickToClose": "Click to close"
   },
   "Landing": {
     "aboutApp": {

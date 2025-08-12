@@ -28,7 +28,14 @@
     "TypeEmailInEmailInput": "Voer e-mail in het e-mailveld in",
     "ResendSuccessfully": "Bevestigingsmail is verzonden. Controleer uw inbox.",
     "howToLoginRegister": "Weet u niet hoe u zich moet registreren of inloggen?",
-    "appNews": "Bekijk nieuws uit de wereld van Pigeon Map!"
+    "appNews": "Bekijk nieuws uit de wereld van Pigeon Map!",
+    "googleLogin": "Inloggen met Google",
+    "googleLoginError": "Google-inlogfout",
+    "or": "of",
+    "quickLogin": "Snel inloggen",
+    "quickLoginDescription": "Log in met één klik via Google en krijg direct toegang tot uw duiven!",
+    "orContinueWithEmail": "of ga verder met e-mail hieronder",
+    "clickToClose": "Klik om te sluiten"
   },
   "FAQ": {
     "title": "Veelgestelde vragen",

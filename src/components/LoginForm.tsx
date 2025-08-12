@@ -1,12 +1,13 @@
 "use client";
 
 import { useLocale, useTranslations } from "next-intl";
-import { useEffect, useState } from "react";
+import { useEffect, useState, useCallback } from "react";
 import Link from "next/link";
 import { useSearchParams, useParams } from "next/navigation";
 import {
   acceptPlanner,
   confirmEmail,
+  googleSignIn,
   resendConfirmationEmail,
   signIn,
 } from "@/services/authService";
@@ -15,6 +16,7 @@ import ErrorHelper from "@/helpers/ErrorHelper";
 import CookieHelper from "@/lib/CookieHelper";
 import { DASHBOARD } from "@/services/BaseService";
 import UniversalPostNames from "@/lib/UniversalPostNames";
+import { GoogleLogin } from "@react-oauth/google";
 
 // Accept optional props for action and token
 interface LoginFormProps {
@@ -31,6 +33,26 @@ export default function LoginForm(props: LoginFormProps = {}) {
   const [isAcceptPlanner, setIsAcceptPlanner] = useState(false);
   const [email, setEmail] = useState(searchParams.get("email") || "");
   const [isConfirmed, setIsConfirmed] = useState(false);
+  const [showGoogleTooltip, setShowGoogleTooltip] = useState(false);
+  const [hasShownTooltip, setHasShownTooltip] = useState(false);
+
+  // Check if user has seen tooltip too many times
+  const getTooltipViewCount = useCallback(() => {
+    if (typeof window === "undefined") return 0;
+    const count = CookieHelper.googleLoginViews.get();
+    return count ? parseInt(count, 10) : 0;
+  }, []);
+
+  const incrementTooltipViewCount = useCallback(() => {
+    if (typeof window === "undefined") return;
+    const currentCount = getTooltipViewCount();
+    CookieHelper.googleLoginViews.set((currentCount + 1).toString());
+  }, [getTooltipViewCount]);
+
+  const shouldShowTooltip = useCallback(() => {
+    const maxViews = 3; // Show tooltip maximum 3 times
+    return getTooltipViewCount() < maxViews;
+  }, [getTooltipViewCount]);
 
   // Read action/token from params if present, then props, then query string
   const action =
@@ -41,6 +63,27 @@ export default function LoginForm(props: LoginFormProps = {}) {
   // New: show info for registration and email confirmation actions
   const showRegistered = action === LoginActionEnum.registered;
   // const showEmailConfirmation = action === LoginActionEnum.emailConfirmed;
+
+  // Google login success handler
+  const handleGoogleSuccess = async (credentialResponse: {
+    credential?: string;
+  }) => {
+    try {
+      if (!credentialResponse.credential)
+        throw new Error("Google didnt give credential.");
+      await googleSignIn({ token: credentialResponse.credential });
+      window.location.href = DASHBOARD;
+    } catch (error) {
+      console.error("Google login error:", error);
+      alert(t("googleLoginError"));
+    }
+  };
+
+  // Google login error handler
+  const handleGoogleError = () => {
+    console.error("Google login failed");
+    alert(t("googleLoginError"));
+  };
 
   // Prostota - obsługa submit wyświetla alert
   async function handleSubmit(e: React.FormEvent) {
@@ -85,7 +128,7 @@ export default function LoginForm(props: LoginFormProps = {}) {
     }
   }
 
-  const sendEmailConfirmation = async () => {
+  const sendEmailConfirmation = useCallback(async () => {
     if (action !== LoginActionEnum.emailConfirmed) return;
     try {
       if (token) {
@@ -99,7 +142,7 @@ export default function LoginForm(props: LoginFormProps = {}) {
       );
       return;
     }
-  };
+  }, [action, token, t]);
 
   useEffect(() => {
     if (action) return;
@@ -107,11 +150,54 @@ export default function LoginForm(props: LoginFormProps = {}) {
     if (CookieHelper.token.get()) {
       window.location.href = DASHBOARD;
     }
-  }, []);
+  }, [action]);
 
   useEffect(() => {
     void sendEmailConfirmation();
-  }, [action, token]);
+  }, [sendEmailConfirmation]);
+
+  // Auto-show Google tooltip after 4 seconds if user hasn't interacted
+  useEffect(() => {
+    if (action || hasShownTooltip || !shouldShowTooltip()) {
+      // Log tooltip view count for debugging
+      if (process.env.NODE_ENV === "development") {
+        console.log(`Google tooltip view count: ${getTooltipViewCount()}/3`);
+      }
+      return;
+    }
+
+    const timer = setTimeout(() => {
+      setShowGoogleTooltip(true);
+      setHasShownTooltip(true);
+      incrementTooltipViewCount();
+
+      if (process.env.NODE_ENV === "development") {
+        console.log(
+          `Google tooltip shown. New count: ${getTooltipViewCount() + 1}/3`
+        );
+      }
+
+      // Hide tooltip after 15 seconds
+      setTimeout(() => {
+        setShowGoogleTooltip(false);
+      }, 15000);
+    }, 4000); // 4 seconds
+
+    return () => clearTimeout(timer);
+  }, [
+    action,
+    hasShownTooltip,
+    shouldShowTooltip,
+    incrementTooltipViewCount,
+    getTooltipViewCount,
+  ]);
+
+  // Hide tooltip when user starts typing
+  useEffect(() => {
+    if (email || password) {
+      setShowGoogleTooltip(false);
+    }
+  }, [email, password]);
 
   return (
     <div className="min-h-screen flex items-center justify-center">
@@ -165,6 +251,7 @@ export default function LoginForm(props: LoginFormProps = {}) {
           value={password}
           onChange={(e) => setPassword(e.target.value)}
         />
+
         {showRegistered && (
           <>
             <div className="p-4 bg-yellow-100 border-2 border-yellow-100 text-white rounded text-center font-normal text-sm">
@@ -203,6 +290,41 @@ export default function LoginForm(props: LoginFormProps = {}) {
         >
           {t("loginButton")}
         </button>
+
+        {/* Google Login - poza formularzem */}
+        <div className="w-full max-w-md mt-6 relative">
+          <div className="flex items-center mb-4">
+            <hr className="flex-1 border-gray-300" />
+            <span className="px-4 text-gray-500 text-sm">{t("or")}</span>
+            <hr className="flex-1 border-gray-300" />
+          </div>
+
+          <div className="flex justify-center relative">
+            <GoogleLogin
+              onSuccess={handleGoogleSuccess}
+              onError={handleGoogleError}
+              text="signin_with"
+              shape="rectangular"
+              theme="outline"
+              size="large"
+              locale={locale}
+            />
+
+            {/* Google Login Tooltip */}
+            {showGoogleTooltip && (
+              <div
+                className="absolute top-16 left-1/2 transform -translate-x-1/2 bg-primary-80 text-white px-6 py-4 rounded-lg shadow-lg z-10 w-80 text-center cursor-pointer transition-opacity duration-300"
+                onClick={() => setShowGoogleTooltip(false)}
+                title={t("clickToClose") || "Click to close"}
+              >
+                <div className="text-sm font-semibold">{t("quickLogin")}</div>
+                <div className="text-xs mt-2">{t("quickLoginDescription")}</div>
+                {/* Tooltip arrow pointing up */}
+                <div className="absolute bottom-full left-1/2 transform -translate-x-1/2 w-0 h-0 border-l-4 border-r-4 border-b-4 border-transparent border-b-primary-80"></div>
+              </div>
+            )}
+          </div>
+        </div>
 
         {/* Linki rejestracji i przypomnienia hasła */}
         <div className="flex justify-between mt-4 text-sm text-primary-70">

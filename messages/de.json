@@ -28,7 +28,14 @@
     "TypeEmailInEmailInput": "Geben Sie die E-Mail in das E-Mail-Feld ein",
     "ResendSuccessfully": "Bestätigungs-E-Mail wurde gesendet. Bitte überprüfen Sie Ihren Posteingang.",
     "howToLoginRegister": "Wissen Sie nicht, wie man sich registriert oder anmeldet?",
-    "appNews": "Sehen Sie Neuigkeiten aus der Welt von Pigeon Map!"
+    "appNews": "Sehen Sie Neuigkeiten aus der Welt von Pigeon Map!",
+    "googleLogin": "Mit Google anmelden",
+    "googleLoginError": "Google-Anmeldefehler",
+    "or": "oder",
+    "quickLogin": "Schnelle Anmeldung",
+    "quickLoginDescription": "Melden Sie sich mit einem Klick über Google an und erhalten Sie sofortigen Zugang zu Ihren Tauben!",
+    "orContinueWithEmail": "oder mit E-Mail unten fortfahren",
+    "clickToClose": "Zum Schließen klicken"
   },
   "Landing": {
     "aboutApp": {

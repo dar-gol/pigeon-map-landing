@@ -28,7 +28,14 @@
     "TypeEmailInEmailInput": "Zadejte e-mail do pole e-mail",
     "ResendSuccessfully": "Potvrzovací e-mail byl odeslán. Zkontrolujte svou doručenou poštu.",
     "howToLoginRegister": "Nevíte, jak se zaregistrovat nebo přihlásit?",
-    "appNews": "Podívejte se na novinky ze světa Pigeon Map!"
+    "appNews": "Podívejte se na novinky ze světa Pigeon Map!",
+    "googleLogin": "Přihlásit se přes Google",
+    "googleLoginError": "Chyba přihlášení přes Google",
+    "or": "nebo",
+    "quickLogin": "Rychlé přihlášení",
+    "quickLoginDescription": "Přihlaste se jedním kliknutím přes Google a získejte okamžitý přístup ke svým holubům!",
+    "orContinueWithEmail": "nebo pokračujte s e-mailem níže",
+    "clickToClose": "Klikněte pro zavření"
   },
   "Landing": {
     "aboutApp": {

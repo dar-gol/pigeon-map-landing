@@ -4,6 +4,7 @@ import { routing } from "@/i18n/routing";
 import "../globals.css";
 import { getTranslations } from "next-intl/server";
 import { Metadata } from "next";
+import { GoogleOAuthProvider } from "@react-oauth/google";
 
 export async function generateMetadata({
   params,
@@ -163,9 +164,11 @@ export default async function LocaleLayout({
         />
       </head>
       <body className="bg-white text-grey-100 transition-colors duration-300">
-        <NextIntlClientProvider locale={locale}>
-          {children}
-        </NextIntlClientProvider>
+        <GoogleOAuthProvider clientId="1071769462356-ojicc6iviontbneppsitbf7vdn80g10m.apps.googleusercontent.com">
+          <NextIntlClientProvider locale={locale}>
+            {children}
+          </NextIntlClientProvider>
+        </GoogleOAuthProvider>
       </body>
     </html>
   );
