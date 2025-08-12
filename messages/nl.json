@@ -151,6 +151,11 @@
       "subtitle": "Vind, deel en beheer locaties zoals nooit tevoren.",
       "cta": "App openen"
     },
+    "latestFromBlog": "Laatste van de blog",
+    "stayUpdated": "Blijf op de hoogte",
+    "blogDescription": "Laatste tips, nieuws en informatie uit de wereld van duivenfokkerij",
+    "readMore": "Lees meer",
+    "viewAllPosts": "Bekijk alle berichten",
     "features": {
       "1": {
         "title": "Duivenregister",
@@ -242,9 +247,13 @@
         ],
         "cta": "Ga Pro"
       }
-    }
+    }  },
+  "Blog": {
+    "latestPost": "Nieuwste Artikel",
+    "latest": "NIEUWSTE",
+    "allPosts": "Alle Artikelen"
   },
-"Footer": {
+  "Footer": {
     "description": "Modern platform voor duivenliefhebbers. Volg, beheer en deel je duivenvluchten en stambomen online - volledig gratis.",
     "rights": "Alle rechten voorbehouden.",
     "quickLinks": "Snelle Links",

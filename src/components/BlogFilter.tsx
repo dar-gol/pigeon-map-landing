@@ -15,9 +15,13 @@ interface Post {
 
 interface BlogFilterProps {
   posts: (Post | null)[];
+  showLatestByCategory?: boolean;
 }
 
-export default function BlogFilter({ posts }: BlogFilterProps) {
+export default function BlogFilter({
+  posts,
+  showLatestByCategory = false,
+}: BlogFilterProps) {
   const [selectedCategory, setSelectedCategory] = useState<string | null>(null);
 
   // Get unique categories
@@ -29,6 +33,14 @@ export default function BlogFilter({ posts }: BlogFilterProps) {
         .filter((category): category is string => Boolean(category))
     )
   );
+
+  // Get latest posts by category for preview
+  const getLatestPostsByCategory = (category: string, limit: number = 2) => {
+    return posts
+      .filter((post): post is Post => post !== null)
+      .filter((post) => post.metadata?.category === category)
+      .slice(0, limit);
+  };
 
   // Filter posts based on selected category
   const filteredPosts = posts.filter((post): post is Post => post !== null);
@@ -86,7 +98,7 @@ export default function BlogFilter({ posts }: BlogFilterProps) {
       )}
 
       {/* Posts list */}
-      <ul className="space-y-4">
+      <ul className="space-y-4 mb-6">
         {finalPosts.map(
           (post) =>
             post && (
@@ -130,6 +142,55 @@ export default function BlogFilter({ posts }: BlogFilterProps) {
           >
             Pokaż wszystkie posty
           </button>
+        </div>
+      )}
+
+      {/* Latest Posts by Category Section */}
+      {showLatestByCategory && categories.length > 0 && (
+        <div className="mb-8 border-t border-primary-20 pt-6">
+          <h3 className="text-lg font-semibold mb-4 text-primary-100">
+            Najnowsze w kategoriach
+          </h3>
+          <div className="grid gap-6 md:grid-cols-2">
+            {categories.map((category) => {
+              const categoryPosts = getLatestPostsByCategory(category, 2);
+              return (
+                <div
+                  key={category}
+                  className="bg-primary-1 rounded-lg p-4 border border-primary-20"
+                >
+                  <div className="flex items-center justify-between mb-3">
+                    <h4 className="font-semibold text-primary-100">
+                      {category}
+                    </h4>
+                    <Link
+                      href={`/blog/category/${encodeURIComponent(category)}`}
+                      className="text-sm text-primary-80 hover:underline"
+                    >
+                      Zobacz wszystkie →
+                    </Link>
+                  </div>
+                  <div className="space-y-2">
+                    {categoryPosts.map((post) => (
+                      <div
+                        key={post.slug}
+                        className="text-sm hover:bg-white p-2 rounded transition-colors"
+                      >
+                        <Link href={`/blog/${post.slug}`}>
+                          <div className="font-medium text-grey-80 hover:underline line-clamp-2">
+                            {post.metadata.title}
+                          </div>
+                        </Link>
+                        <div className="text-xs text-grey-50 mt-1">
+                          {post.metadata.date}
+                        </div>
+                      </div>
+                    ))}
+                  </div>
+                </div>
+              );
+            })}
+          </div>
         </div>
       )}
     </div>

@@ -10,10 +10,134 @@ import Footer from "@/components/Footer";
 import Breadcrumbs from "@/components/Breadcrumbs";
 import Link from "next/link";
 import { logger } from "@/services/LoggingService";
+import { Metadata } from "next";
+import { getTranslations } from "next-intl/server";
 
 type Props = {
   params: Promise<{ slug: string; locale: string }>;
 };
+
+export async function generateMetadata({ params }: Props): Promise<Metadata> {
+  const { slug, locale } = await params;
+  const actualLocale = locale || "en";
+
+  const post = getPostBySlug(slug, actualLocale);
+  const t = await getTranslations({ locale: actualLocale, namespace: "meta" });
+
+  if (!post) {
+    return {
+      title: `Post nie znaleziony | ${t("title")}`,
+      description: "Nie znaleziono żądanego artykułu.",
+    };
+  }
+
+  const baseUrl = "https://pigeon-map.digging.pl";
+  const currentUrl =
+    actualLocale === "pl"
+      ? `${baseUrl}/blog/${slug}`
+      : `${baseUrl}/${actualLocale}/blog/${slug}`;
+
+  return {
+    title: `${post.metadata.title} | Blog | ${t("title")}`,
+    description:
+      post.metadata.description ||
+      "Artykuł z bloga Pigeon Map - platform dla hodowców gołębi.",
+    keywords: `${
+      post.metadata.category || ""
+    }, pigeon map, gołębie, hodowla, blog`,
+    authors: [{ name: "Pigeon Map Team" }],
+    openGraph: {
+      title: `${post.metadata.title} | ${t("title")}`,
+      description: post.metadata.description || "Artykuł z bloga Pigeon Map",
+      url: currentUrl,
+      siteName: "Pigeon Map",
+      locale: actualLocale,
+      type: "article",
+      publishedTime: post.metadata.date,
+      modifiedTime: post.metadata.date,
+      section: post.metadata.category || "Blog",
+      images: [
+        {
+          url: `${baseUrl}/assets/logo512.png`,
+          width: 512,
+          height: 512,
+          alt: post.metadata.title,
+        },
+      ],
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: `${post.metadata.title} | ${t("title")}`,
+      description: post.metadata.description || "Artykuł z bloga Pigeon Map",
+      images: [`${baseUrl}/assets/logo512.png`],
+    },
+    alternates: {
+      canonical: currentUrl,
+    },
+  };
+}
+
+// JSON-LD structured data for individual blog post
+function generatePostJsonLd(
+  post: NonNullable<ReturnType<typeof getPostBySlug>>,
+  locale: string,
+  slug: string
+) {
+  const baseUrl = "https://pigeon-map.digging.pl";
+  const postUrl =
+    locale === "pl"
+      ? `${baseUrl}/blog/${slug}`
+      : `${baseUrl}/${locale}/blog/${slug}`;
+
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    "@id": postUrl,
+    url: postUrl,
+    headline: post.metadata.title,
+    description: post.metadata.description || "Artykuł z bloga Pigeon Map",
+    datePublished: post.metadata.date,
+    dateModified: post.metadata.date,
+    author: {
+      "@type": "Organization",
+      name: "Pigeon Map",
+      url: baseUrl,
+    },
+    publisher: {
+      "@type": "Organization",
+      name: "Pigeon Map",
+      url: baseUrl,
+      logo: {
+        "@type": "ImageObject",
+        url: `${baseUrl}/assets/logo512.png`,
+        width: 512,
+        height: 512,
+      },
+    },
+    mainEntityOfPage: {
+      "@type": "WebPage",
+      "@id": postUrl,
+    },
+    image: {
+      "@type": "ImageObject",
+      url: `${baseUrl}/assets/logo512.png`,
+      width: 512,
+      height: 512,
+    },
+    articleSection: post.metadata.category || "Blog",
+    keywords: `pigeon map, gołębie, hodowla, ${post.metadata.category || ""}, ${
+      post.metadata.title
+    }`,
+    inLanguage: locale,
+    isPartOf: {
+      "@type": "Blog",
+      name: "Pigeon Map Blog",
+      url: locale === "pl" ? `${baseUrl}/blog` : `${baseUrl}/${locale}/blog`,
+    },
+  };
+
+  return JSON.stringify(jsonLd);
+}
 
 export async function generateStaticParams() {
   logger.blogInfo("Generating static params for blog posts");
@@ -87,8 +211,16 @@ export default async function PostPage({ params }: Props) {
       actualLocale,
     });
 
+    const jsonLd = generatePostJsonLd(post, actualLocale, slug);
+
     return (
       <>
+        {/* JSON-LD structured data */}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: jsonLd }}
+        />
+
         <main className="min-h-screen bg-white">
           <Navbar />
           <div className="max-w-3xl mx-auto py-10 px-4">

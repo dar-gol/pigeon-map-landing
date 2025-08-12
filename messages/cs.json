@@ -89,6 +89,11 @@
       "subtitle": "Najděte, sdílejte a spravujte lokace jako nikdy předtím.",
       "cta": "Otevřít aplikaci"
     },
+    "latestFromBlog": "Nejnovější z blogu",
+    "stayUpdated": "Zůstaňte v obraze",
+    "blogDescription": "Nejnovější tipy, novinky a informace ze světa chovu holubů",
+    "readMore": "Číst více",
+    "viewAllPosts": "Zobrazit všechny příspěvky",
     "features": {
       "1": {
         "title": "Evidence holubů",
@@ -142,6 +147,11 @@
       ],
       "button": "Registrovat zdarma"
     }
+  },
+  "Blog": {
+    "latestPost": "Nejnovější Článek",
+    "latest": "NEJNOVĚJŠÍ",
+    "allPosts": "Všechny Články"
   },
   "Footer": {
     "description": "Moderní platforma pro chovatele holubů. Sledujte, spravujte a sdílejte lety holubů a rodokmeny online - zcela zdarma.",

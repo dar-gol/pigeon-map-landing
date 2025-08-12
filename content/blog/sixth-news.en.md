@@ -2,7 +2,7 @@
 title: "Pedigrees coming soon"
 date: "2024-05-01"
 description: "Introduction to my blog"
-category: "News"
+category: "Pigeon Map"
 ---
 
 ## Pedigrees in Pigeon Map coming soon

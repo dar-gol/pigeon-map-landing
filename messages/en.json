@@ -89,6 +89,11 @@
       "subtitle": "Find, share, and manage locations like never before.",
       "cta": "Open the app"
     },
+    "latestFromBlog": "Latest from blog",
+    "stayUpdated": "Stay updated",
+    "blogDescription": "Latest tips, news and information from the world of pigeon breeding",
+    "readMore": "Read more",
+    "viewAllPosts": "View all posts",
     "features": {
       "1": {
         "title": "Pigeon Registry",
@@ -142,6 +147,11 @@
       ],
       "button": "Register for free"
     }
+  },
+  "Blog": {
+    "latestPost": "Latest Article",
+    "latest": "LATEST",
+    "allPosts": "All Articles"
   },
   "Footer": {
     "description": "Modern platform for pigeon fanciers. Track, manage, and share your pigeon flights and pedigrees online - completely free.",

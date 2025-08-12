@@ -89,6 +89,11 @@
       "subtitle": "Finden, teilen und verwalten Sie Standorte wie nie zuvor.",
       "cta": "App öffnen"
     },
+    "latestFromBlog": "Neueste aus dem Blog",
+    "stayUpdated": "Bleiben Sie auf dem Laufenden",
+    "blogDescription": "Neueste Tipps, Nachrichten und Informationen aus der Welt der Taubenzucht",
+    "readMore": "Mehr lesen",
+    "viewAllPosts": "Alle Beiträge anzeigen",
     "features": {
       "1": {
         "title": "Taubenregister",
@@ -142,6 +147,11 @@
       ],
       "button": "Kostenlos registrieren"
     }
+  },
+  "Blog": {
+    "latestPost": "Neuester Artikel",
+    "latest": "NEUESTE",
+    "allPosts": "Alle Artikel"
   },
   "Footer": {
     "description": "Moderne Plattform für Taubenliebhaber. Verfolgen, verwalten und teilen Sie Taubenflüge und Stammbäume online - völlig kostenlos.",

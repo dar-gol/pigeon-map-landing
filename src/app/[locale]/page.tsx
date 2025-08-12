@@ -4,8 +4,10 @@ import Image from "next/image";
 import Navbar from "@/components/Navbar";
 import FAQ from "@/components/FAQ";
 import Footer from "@/components/Footer";
+import LatestBlogPost from "@/components/LatestBlogPost";
 import { Metadata } from "next";
 import PWARedirect from "@/components/PWARedirect";
+import { getLatestPosts } from "@/lib/posts";
 
 export async function generateMetadata({
   params,
@@ -15,15 +17,28 @@ export async function generateMetadata({
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: "meta" });
 
+  // Pobieramy najnowszy post dla lepszego SEO
+  const latestPost = getLatestPosts(locale, 1)[0];
+
   const baseUrl = "https://pigeon-map.digging.pl";
   const currentUrl = locale === "pl" ? baseUrl : `${baseUrl}/${locale}`;
 
+  // Dynamiczny opis z najnowszym postem
+  const dynamicDescription = latestPost
+    ? `${t("description")} Najnowszy artykuł: "${latestPost.metadata.title}".`
+    : t("description");
+
   return {
     title: t("title"),
-    description: t("description"),
+    description: dynamicDescription,
+    keywords: latestPost
+      ? `${t("keywords")}, ${latestPost.metadata.category || ""}, ${
+          latestPost.metadata.title
+        }`
+      : t("keywords"),
     openGraph: {
       title: t("title"),
-      description: t("description"),
+      description: dynamicDescription,
       url: currentUrl,
       siteName: "Pigeon Map",
       images: [
@@ -36,22 +51,43 @@ export async function generateMetadata({
       ],
       locale: locale,
       type: "website",
+      // Dodatkowe informacje o najnowszym poście
+      ...(latestPost && {
+        "article:latest": latestPost.metadata.title,
+        "article:latest-date": latestPost.metadata.date,
+      }),
     },
     twitter: {
       card: "summary_large_image",
       title: t("title"),
-      description: t("description"),
+      description: dynamicDescription,
       images: [`${baseUrl}/assets/logo512.png`],
     },
     alternates: {
       canonical: currentUrl,
     },
+    // Dodanie informacji o najnowszym artykule
+    ...(latestPost && {
+      other: {
+        "latest-article": latestPost.metadata.title,
+        "latest-article-date": latestPost.metadata.date,
+        "latest-article-category": latestPost.metadata.category || "",
+      },
+    }),
   };
 }
 
-export default async function LandingPage() {
+export default async function LandingPage({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}) {
+  const { locale } = await params;
   const t = await getTranslations("Landing");
   const meta = await getTranslations("meta");
+
+  // Pobieramy najnowszy post dla dynamiczności strony
+  const latestPost = getLatestPosts(locale, 1)[0] || null;
 
   const structuredData = {
     "@context": "https://schema.org",
@@ -100,6 +136,31 @@ export default async function LandingPage() {
       target: "https://pigeon-map.digging.pl/search?q={search_term_string}",
       "query-input": "required name=search_term_string",
     },
+    // Dodanie informacji o najnowszym poście z bloga
+    ...(latestPost && {
+      mainContentOfPage: {
+        "@type": "BlogPosting",
+        "@id": `https://pigeon-map.digging.pl/${
+          locale === "pl" ? "" : locale + "/"
+        }blog/${latestPost.slug}`,
+        headline: latestPost.metadata.title,
+        description: latestPost.metadata.description || "",
+        datePublished: latestPost.metadata.date,
+        author: {
+          "@type": "Organization",
+          name: "Pigeon Map",
+        },
+        publisher: {
+          "@type": "Organization",
+          name: "Pigeon Map",
+        },
+        about: {
+          "@type": "Thing",
+          name: latestPost.metadata.category || "Pigeon Map",
+          description: "Najnowsze informacje o aplikacji Pigeon Map",
+        },
+      },
+    }),
   };
 
   return (
@@ -383,6 +444,9 @@ export default async function LandingPage() {
             </div>
           </div>
         </section>
+
+        {/* Latest Blog Post Section */}
+        <LatestBlogPost latestPost={latestPost} />
 
         {/* FAQ */}
         <FAQ />

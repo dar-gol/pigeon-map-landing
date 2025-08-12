@@ -89,6 +89,11 @@
       "subtitle": "Dodawaj stanowiska startowe, monitoruj warunki pogodowe i generuj raporty z lotów.",
       "cta": "Otwórz aplikację"
     },
+    "latestFromBlog": "Nowości z bloga",
+    "stayUpdated": "Bądź na bieżąco",
+    "blogDescription": "Najnowsze porady, nowości i informacje ze świata hodowli gołębi pocztowych",
+    "readMore": "Czytaj więcej",
+    "viewAllPosts": "Zobacz wszystkie artykuły",
     "features": {
       "1": {
         "title": "Ewidencja gołębi",
@@ -142,6 +147,11 @@
       ],
       "button": "Zarejestruj się za darmo"
     }
+  },
+  "Blog": {
+    "latestPost": "Najnowszy artykuł",
+    "latest": "NAJNOWSZE",
+    "allPosts": "Wszystkie artykuły"
   },
   "Footer": {
     "description": "Nowoczesna platforma dla hodowców gołębi. Śledź, zarządzaj i udostępniaj loty oraz rodowody swoich gołębi online - całkowicie za darmo.",

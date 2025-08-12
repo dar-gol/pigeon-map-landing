@@ -169,3 +169,62 @@ export function getAllCategories(locale?: string): string[] {
     return [];
   }
 }
+
+export function getLatestPosts(locale?: string, limit: number = 3) {
+  try {
+    logger.blogDebug("Getting latest posts", { locale, limit });
+
+    const posts = getAllPosts(locale);
+    const latestPosts = posts
+      .filter((post): post is NonNullable<typeof post> => post !== null)
+      .slice(0, limit);
+
+    logger.blogDebug("Found latest posts", {
+      count: latestPosts.length,
+      locale,
+    });
+    return latestPosts;
+  } catch (error) {
+    const errorMessage = error instanceof Error ? error.message : String(error);
+    logger.blogError("Error getting latest posts", {
+      locale,
+      error: errorMessage,
+    });
+    return [];
+  }
+}
+
+export function getLatestPostsByCategory(
+  category: string,
+  locale?: string,
+  limit: number = 2
+) {
+  try {
+    logger.blogDebug("Getting latest posts by category", {
+      category,
+      locale,
+      limit,
+    });
+
+    const posts = getAllPosts(locale);
+    const categoryPosts = posts
+      .filter((post): post is NonNullable<typeof post> => post !== null)
+      .filter((post) => post.metadata?.category === category)
+      .slice(0, limit);
+
+    logger.blogDebug("Found latest posts by category", {
+      category,
+      count: categoryPosts.length,
+      locale,
+    });
+    return categoryPosts;
+  } catch (error) {
+    const errorMessage = error instanceof Error ? error.message : String(error);
+    logger.blogError("Error getting latest posts by category", {
+      category,
+      locale,
+      error: errorMessage,
+    });
+    return [];
+  }
+}
