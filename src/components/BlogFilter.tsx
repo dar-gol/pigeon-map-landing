@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import Link from "next/link";
+import { useTranslations } from "next-intl";
 
 interface Post {
   slug: string;
@@ -23,6 +24,7 @@ export default function BlogFilter({
   showLatestByCategory = false,
 }: BlogFilterProps) {
   const [selectedCategory, setSelectedCategory] = useState<string | null>(null);
+  const t = useTranslations("Blog");
 
   // Get unique categories
   const categories = Array.from(
@@ -55,7 +57,7 @@ export default function BlogFilter({
       {/* Category filter */}
       {categories.length > 0 && (
         <div className="mb-6">
-          <p className="text-sm text-grey-60 mb-3">Filtruj według kategorii:</p>
+          <p className="text-sm text-grey-60 mb-3">{t("filterByCategory")}</p>
           <div className="flex flex-wrap gap-2">
             <button
               onClick={() => setSelectedCategory(null)}
@@ -65,7 +67,7 @@ export default function BlogFilter({
                   : "bg-white text-primary-80 border-primary-30 hover:bg-primary-10"
               }`}
             >
-              Wszystkie
+              {t("allCategories")}
             </button>
             {categories.map((category) => (
               <button
@@ -88,11 +90,12 @@ export default function BlogFilter({
       {selectedCategory && (
         <div className="mb-4">
           <p className="text-sm text-grey-60">
-            Pokazuję posty w kategorii:{" "}
+            {t("showingPosts")}{" "}
             <span className="font-medium text-primary-80">
               {selectedCategory}
             </span>{" "}
-            ({finalPosts.length} {finalPosts.length === 1 ? "post" : "postów"})
+            ({finalPosts.length}{" "}
+            {finalPosts.length === 1 ? t("postCount") : t("postsCount")})
           </p>
         </div>
       )}
@@ -134,13 +137,13 @@ export default function BlogFilter({
       {finalPosts.length === 0 && selectedCategory && (
         <div className="text-center py-8">
           <p className="text-grey-60 text-lg">
-            Brak postów w kategorii &quot;{selectedCategory}&quot;
+            {t("noPosts")} &quot;{selectedCategory}&quot;
           </p>
           <button
             onClick={() => setSelectedCategory(null)}
             className="mt-2 text-primary-80 hover:underline"
           >
-            Pokaż wszystkie posty
+            {t("showAllPosts")}
           </button>
         </div>
       )}
@@ -149,7 +152,7 @@ export default function BlogFilter({
       {showLatestByCategory && categories.length > 0 && (
         <div className="mb-8 border-t border-primary-20 pt-6">
           <h3 className="text-lg font-semibold mb-4 text-primary-100">
-            Najnowsze w kategoriach
+            {t("latestInCategories")}
           </h3>
           <div className="grid gap-6 md:grid-cols-2">
             {categories.map((category) => {
@@ -167,7 +170,7 @@ export default function BlogFilter({
                       href={`/blog/category/${encodeURIComponent(category)}`}
                       className="text-sm text-primary-80 hover:underline"
                     >
-                      Zobacz wszystkie →
+                      {t("viewAll")} →
                     </Link>
                   </div>
                   <div className="space-y-2">

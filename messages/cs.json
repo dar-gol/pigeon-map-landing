@@ -151,7 +151,24 @@
   "Blog": {
     "latestPost": "Nejnovější Článek",
     "latest": "NEJNOVĚJŠÍ",
-    "allPosts": "Všechny Články"
+    "allPosts": "Všechny Články",
+    "filterByCategory": "Filtrovat podle kategorie:",
+    "allCategories": "Všechny",
+    "showingPosts": "Zobrazuji příspěvky v kategorii:",
+    "postCount": "příspěvek",
+    "postsCount": "příspěvků",
+    "noPosts": "Žádné příspěvky v kategorii",
+    "showAllPosts": "Zobrazit všechny příspěvky",
+    "latestInCategories": "Nejnovější v kategoriích",
+    "viewAll": "Zobrazit vše",
+    "breadcrumbHome": "Domů",
+    "breadcrumbBlog": "Blog",
+    "pageTitle": "Blog",
+    "jsonLdDescription": "Blog o chovu holubů, novinky a tipy pro chovatele holubů",
+    "jsonLdReadAction": "Číst",
+    "jsonLdAboutDescription": "Nejnovější informace o chovu holubů a aplikaci Pigeon Map",
+    "jsonLdAudienceType": "Chovatelé holubů",
+    "jsonLdPigeonBreeding": "Chov holubů"
   },
   "Footer": {
     "description": "Moderní platforma pro chovatele holubů. Sledujte, spravujte a sdílejte lety holubů a rodokmeny online - zcela zdarma.",

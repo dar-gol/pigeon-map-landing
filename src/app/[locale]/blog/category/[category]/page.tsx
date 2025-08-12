@@ -4,7 +4,6 @@ import Footer from "@/components/Footer";
 import Breadcrumbs from "@/components/Breadcrumbs";
 import BlogFilter from "@/components/BlogFilter";
 import { logger } from "@/services/LoggingService";
-import { getTranslations } from "next-intl/server";
 import { Metadata } from "next";
 import { notFound } from "next/navigation";
 
@@ -14,7 +13,6 @@ export async function generateMetadata({
   params: Promise<{ locale: string; category: string }>;
 }): Promise<Metadata> {
   const { locale, category } = await params;
-  const t = await getTranslations({ locale, namespace: "meta" });
 
   const baseUrl = "https://pigeon-map.digging.pl";
   const currentUrl =
@@ -26,10 +24,10 @@ export async function generateMetadata({
   const decodedCategory = decodeURIComponent(category);
 
   return {
-    title: `${decodedCategory} | Blog | ${t("title")}`,
+    title: `${decodedCategory} | Blog`,
     description: `Artykuły z kategorii ${decodedCategory} - porady, wiadomości i nowości na Pigeon Map.`,
     openGraph: {
-      title: `${decodedCategory} | Blog | ${t("title")}`,
+      title: `${decodedCategory} | Blog`,
       description: `Artykuły z kategorii ${decodedCategory} - porady, wiadomości i nowości na Pigeon Map.`,
       url: currentUrl,
       siteName: "Pigeon Map",
@@ -38,7 +36,7 @@ export async function generateMetadata({
     },
     twitter: {
       card: "summary",
-      title: `${decodedCategory} | Blog | ${t("title")}`,
+      title: `${decodedCategory} | Blog`,
       description: `Artykuły z kategorii ${decodedCategory} - porady, wiadomości i nowości na Pigeon Map.`,
     },
     alternates: {

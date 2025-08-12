@@ -151,7 +151,24 @@
   "Blog": {
     "latestPost": "Najnowszy artykuł",
     "latest": "NAJNOWSZE",
-    "allPosts": "Wszystkie artykuły"
+    "allPosts": "Wszystkie artykuły",
+    "filterByCategory": "Filtruj według kategorii:",
+    "allCategories": "Wszystkie",
+    "showingPosts": "Pokazuję posty w kategorii:",
+    "postCount": "post",
+    "postsCount": "postów",
+    "noPosts": "Brak postów w kategorii",
+    "showAllPosts": "Pokaż wszystkie posty",
+    "latestInCategories": "Najnowsze w kategoriach",
+    "viewAll": "Zobacz wszystkie",
+    "breadcrumbHome": "Strona główna",
+    "breadcrumbBlog": "Blog",
+    "pageTitle": "Blog",
+    "jsonLdDescription": "Blog o hodowli gołębi, nowości i porady dla hodowców gołębi pocztowych",
+    "jsonLdReadAction": "Przeczytaj",
+    "jsonLdAboutDescription": "Najnowsze informacje o hodowli gołębi i aplikacji Pigeon Map",
+    "jsonLdAudienceType": "Hodowcy gołębi pocztowych",
+    "jsonLdPigeonBreeding": "Hodowla gołębi"
   },
   "Footer": {
     "description": "Nowoczesna platforma dla hodowców gołębi. Śledź, zarządzaj i udostępniaj loty oraz rodowody swoich gołębi online - całkowicie za darmo.",

@@ -10,18 +10,17 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: "Contact" });
-  const meta = await getTranslations({ locale, namespace: "meta" });
 
   const baseUrl = "https://pigeon-map.digging.pl";
   const currentUrl =
     locale === "pl" ? `${baseUrl}/contact` : `${baseUrl}/${locale}/contact`;
 
   return {
-    title: `${t("title")} | ${meta("title")}`,
+    title: t("title"),
     description: t("description"),
     keywords: t("keywords"),
     openGraph: {
-      title: `${t("title")} | ${meta("title")}`,
+      title: t("title"),
       description: t("description"),
       url: currentUrl,
       type: "website",
@@ -30,7 +29,7 @@ export async function generateMetadata({
     },
     twitter: {
       card: "summary",
-      title: `${t("title")} | ${meta("title")}`,
+      title: t("title"),
       description: t("description"),
     },
     alternates: {

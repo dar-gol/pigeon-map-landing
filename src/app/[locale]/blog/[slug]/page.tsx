@@ -11,7 +11,6 @@ import Breadcrumbs from "@/components/Breadcrumbs";
 import Link from "next/link";
 import { logger } from "@/services/LoggingService";
 import { Metadata } from "next";
-import { getTranslations } from "next-intl/server";
 
 type Props = {
   params: Promise<{ slug: string; locale: string }>;
@@ -22,11 +21,10 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const actualLocale = locale || "en";
 
   const post = getPostBySlug(slug, actualLocale);
-  const t = await getTranslations({ locale: actualLocale, namespace: "meta" });
 
   if (!post) {
     return {
-      title: `Post nie znaleziony | ${t("title")}`,
+      title: "Post nie znaleziony",
       description: "Nie znaleziono żądanego artykułu.",
     };
   }
@@ -38,7 +36,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       : `${baseUrl}/${actualLocale}/blog/${slug}`;
 
   return {
-    title: `${post.metadata.title} | Blog | ${t("title")}`,
+    title: `${post.metadata.title}`,
     description:
       post.metadata.description ||
       "Artykuł z bloga Pigeon Map - platform dla hodowców gołębi.",
@@ -47,7 +45,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     }, pigeon map, gołębie, hodowla, blog`,
     authors: [{ name: "Pigeon Map Team" }],
     openGraph: {
-      title: `${post.metadata.title} | ${t("title")}`,
+      title: `${post.metadata.title}`,
       description: post.metadata.description || "Artykuł z bloga Pigeon Map",
       url: currentUrl,
       siteName: "Pigeon Map",
@@ -67,7 +65,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     },
     twitter: {
       card: "summary_large_image",
-      title: `${post.metadata.title} | ${t("title")}`,
+      title: `${post.metadata.title}`,
       description: post.metadata.description || "Artykuł z bloga Pigeon Map",
       images: [`${baseUrl}/assets/logo512.png`],
     },

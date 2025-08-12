@@ -11,18 +11,17 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: "FAQ" });
-  const meta = await getTranslations({ locale, namespace: "meta" });
 
   const baseUrl = "https://pigeon-map.digging.pl";
   const currentUrl =
     locale === "pl" ? `${baseUrl}/faq` : `${baseUrl}/${locale}/faq`;
 
   return {
-    title: `${t("title")} | ${meta("title")}`,
+    title: t("title"),
     description: t("subtitle"),
     keywords: "FAQ, pytania, odpowiedzi, pomoc, Pigeon Map, hodowla gołębi",
     openGraph: {
-      title: `${t("title")} | ${meta("title")}`,
+      title: t("title"),
       description: t("subtitle"),
       url: currentUrl,
       type: "website",
@@ -39,7 +38,7 @@ export async function generateMetadata({
     },
     twitter: {
       card: "summary_large_image",
-      title: `${t("title")} | ${meta("title")}`,
+      title: t("title"),
       description: t("subtitle"),
       images: [`${baseUrl}/assets/logo512.png`],
     },

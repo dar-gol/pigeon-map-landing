@@ -151,7 +151,24 @@
   "Blog": {
     "latestPost": "Latest Article",
     "latest": "LATEST",
-    "allPosts": "All Articles"
+    "allPosts": "All Articles",
+    "filterByCategory": "Filter by category:",
+    "allCategories": "All",
+    "showingPosts": "Showing posts in category:",
+    "postCount": "post",
+    "postsCount": "posts",
+    "noPosts": "No posts in category",
+    "showAllPosts": "Show all posts",
+    "latestInCategories": "Latest in categories",
+    "viewAll": "View all",
+    "breadcrumbHome": "Home",
+    "breadcrumbBlog": "Blog",
+    "pageTitle": "Blog",
+    "jsonLdDescription": "Blog about pigeon breeding, news and tips for pigeon fanciers",
+    "jsonLdReadAction": "Read",
+    "jsonLdAboutDescription": "Latest information about pigeon breeding and Pigeon Map application",
+    "jsonLdAudienceType": "Pigeon fanciers",
+    "jsonLdPigeonBreeding": "Pigeon Breeding"
   },
   "Footer": {
     "description": "Modern platform for pigeon fanciers. Track, manage, and share your pigeon flights and pedigrees online - completely free.",

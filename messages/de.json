@@ -151,7 +151,24 @@
   "Blog": {
     "latestPost": "Neuester Artikel",
     "latest": "NEUESTE",
-    "allPosts": "Alle Artikel"
+    "allPosts": "Alle Artikel",
+    "filterByCategory": "Nach Kategorie filtern:",
+    "allCategories": "Alle",
+    "showingPosts": "Zeige Beiträge in Kategorie:",
+    "postCount": "Beitrag",
+    "postsCount": "Beiträge",
+    "noPosts": "Keine Beiträge in Kategorie",
+    "showAllPosts": "Alle Beiträge anzeigen",
+    "latestInCategories": "Neueste in Kategorien",
+    "viewAll": "Alle anzeigen",
+    "breadcrumbHome": "Startseite",
+    "breadcrumbBlog": "Blog",
+    "pageTitle": "Blog",
+    "jsonLdDescription": "Blog über Taubenzucht, Neuigkeiten und Tipps für Taubenliebhaber",
+    "jsonLdReadAction": "Lesen",
+    "jsonLdAboutDescription": "Neueste Informationen über Taubenzucht und die Pigeon Map Anwendung",
+    "jsonLdAudienceType": "Taubenliebhaber",
+    "jsonLdPigeonBreeding": "Taubenzucht"
   },
   "Footer": {
     "description": "Moderne Plattform für Taubenliebhaber. Verfolgen, verwalten und teilen Sie Taubenflüge und Stammbäume online - völlig kostenlos.",

@@ -251,7 +251,24 @@
   "Blog": {
     "latestPost": "Nieuwste Artikel",
     "latest": "NIEUWSTE",
-    "allPosts": "Alle Artikelen"
+    "allPosts": "Alle Artikelen",
+    "filterByCategory": "Filter op categorie:",
+    "allCategories": "Alle",
+    "showingPosts": "Toon berichten in categorie:",
+    "postCount": "bericht",
+    "postsCount": "berichten",
+    "noPosts": "Geen berichten in categorie",
+    "showAllPosts": "Toon alle berichten",
+    "latestInCategories": "Nieuwste in categorieën",
+    "viewAll": "Bekijk alle",
+    "breadcrumbHome": "Home",
+    "breadcrumbBlog": "Blog",
+    "pageTitle": "Blog",
+    "jsonLdDescription": "Blog over duivenfokkerij, nieuws en tips voor duivenliefhebbers",
+    "jsonLdReadAction": "Lees",
+    "jsonLdAboutDescription": "Laatste informatie over duivenfokkerij en de Pigeon Map applicatie",
+    "jsonLdAudienceType": "Duivenliefhebbers",
+    "jsonLdPigeonBreeding": "Duivenfokkerij"
   },
   "Footer": {
     "description": "Modern platform voor duivenliefhebbers. Volg, beheer en deel je duivenvluchten en stambomen online - volledig gratis.",

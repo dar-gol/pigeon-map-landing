@@ -6,7 +6,6 @@ import BlogFilter from "@/components/BlogFilter";
 import FeaturedPosts from "@/components/FeaturedPosts";
 import { useLocale, useTranslations } from "next-intl";
 import { logger } from "@/services/LoggingService";
-import { getTranslations } from "next-intl/server";
 import { Metadata } from "next";
 
 export async function generateMetadata({
@@ -15,7 +14,6 @@ export async function generateMetadata({
   params: Promise<{ locale: string }>;
 }): Promise<Metadata> {
   const { locale } = await params;
-  const t = await getTranslations({ locale, namespace: "meta" });
 
   // Pobieramy najnowszy post dla lepszego SEO
   const latestPost = getLatestPosts(locale, 1)[0];
@@ -32,7 +30,7 @@ export async function generateMetadata({
     : "Najnowsze aktualności ze świata hodowli gołębi, porady, wiadomości i nowości na Pigeon Map.";
 
   return {
-    title: `Blog | ${t("title")}`,
+    title: "Blog",
     description: dynamicDescription,
     keywords: latestPost
       ? `blog, pigeon map, gołębie, hodowla, ${
@@ -40,7 +38,7 @@ export async function generateMetadata({
         }, ${latestPost.metadata.title}`
       : "blog, pigeon map, gołębie, hodowla, nowości",
     openGraph: {
-      title: `Blog | ${t("title")}`,
+      title: "Blog",
       description: dynamicDescription,
       url: currentUrl,
       siteName: "Pigeon Map",
@@ -60,7 +58,7 @@ export async function generateMetadata({
     },
     twitter: {
       card: "summary_large_image",
-      title: `Blog | ${t("title")}`,
+      title: "Blog",
       description: dynamicDescription,
       ...(latestPost && {
         images: [`${baseUrl}/assets/logo512.png`],
@@ -84,6 +82,15 @@ export async function generateMetadata({
 function generateBlogJsonLd(
   locale: string,
   posts: NonNullable<ReturnType<typeof getAllPosts>>,
+  translations: {
+    jsonLdDescription: string;
+    jsonLdReadAction: string;
+    jsonLdAboutDescription: string;
+    jsonLdAudienceType: string;
+    jsonLdPigeonBreeding: string;
+    breadcrumbHome: string;
+    breadcrumbBlog: string;
+  },
   latestPost?: NonNullable<ReturnType<typeof getLatestPosts>>[0]
 ) {
   const baseUrl = "https://pigeon-map.digging.pl";
@@ -96,8 +103,7 @@ function generateBlogJsonLd(
     "@id": blogUrl,
     url: blogUrl,
     name: "Pigeon Map Blog",
-    description:
-      "Blog o hodowli gołębi, nowości i porady dla hodowców gołębi pocztowych",
+    description: translations.jsonLdDescription,
     inLanguage: locale,
     // Główna treść strony - najnowszy post
     ...(latestPost && {
@@ -127,9 +133,9 @@ function generateBlogJsonLd(
         }, najnowsze`,
         about: {
           "@type": "Thing",
-          name: latestPost.metadata.category || "Pigeon Breeding",
-          description:
-            "Najnowsze informacje o hodowli gołębi i aplikacji Pigeon Map",
+          name:
+            latestPost.metadata.category || translations.jsonLdPigeonBreeding,
+          description: translations.jsonLdAboutDescription,
         },
       },
     }),
@@ -147,7 +153,7 @@ function generateBlogJsonLd(
       potentialAction: {
         "@type": "ReadAction",
         target: `${blogUrl}/${latestPost.slug}`,
-        name: `Przeczytaj: ${latestPost.metadata.title}`,
+        name: `${translations.jsonLdReadAction}: ${latestPost.metadata.title}`,
       },
     }),
     blogPost: posts
@@ -168,7 +174,7 @@ function generateBlogJsonLd(
             isFamilyFriendly: true,
             audience: {
               "@type": "Audience",
-              audienceType: "Hodowcy gołębi pocztowych",
+              audienceType: translations.jsonLdAudienceType,
             },
           }),
         author: {
@@ -200,13 +206,13 @@ function generateBlogJsonLd(
         {
           "@type": "ListItem",
           position: 1,
-          name: "Strona główna",
+          name: translations.breadcrumbHome,
           item: baseUrl,
         },
         {
           "@type": "ListItem",
           position: 2,
-          name: "Blog",
+          name: translations.breadcrumbBlog,
           item: blogUrl,
         },
       ],
@@ -232,7 +238,18 @@ export default function BlogPage() {
       latestPost: latestPost?.metadata.title,
     });
 
-    const jsonLd = generateBlogJsonLd(locale, posts, latestPost);
+    // Przygotowanie tłumaczeń dla JSON-LD
+    const translations = {
+      jsonLdDescription: t("jsonLdDescription"),
+      jsonLdReadAction: t("jsonLdReadAction"),
+      jsonLdAboutDescription: t("jsonLdAboutDescription"),
+      jsonLdAudienceType: t("jsonLdAudienceType"),
+      jsonLdPigeonBreeding: t("jsonLdPigeonBreeding"),
+      breadcrumbHome: t("breadcrumbHome"),
+      breadcrumbBlog: t("breadcrumbBlog"),
+    };
+
+    const jsonLd = generateBlogJsonLd(locale, posts, translations, latestPost);
     console.log({ jsonLd });
     return (
       <>
@@ -246,9 +263,14 @@ export default function BlogPage() {
           <Navbar />
           <div className="max-w-2xl mx-auto py-10 px-4">
             <Breadcrumbs
-              items={[{ label: "Strona główna", href: "/" }, { label: "Blog" }]}
+              items={[
+                { label: t("breadcrumbHome"), href: "/" },
+                { label: t("breadcrumbBlog") },
+              ]}
             />
-            <h1 className="text-3xl font-bold mb-6 text-primary-100">Blog</h1>
+            <h1 className="text-3xl font-bold mb-6 text-primary-100">
+              {t("pageTitle")}
+            </h1>
 
             {/* Featured Posts Section */}
             <FeaturedPosts latestPost={latestPost} />
