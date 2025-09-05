@@ -1,0 +1,23 @@
+#!/bin/bash
+# Demo interactive build script
+
+echo "🚀 Demo of Interactive Build Process"
+echo "====================================="
+echo ""
+echo "📦 Current version: $(grep '"version":' package.json | sed 's/.*: "//;s/".*//')"
+echo ""
+echo "🎯 Available commands:"
+echo ""
+echo "1. npm run build              # Interactive mode (asks questions)"
+echo "2. npm run build:auto         # Auto build with version injection"  
+echo "3. npm run build:clean        # Clean build without version injection"
+echo "4. npm run version:build      # Version + Build (one command)"
+echo "5. npm run version:deploy     # Version + Build + Deploy (full workflow)"
+echo ""
+echo "📋 Interactive mode will ask:"
+echo "   • Do you want to increment version? (y/N)"
+echo "   • If yes: patch/minor/major?"
+echo "   • Build type: standard or clean?"
+echo ""
+echo "💡 Try running: npm run build"
+echo ""

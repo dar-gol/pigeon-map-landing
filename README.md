@@ -65,6 +65,52 @@ npm run dev
 
 Otwórz [http://localhost:3002](http://localhost:3002) w przeglądarce.
 
+## 🎯 Interaktywny Build & Deploy
+
+**🆕 NOWY SYSTEM BUILDU:**
+
+```bash
+# 🎯 Interaktywny build - pyta o opcje
+npm run build
+
+# 🚀 Interaktywny deploy - z buildem
+npm run deploy:interactive
+
+# ⚡ Szybkie opcje
+npm run build:auto         # Auto build z wersją
+npm run build:clean        # Czysty build bez wersji
+```
+
+**📋 Interaktywny build zapyta o:**
+- 📈 Czy podnieść wersję? (patch/minor/major)
+- 🔨 Typ buildu (standard/clean)
+
+**📋 Interaktywny deploy zapyta o:**
+- 🏗️ Czy uruchomić build?
+- 🎯 Typ wdrożenia (nodejs/static)
+- 📦 Zarządzanie releases
+
+📚 **[Pełny przewodnik interaktywnego buildu →](./docs/guides/INTERACTIVE_BUILD_GUIDE.md)**
+
+## 📁 Struktura projektu
+
+```
+├── src/                    # Kod źródłowy
+│   ├── app/               # Next.js App Router
+│   ├── components/        # Komponenty React
+│   ├── i18n/             # Konfiguracja internacjonalizacji
+│   └── lib/              # Utilities i helpers
+├── scripts/               # 🆕 Skrypty automatyzacji
+├── docs/                  # 📚 Dokumentacja
+│   ├── guides/           # Przewodniki użytkownika
+│   ├── deployment/       # Instrukcje wdrożenia
+│   └── project/          # Dokumentacja projektu
+├── messages/              # Pliki tłumaczeń (pl, en)
+├── content/blog/         # Artykuły blog (Markdown)
+├── public/               # Pliki statyczne
+└── releases/             # Archiwa ZIP do wdrożenia
+```
+
 ### Wdrożenie na Plesk
 
 **🎯 SZYBKIE WDROŻENIE (5 minut):**
@@ -79,7 +125,7 @@ Otwórz [http://localhost:3002](http://localhost:3002) w przeglądarce.
 # 3. Wgraj ZIP do Plesk i skonfiguruj Node.js
 ```
 
-📋 **[Szczegółowa instrukcja wdrożenia →](./docs/QUICK_DEPLOY.md)**
+📋 **[Szczegółowa instrukcja wdrożenia →](./docs/deployment/QUICK_DEPLOY.md)**
 
 ## 📁 Struktura projektu
 

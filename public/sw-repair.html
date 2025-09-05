@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aktualizacja Aplikacji - Pigeon Map</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        max-width: 800px;
+        margin: 40px auto;
+        padding: 20px;
+        line-height: 1.6;
+        background: #f5f5f5;
+      }
+      .container {
+        background: white;
+        padding: 30px;
+        border-radius: 10px;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+      }
+      .btn {
+        background: #3b82f6;
+        color: white;
+        padding: 12px 24px;
+        border: none;
+        border-radius: 6px;
+        cursor: pointer;
+        font-size: 16px;
+        margin: 10px 5px;
+      }
+      .btn:hover {
+        background: #2563eb;
+      }
+      .btn-danger {
+        background: #dc2626;
+      }
+      .btn-danger:hover {
+        background: #b91c1c;
+      }
+      .status {
+        padding: 15px;
+        margin: 15px 0;
+        border-radius: 6px;
+        font-weight: bold;
+      }
+      .status.success {
+        background: #dcfce7;
+        color: #166534;
+        border: 1px solid #bbf7d0;
+      }
+      .status.error {
+        background: #fef2f2;
+        color: #dc2626;
+        border: 1px solid #fecaca;
+      }
+      .status.info {
+        background: #dbeafe;
+        color: #1e40af;
+        border: 1px solid #bfdbfe;
+      }
+      .steps {
+        background: #f8fafc;
+        padding: 20px;
+        border-left: 4px solid #3b82f6;
+        margin: 20px 0;
+      }
+      h1 {
+        color: #1e40af;
+      }
+      h2 {
+        color: #374151;
+      }
+      code {
+        background: #f1f5f9;
+        padding: 2px 6px;
+        border-radius: 4px;
+        font-family: monospace;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>🔄 Aktualizacja Aplikacji Pigeon Map</h1>
+
+      <div class="status info">
+        <strong>Informacja:</strong> Jeśli widzisz starą wersję aplikacji lub
+        masz problemy z ładowaniem, skorzystaj z poniższych narzędzi do
+        wymuszenia aktualizacji.
+      </div>
+
+      <h2>🛠️ Narzędzia naprawcze:</h2>
+
+      <button class="btn" onclick="forceUpdate()">🔄 Wymuś Aktualizację</button>
+      <button class="btn btn-danger" onclick="clearAll()">
+        🗑️ Wyczyść Wszystko
+      </button>
+      <button class="btn" onclick="checkStatus()">ℹ️ Sprawdź Status</button>
+
+      <div id="status-container"></div>
+
+      <div class="steps">
+        <h3>📱 Jeśli nadal masz problemy:</h3>
+        <ol>
+          <li>
+            <strong>Chrome/Edge:</strong> Naciśnij <code>Ctrl+Shift+Del</code> →
+            Wybierz "Dane aplikacji" → Usuń
+          </li>
+          <li>
+            <strong>Firefox:</strong> <code>Ctrl+Shift+Del</code> → "Dane
+            offline witryn" → Usuń
+          </li>
+          <li>
+            <strong>Safari:</strong> Safari → Preferencje → Prywatność →
+            Zarządzaj danymi witryn → Usuń
+          </li>
+          <li>
+            <strong>Mobilne:</strong> Ustawienia przeglądarki → Dane witryn →
+            Wyczyść dla pigeon-map.digging.pl
+          </li>
+        </ol>
+      </div>
+
+      <div class="steps">
+        <h3>🔍 Dla deweloperów:</h3>
+        <button class="btn" onclick="showDeveloperInfo()">
+          🔧 Informacje techniczne
+        </button>
+        <div id="dev-info" style="display: none">
+          <h4>Service Worker Status:</h4>
+          <pre id="sw-info"></pre>
+          <h4>Cache Names:</h4>
+          <pre id="cache-info"></pre>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      function showStatus(message, type = "info") {
+        const container = document.getElementById("status-container");
+        container.innerHTML = `<div class="status ${type}">${message}</div>`;
+        console.log(`[SW Repair] ${message}`);
+      }
+
+      async function forceUpdate() {
+        showStatus("🔄 Wymuszanie aktualizacji service workera...", "info");
+
+        try {
+          if ("serviceWorker" in navigator) {
+            const registrations =
+              await navigator.serviceWorker.getRegistrations();
+            showStatus(
+              `Znaleziono ${registrations.length} rejestracji service workera`,
+              "info"
+            );
+
+            for (const registration of registrations) {
+              await registration.update();
+              if (registration.waiting) {
+                registration.waiting.postMessage({ type: "SKIP_WAITING" });
+              }
+            }
+
+            showStatus(
+              "✅ Aktualizacja zakończona! Przeładowywanie strony...",
+              "success"
+            );
+            setTimeout(() => window.location.reload(), 2000);
+          } else {
+            showStatus(
+              "❌ Service Worker nie jest obsługiwany w tej przeglądarce",
+              "error"
+            );
+          }
+        } catch (error) {
+          showStatus(`❌ Błąd podczas aktualizacji: ${error.message}`, "error");
+        }
+      }
+
+      async function clearAll() {
+        showStatus("🗑️ Czyszczenie wszystkich danych...", "info");
+
+        try {
+          // Usuń wszystkie service workery
+          if ("serviceWorker" in navigator) {
+            const registrations =
+              await navigator.serviceWorker.getRegistrations();
+            for (const registration of registrations) {
+              await registration.unregister();
+            }
+          }
+
+          // Usuń wszystkie cache
+          if ("caches" in window) {
+            const cacheNames = await caches.keys();
+            for (const cacheName of cacheNames) {
+              await caches.delete(cacheName);
+            }
+          }
+
+          // Wyczyść localStorage i sessionStorage
+          localStorage.clear();
+          sessionStorage.clear();
+
+          showStatus(
+            "✅ Wszystkie dane zostały wyczyszczone! Przeładowywanie strony...",
+            "success"
+          );
+          setTimeout(() => window.location.reload(), 2000);
+        } catch (error) {
+          showStatus(`❌ Błąd podczas czyszczenia: ${error.message}`, "error");
+        }
+      }
+
+      async function checkStatus() {
+        showStatus("ℹ️ Sprawdzanie statusu...", "info");
+
+        try {
+          let statusInfo = "";
+
+          if ("serviceWorker" in navigator) {
+            const registrations =
+              await navigator.serviceWorker.getRegistrations();
+            statusInfo += `Service Workers: ${registrations.length}\n`;
+
+            registrations.forEach((reg, index) => {
+              statusInfo += `  ${index + 1}. Scope: ${reg.scope}\n`;
+              statusInfo += `     State: ${
+                reg.active ? reg.active.state : "None"
+              }\n`;
+            });
+          } else {
+            statusInfo += "Service Workers: Nie obsługiwane\n";
+          }
+
+          if ("caches" in window) {
+            const cacheNames = await caches.keys();
+            statusInfo += `Cache: ${cacheNames.length} pozycji\n`;
+            statusInfo += `  Nazwy: ${cacheNames.join(", ")}\n`;
+          } else {
+            statusInfo += "Cache: Nie obsługiwane\n";
+          }
+
+          showStatus(`ℹ️ Status aplikacji:\n${statusInfo}`, "info");
+        } catch (error) {
+          showStatus(`❌ Błąd podczas sprawdzania: ${error.message}`, "error");
+        }
+      }
+
+      async function showDeveloperInfo() {
+        const devInfo = document.getElementById("dev-info");
+        const swInfo = document.getElementById("sw-info");
+        const cacheInfo = document.getElementById("cache-info");
+
+        devInfo.style.display =
+          devInfo.style.display === "none" ? "block" : "none";
+
+        if (devInfo.style.display === "block") {
+          try {
+            // Service Worker info
+            if ("serviceWorker" in navigator) {
+              const registrations =
+                await navigator.serviceWorker.getRegistrations();
+              swInfo.textContent = JSON.stringify(
+                registrations.map((reg) => ({
+                  scope: reg.scope,
+                  state: reg.active ? reg.active.state : "inactive",
+                  waiting: !!reg.waiting,
+                  installing: !!reg.installing,
+                })),
+                null,
+                2
+              );
+            } else {
+              swInfo.textContent = "Service Worker not supported";
+            }
+
+            // Cache info
+            if ("caches" in window) {
+              const cacheNames = await caches.keys();
+              const cacheData = {};
+              for (const name of cacheNames) {
+                const cache = await caches.open(name);
+                const keys = await cache.keys();
+                cacheData[name] = keys.map((req) => req.url);
+              }
+              cacheInfo.textContent = JSON.stringify(cacheData, null, 2);
+            } else {
+              cacheInfo.textContent = "Cache API not supported";
+            }
+          } catch (error) {
+            swInfo.textContent = `Error: ${error.message}`;
+            cacheInfo.textContent = `Error: ${error.message}`;
+          }
+        }
+      }
+
+      // Auto check status on load
+      window.addEventListener("load", () => {
+        showStatus(
+          "Strona załadowana. Możesz teraz używać narzędzi naprawczych.",
+          "info"
+        );
+      });
+    </script>
+  </body>
+</html>

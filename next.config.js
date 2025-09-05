@@ -3,7 +3,7 @@ const createNextIntlPlugin = require("next-intl/plugin");
 const withPWA = require("next-pwa")({
   dest: "public",
   register: false, // We'll handle registration manually
-  skipWaiting: false,
+  skipWaiting: true, // Wymusza natychmiastową aktualizację
   disable: process.env.NODE_ENV === "development",
   scope: "/",
   sw: "dashboard-sw.js",
@@ -25,7 +25,7 @@ const withPWA = require("next-pwa")({
       urlPattern: /^https:\/\/pigeon-map\.digging\.pl\/dashboard/,
       handler: "NetworkFirst",
       options: {
-        cacheName: "dashboard-pages",
+        cacheName: "dashboard-pages-v0.2.6",
         networkTimeoutSeconds: 5,
         expiration: {
           maxEntries: 20,
@@ -38,7 +38,7 @@ const withPWA = require("next-pwa")({
       urlPattern: /\.(?:png|jpg|jpeg|svg|gif|webp|ico)$/,
       handler: "CacheFirst",
       options: {
-        cacheName: "static-images",
+        cacheName: "static-images-v0.2.6",
         expiration: {
           maxEntries: 100,
           maxAgeSeconds: 30 * 24 * 60 * 60, // 30 days
@@ -50,7 +50,7 @@ const withPWA = require("next-pwa")({
       urlPattern: /\.(?:js|css)$/,
       handler: "StaleWhileRevalidate",
       options: {
-        cacheName: "static-resources",
+        cacheName: "static-resources-v0.2.6",
         expiration: {
           maxEntries: 100,
           maxAgeSeconds: 24 * 60 * 60, // 24 hours

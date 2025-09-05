@@ -1,68 +1,59 @@
-# 📚 Dokumentacja - Pigeon Map Landing
+# 📚 Dokumentacja Projektu
 
-Witaj w centrum dokumentacji projektu Pigeon Map Landing!
+Uporządkowana dokumentacja dla projektu Pigeon Map Landing.
 
-## 🎯 Szybki start
+## 📁 Struktura Dokumentacji
 
-**Nowy w projekcie?** Zacznij tutaj:
+### 🚀 **Deployment & Wdrożenie**
+- [`deployment/PLESK_DEPLOYMENT.md`](./deployment/PLESK_DEPLOYMENT.md) - Pełny przewodnik wdrożenia na Plesk
+- [`deployment/QUICK_DEPLOY.md`](./deployment/QUICK_DEPLOY.md) - Szybkie wdrożenie (5 minut)
+- [`deployment/READY_TO_DEPLOY.md`](./deployment/READY_TO_DEPLOY.md) - Checklist przed wdrożeniem
+- [`deployment/PLESK_DEPLOYMENT_GUIDE.md`](./deployment/PLESK_DEPLOYMENT_GUIDE.md) - Szczegółowy przewodnik
 
-1. **[QUICK_DEPLOY.md](./QUICK_DEPLOY.md)** - ⚡ Wdrożenie w 5 minut
-2. **[README.md](../README.md)** - 📖 Przegląd projektu
+### 🎯 **Przewodniki & Guides**
+- [`guides/INTERACTIVE_BUILD_GUIDE.md`](./guides/INTERACTIVE_BUILD_GUIDE.md) - ⭐ **Interaktywny Build System**
+- [`guides/VERSION_CHEAT_SHEET.md`](./guides/VERSION_CHEAT_SHEET.md) - Szybkie komendy wersjonowania
+- [`guides/VERSION_SYSTEM_COMPLETE.md`](./guides/VERSION_SYSTEM_COMPLETE.md) - Kompletny system wersjonowania
+- [`guides/VERSION_MANAGEMENT.md`](./guides/VERSION_MANAGEMENT.md) - Zarządzanie wersjami
+- [`guides/PWA_IMPLEMENTATION_COMPLETE.md`](./guides/PWA_IMPLEMENTATION_COMPLETE.md) - Implementacja PWA
 
-## 📋 Wszystkie przewodniki
+### 🔧 **Projekt & Development**
+- [`project/PROJECT_COMPLETE.md`](./project/PROJECT_COMPLETE.md) - Status kompletności projektu
+- [`BLOG_DEBUGGING.md`](./BLOG_DEBUGGING.md) - Debugowanie systemu blogowego
+- [`DASHBOARD_PWA_INTEGRATION.md`](./DASHBOARD_PWA_INTEGRATION.md) - Integracja PWA Dashboard
 
-### 🚀 Wdrożenie
-- **[QUICK_DEPLOY.md](./QUICK_DEPLOY.md)** - Szybki start (1 strona)
-- **[READY_TO_DEPLOY.md](./READY_TO_DEPLOY.md)** - Kompletna instrukcja wdrożenia
-- **[PLESK_DEPLOYMENT_GUIDE.md](./PLESK_DEPLOYMENT_GUIDE.md)** - Szczegółowy przewodnik Plesk
-- **[PLESK_DEPLOYMENT.md](./PLESK_DEPLOYMENT.md)** - Rozszerzona dokumentacja
+## 🎯 **Najważniejsze Dokumenty**
 
-### 📊 Podsumowanie
-- **[PROJECT_COMPLETE.md](./PROJECT_COMPLETE.md)** - Status projektu i podsumowanie
+### 🚀 **Dla Nowych Użytkowników:**
+1. [`../README.md`](../README.md) - Start tutaj!
+2. [`deployment/QUICK_DEPLOY.md`](./deployment/QUICK_DEPLOY.md) - Szybkie wdrożenie
+3. [`guides/INTERACTIVE_BUILD_GUIDE.md`](./guides/INTERACTIVE_BUILD_GUIDE.md) - System buildu
 
-## 🛠️ Narzędzia
+### 👨‍💻 **Dla Deweloperów:**
+1. [`guides/VERSION_CHEAT_SHEET.md`](./guides/VERSION_CHEAT_SHEET.md) - Komendy daily workflow
+2. [`guides/INTERACTIVE_BUILD_GUIDE.md`](./guides/INTERACTIVE_BUILD_GUIDE.md) - Interaktywny build
+3. [`DASHBOARD_PWA_INTEGRATION.md`](./DASHBOARD_PWA_INTEGRATION.md) - PWA integration
 
-Wszystkie skrypty znajdują się w głównym folderze:
+### 🚀 **Dla DevOps:**
+1. [`deployment/PLESK_DEPLOYMENT.md`](./deployment/PLESK_DEPLOYMENT.md) - Pełne wdrożenie
+2. [`deployment/READY_TO_DEPLOY.md`](./deployment/READY_TO_DEPLOY.md) - Checklist
+3. [`project/PROJECT_COMPLETE.md`](./project/PROJECT_COMPLETE.md) - Status projektu
 
-- `deploy-to-plesk.sh` - Główny skrypt wdrożenia
-- `manage-releases.sh` - Zarządzanie archiwami ZIP
+## 📊 **Podsumowanie Systemu**
 
-## 🎯 Dla różnych ról
+### ✅ **Kompletne Systemy:**
+- 🎯 **Interaktywny Build System** - `npm run build` (pyta o opcje)
+- 🚀 **Automatyczne Wersjonowanie** - `npm run version:build`
+- 📦 **Deploy Pipeline** - `npm run deploy:interactive`
+- 🔧 **PWA Integration** - Service Worker + Manifest
+- 📝 **Blog System** - Markdown + i18n
 
-### 👨‍💻 **Deweloper**
-1. [README.md](../README.md) - Przegląd projektu
-2. [READY_TO_DEPLOY.md](./READY_TO_DEPLOY.md) - Pełna instrukcja
-
-### 🔧 **Administrator serwera**
-1. [PLESK_DEPLOYMENT_GUIDE.md](./PLESK_DEPLOYMENT_GUIDE.md) - Szczegóły Plesk
-2. [PLESK_DEPLOYMENT.md](./PLESK_DEPLOYMENT.md) - Rozszerzona konfiguracja
-
-### 👥 **Użytkownik końcowy**
-1. [QUICK_DEPLOY.md](./QUICK_DEPLOY.md) - Szybkie wdrożenie
-
-### 📈 **Menedżer projektu**
-1. [PROJECT_COMPLETE.md](./PROJECT_COMPLETE.md) - Status i podsumowanie
-
-## 🔍 Pomoc
-
-Nie możesz znaleźć tego czego szukasz?
-
-1. Sprawdź [Issues](https://github.com/YOUR_USERNAME/pigeon-map-landing/issues)
-2. Utwórz nowe Issue z pytaniem
-3. Sprawdź kod w folderze `src/`
-
-## 📝 Struktura dokumentacji
-
-```
-docs/
-├── README.md                    # Ten plik - indeks dokumentacji
-├── QUICK_DEPLOY.md             # Szybkie wdrożenie
-├── READY_TO_DEPLOY.md          # Kompletna instrukcja
-├── PROJECT_COMPLETE.md         # Podsumowanie projektu
-├── PLESK_DEPLOYMENT_GUIDE.md   # Przewodnik Plesk
-└── PLESK_DEPLOYMENT.md         # Rozszerzona dokumentacja Plesk
-```
+### 🔧 **Struktura Skryptów:**
+- `scripts/` - Wszystkie skrypty automatyzacji
+- `docs/guides/` - Przewodniki użytkownika
+- `docs/deployment/` - Wdrożenie i DevOps
+- `docs/project/` - Dokumentacja projektu
 
 ---
 
-**🎉 Miłego wdrażania!**
+**💡 Tip:** Zacznij od [`guides/INTERACTIVE_BUILD_GUIDE.md`](./guides/INTERACTIVE_BUILD_GUIDE.md) aby poznać nowy system buildu!
