@@ -173,10 +173,9 @@ export async function generateStaticParams() {
 }
 
 export default async function PostPage({ params }: Props) {
+  const { slug, locale } = await params;
+  const actualLocale = locale || "en";
   try {
-    const { slug, locale } = await params;
-    const actualLocale = locale || "en";
-
     logger.blogInfo("Loading blog post page", { slug, locale, actualLocale });
 
     const post = getPostBySlug(slug, actualLocale);
@@ -262,8 +261,8 @@ export default async function PostPage({ params }: Props) {
   } catch (error) {
     const errorMessage = error instanceof Error ? error.message : String(error);
     logger.blogError("Critical error in PostPage component", {
-      slug: "unknown",
-      locale: "unknown",
+      slug: slug,
+      locale: actualLocale,
       error: errorMessage,
       stack: error instanceof Error ? error.stack : undefined,
     });
